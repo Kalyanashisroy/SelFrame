@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite_staticPage">
+	<test thread-count="5" name="Test_staticPage_1">
+		<classes>
+			<class name="com.FW.Runner.staticPage.RunnerOne" />
+		</classes>
+	</test> <!-- Test_staticPage_1 -->
+</suite> <!-- Suite_staticPage -->

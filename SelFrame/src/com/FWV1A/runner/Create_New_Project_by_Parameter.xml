@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite_For_Create_new_project_in_Jenkins">
+	<listeners>
+		<listener class-name="com.FWV1A.lib.Listener">
+		</listener>
+	</listeners>
+
+	<parameter name="browserType" value="chrome"/>	
+	<parameter name="url" value="http://localhost:8080/" />
+	<parameter name="driverpath" value="D:\\Browser\\chromedriver_win32_85\\chromedriver.exe"/>
+
+	<parameter name="jenkinuserName" value="Kalyan"/>
+	<parameter name="jenkinpassword" value="pwd@12345"/>
+	
+<!-- To create new project please enter a project name in the value -->	
+	<parameter name="projectNameToBeCreated" value="final_new005" />
+	<parameter name="parameterName" value="testngxmlfile"/>
+	<parameter name="parameterChoices" value="testng_Jenkin.xml"/>
+
+	<parameter name="goalsAndOptions" value="test -D suiteXmlFile=$testngxmlfile"/>
+	<parameter name="projDirectoryName" value="D:\Bivas\SelFrame"/>
+	
+	<parameter name="filepath" value="C:/workspace/SelFrame/src/com/FWV1A/runner/Jenkin_DP.xlsx"/>
+	<parameter name="sheetname" value="ProjectToCreate"/>
+	
+	<test thread-count="1" preserve-order="true" name="Create New project of the type maven.">
+		<classes>
+
+			<class name="com.FWV1A.runner.Runner_for_Jenkin_project">
+				<methods>
+				
+					
+					<include name="To_read_All_parameters_from_the_xml_file"/>
+					<include name="OpenBrowserForJenkin"/>
+					
+					<include name="LoginPage"></include>
+					<include name="ClickOnNewItem"></include>
+					<include name="EnterThenameofthenewProjectintheinputBox" />
+					
+					<include name="Select_maven_project_byclick" />
+					<include name="Click_OK_after_Select_maven_project_byclick" />
+					<include name="get_the_url_of_the_current_page" />
+					
+					<include name="Click_the_checkbox_This_project_is_parameterized" />
+					<include name="click_the_check_box_for_Discard_old_builds" />
+					<include name="Select_Choice_parameter_from_Add_Parameter_of_This_project_is_parameterized"/>
+					
+					<include name="Type_Name_for_Choice_Parameter"/>
+					<include name="Type_Choices_for_Choice_Parameter"/>
+					<include name="Type_Goals_and_Options_in_BUILD"/>
+					
+					<include name="Click_Advanced_Button_Of_BUILD"/>
+					<include name="Click_Custom_workspace_Checkbox"/>
+					<include name="Enter_text_to_Directory_Custom_workspace"/>
+					
+					<include name="Click_the_floating_Apply_Button"/>
+					<include name="Click_the_floating_SAVE_Button"/>
+					<include name="Verify_that_project_is_created_successfully"/>
+				
+				</methods>
+			</class>
+		</classes>
+	</test> 
+</suite> 

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite
+	name="Suite_For_Create_new_project_in_Jenkins_from_xls_factory">
+	<!--factory does not run the BeforeSuite second time. -->
+	<groups>
+		<run>
+			<include name="Create_New_Project_group" />
+		</run>
+	</groups>
+
+	<listeners>
+		<listener class-name="com.FWV1A.lib.Listener">
+		</listener>
+	</listeners>
+	
+
+	<parameter name="browserType" value="chrome" />
+	<parameter name="url" value="http://localhost:8080/" />
+	<parameter name="driverpath"
+		value="C:/workspace/SelFrame/Drivers/chromedriver.exe" />
+	<parameter name="jenkinuserName" value="admin" />
+	<parameter name="jenkinpassword" value="admin" />
+	<!--The name of the project name is passed from the factory. -->
+	<parameter name="projectNameToBeCreated" value="final_test1" />
+	<parameter name="parameterName" value="testngxmlfile" />
+	<parameter name="parameterChoices" value="testng_Jenkin.xml" />
+	<parameter name="goalsAndOptions"
+		value="test -D suiteXmlFile=$testngxmlfile" />
+	<parameter name="projDirectoryName"
+		value="c:\workspace\SelFrame" />
+	<!-- Excel sheets project name is fetched from excel file -->
+	<parameter name="filepath"
+		value="C:/workspace/SelFrame/src/com/FWV1A/runner/Jenkin_DP.xlsx" />
+	<parameter name="sheetname" value="ProjectToCreate" />
+<!-- preserve true is very important, it help to repeat the whole group  -->
+	<test thread-count="1" preserve-order="true"
+		name="Create New project of the type maven from xls and factory.">
+		<classes>
+			<class name="com.FWV1A.runner.Factory_create_New_Projects">
+			</class>
+		</classes>
+	</test>
+</suite> 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite_For_Add_user_in_Jenkin">
+	<!--factory does not run the BeforeSuite second time. -->
+	<groups>
+		<run>
+			<include name="Add_user_group" />
+		</run>
+	</groups>
+
+	<listeners>
+		<listener class-name="com.FWL1.lib.Listener" />
+	</listeners>
+
+	<!-- preserve true is very important, it help to repeat the whole group -->
+	<test thread-count="1" preserve-order="true"
+		name="Add_new_user_to_Jenkin.">
+		<classes>
+			<class name="com.FWL1.runner.Factory_One" />
+		</classes>
+	</test>
+</suite> 

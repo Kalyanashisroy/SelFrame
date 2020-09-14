@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test_ng_Suite_Of_Suites">
+	<suite-files>
+		<suite-file path="testng_parameter_1.xml" />
+		<suite-file path="testng_parallel_2.xml" />
+		<suite-file path="testng_methods_regex_3.xml" />
+		<suite-file path="testng_methods_only_4.xml" />
+		<suite-file path="testng_parameter_1.xml" />
+		<suite-file path="testng_parallel_2.xml" />
+		<suite-file path="testng_methods_regex_3.xml" />
+		<suite-file path="testng_methods_only_4.xml" />
+
+	</suite-files>
+
+</suite> 

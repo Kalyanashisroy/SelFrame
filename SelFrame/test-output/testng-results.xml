@@ -1,0 +1,1231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="25" failed="1" ignored="0" total="26" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Objects of the imported class created.. ]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5109" started-at="2020-09-14T10:09:46Z" finished-at="2020-09-14T10:09:51Z">
+    <groups>
+      <group name="Factory_DELETE_project">
+        <method signature="Runner_One.Delete_Existing_Projects_with_DP(java.lang.String)[pri:91, instance:com.FWL1.runner.Runner_One@5025a98f]" name="Delete_Existing_Projects_with_DP" class="com.FWL1.runner.Runner_One"/>
+        <method signature="Runner_One.LoginPage()[pri:1, instance:com.FWL1.runner.Runner_One@5025a98f]" name="LoginPage" class="com.FWL1.runner.Runner_One"/>
+        <method signature="Runner_One.LogoutJenkinPage()[pri:100, instance:com.FWL1.runner.Runner_One@5025a98f]" name="LogoutJenkinPage" class="com.FWL1.runner.Runner_One"/>
+        <method signature="Runner_One.OpenBrowserForJenkin()[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="OpenBrowserForJenkin" class="com.FWL1.runner.Runner_One"/>
+      </group> <!-- Factory_DELETE_project -->
+      <group name="Add_user_group">
+        <method signature="Runner_One.AB_Add_user_in_Jenkin_by_admin_jsondata(java.lang.Object)[pri:2, instance:com.FWL1.runner.Runner_One@5025a98f]" name="AB_Add_user_in_Jenkin_by_admin_jsondata" class="com.FWL1.runner.Runner_One"/>
+        <method signature="Runner_One.LoginPage()[pri:1, instance:com.FWL1.runner.Runner_One@5025a98f]" name="LoginPage" class="com.FWL1.runner.Runner_One"/>
+        <method signature="Runner_One.LogoutJenkinPage()[pri:100, instance:com.FWL1.runner.Runner_One@5025a98f]" name="LogoutJenkinPage" class="com.FWL1.runner.Runner_One"/>
+        <method signature="Runner_One.OpenBrowserForJenkin()[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="OpenBrowserForJenkin" class="com.FWL1.runner.Runner_One"/>
+      </group> <!-- Add_user_group -->
+      <group name="Factory_create_new_project">
+        <method signature="Runner_One.ClickOnNewItem()[pri:11, instance:com.FWL1.runner.Runner_One@5025a98f]" name="ClickOnNewItem" class="com.FWL1.runner.Runner_One"/>
+        <method signature="Runner_One.Click_Advanced_Button_Of_BUILD()[pri:22, instance:com.FWL1.runner.Runner_One@5025a98f]" name="Click_Advanced_Button_Of_BUILD" class="com.FWL1.runner.Runner_One"/>
+        <method signature="Runner_One.Click_Custom_workspace_Checkbox()[pri:23, instance:com.FWL1.runner.Runner_One@5025a98f]" name="Click_Custom_workspace_Checkbox" class="com.FWL1.runner.Runner_One"/>
+        <method signature="Runner_One.Click_OK_after_Select_maven_project_byclick()[pri:14, instance:com.FWL1.runner.Runner_One@5025a98f]" name="Click_OK_after_Select_maven_project_byclick" class="com.FWL1.runner.Runner_One"/>
+        <method signature="Runner_One.Click_the_checkbox_This_project_is_parameterized()[pri:16, instance:com.FWL1.runner.Runner_One@5025a98f]" name="Click_the_checkbox_This_project_is_parameterized" class="com.FWL1.runner.Runner_One"/>
+        <method signature="Runner_One.Click_the_floating_Apply_Button()[pri:30, instance:com.FWL1.runner.Runner_One@5025a98f]" name="Click_the_floating_Apply_Button" class="com.FWL1.runner.Runner_One"/>
+        <method signature="Runner_One.Click_the_floating_SAVE_Button()[pri:32, instance:com.FWL1.runner.Runner_One@5025a98f]" name="Click_the_floating_SAVE_Button" class="com.FWL1.runner.Runner_One"/>
+        <method signature="Runner_One.Enter_The_name_of_the_new_Project_in_theinput_Box_from_xlsx()[pri:12, instance:com.FWL1.runner.Runner_One@5025a98f]" name="Enter_The_name_of_the_new_Project_in_theinput_Box_from_xlsx" class="com.FWL1.runner.Runner_One"/>
+        <method signature="Runner_One.Enter_text_to_Directory_Custom_workspace()[pri:24, instance:com.FWL1.runner.Runner_One@5025a98f]" name="Enter_text_to_Directory_Custom_workspace" class="com.FWL1.runner.Runner_One"/>
+        <method signature="Runner_One.LoginPage()[pri:1, instance:com.FWL1.runner.Runner_One@5025a98f]" name="LoginPage" class="com.FWL1.runner.Runner_One"/>
+        <method signature="Runner_One.LogoutJenkinPage()[pri:100, instance:com.FWL1.runner.Runner_One@5025a98f]" name="LogoutJenkinPage" class="com.FWL1.runner.Runner_One"/>
+        <method signature="Runner_One.OpenBrowserForJenkin()[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="OpenBrowserForJenkin" class="com.FWL1.runner.Runner_One"/>
+        <method signature="Runner_One.Select_Choice_parameter_from_Add_Parameter_of_This_project_is_parameterized()[pri:18, instance:com.FWL1.runner.Runner_One@5025a98f]" name="Select_Choice_parameter_from_Add_Parameter_of_This_project_is_parameterized" class="com.FWL1.runner.Runner_One"/>
+        <method signature="Runner_One.Select_maven_project_byclick()[pri:13, instance:com.FWL1.runner.Runner_One@5025a98f]" name="Select_maven_project_byclick" class="com.FWL1.runner.Runner_One"/>
+        <method signature="Runner_One.Type_Choices_for_Choice_Parameter()[pri:20, instance:com.FWL1.runner.Runner_One@5025a98f]" name="Type_Choices_for_Choice_Parameter" class="com.FWL1.runner.Runner_One"/>
+        <method signature="Runner_One.Type_Goals_and_Options_in_BUILD()[pri:21, instance:com.FWL1.runner.Runner_One@5025a98f]" name="Type_Goals_and_Options_in_BUILD" class="com.FWL1.runner.Runner_One"/>
+        <method signature="Runner_One.Type_Name_for_Choice_Parameter()[pri:19, instance:com.FWL1.runner.Runner_One@5025a98f]" name="Type_Name_for_Choice_Parameter" class="com.FWL1.runner.Runner_One"/>
+        <method signature="Runner_One.Verify_that_project_is_created_successfully()[pri:35, instance:com.FWL1.runner.Runner_One@5025a98f]" name="Verify_that_project_is_created_successfully" class="com.FWL1.runner.Runner_One"/>
+        <method signature="Runner_One.click_the_check_box_for_Discard_old_builds()[pri:17, instance:com.FWL1.runner.Runner_One@5025a98f]" name="click_the_check_box_for_Discard_old_builds" class="com.FWL1.runner.Runner_One"/>
+        <method signature="Runner_One.get_the_url_of_the_current_page()[pri:15, instance:com.FWL1.runner.Runner_One@5025a98f]" name="get_the_url_of_the_current_page" class="com.FWL1.runner.Runner_One"/>
+      </group> <!-- Factory_create_new_project -->
+      <group name="Group_22_BB">
+        <method signature="Runner_One.AB_Add_user_in_Jenkin_by_admin_jsondata2(java.lang.Object)[pri:2, instance:com.FWL1.runner.Runner_One@5025a98f]" name="AB_Add_user_in_Jenkin_by_admin_jsondata2" class="com.FWL1.runner.Runner_One"/>
+        <method signature="Runner_One.LoginPage_jsondata()[pri:1, instance:com.FWL1.runner.Runner_One@5025a98f]" name="LoginPage_jsondata" class="com.FWL1.runner.Runner_One"/>
+        <method signature="Runner_One.OpenBrowserForJenkin_jsondata()[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="OpenBrowserForJenkin_jsondata" class="com.FWL1.runner.Runner_One"/>
+      </group> <!-- Group_22_BB -->
+      <group name="Group_33_CC">
+        <method signature="Runner_One.AA_Delete_existing_Jenkin_user(java.lang.Object)[pri:2, instance:com.FWL1.runner.Runner_One@5025a98f]" name="AA_Delete_existing_Jenkin_user" class="com.FWL1.runner.Runner_One"/>
+        <method signature="Runner_One.LoginPage_jsondata()[pri:1, instance:com.FWL1.runner.Runner_One@5025a98f]" name="LoginPage_jsondata" class="com.FWL1.runner.Runner_One"/>
+        <method signature="Runner_One.OpenBrowserForJenkin_jsondata()[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="OpenBrowserForJenkin_jsondata" class="com.FWL1.runner.Runner_One"/>
+      </group> <!-- Group_33_CC -->
+    </groups>
+    <test name="Default test" duration-ms="5109" started-at="2020-09-14T10:09:46Z" finished-at="2020-09-14T10:09:51Z">
+      <class name="com.FWL1.runner.Runner_One">
+        <test-method status="PASS" signature="To_create_objects_of_the_imported_class()[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="To_create_objects_of_the_imported_class" is-config="true" duration-ms="1607" started-at="2020-09-14T15:39:46Z" finished-at="2020-09-14T15:39:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Objects of the imported class created.. ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- To_create_objects_of_the_imported_class -->
+        <test-method status="FAIL" signature="OpenBrowserForJenkin()[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="OpenBrowserForJenkin" duration-ms="12" started-at="2020-09-14T15:39:47Z" finished-at="2020-09-14T15:39:47Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.FWL1.runner.Runner_One.getValueFromKey(Runner_One.java:78)
+	at com.FWL1.runner.Runner_One.OpenBrowserForJenkin(Runner_One.java:100)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowserForJenkin -->
+        <test-method status="FAIL" signature="takeScreen_Shot_On_Failure_or_Success(org.testng.ITestResult)[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="takeScreen_Shot_On_Failure_or_Success" is-config="true" duration-ms="0" started-at="2020-09-14T15:39:47Z" finished-at="2020-09-14T15:39:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OpenBrowserForJenkin status=FAILURE method=Runner_One.OpenBrowserForJenkin()[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.FWL1.runner.Runner_One.takeScreen_Shot_On_Failure_or_Success(Runner_One.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreen_Shot_On_Failure_or_Success -->
+        <test-method status="SKIP" signature="OpenBrowserForJenkin_jsondata()[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="OpenBrowserForJenkin_jsondata" duration-ms="6" started-at="2020-09-14T15:39:47Z" finished-at="2020-09-14T15:39:47Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.FWL1.runner.Runner_One.takeScreen_Shot_On_Failure_or_Success(Runner_One.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowserForJenkin_jsondata -->
+        <test-method status="SKIP" signature="takeScreen_Shot_On_Failure_or_Success(org.testng.ITestResult)[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="takeScreen_Shot_On_Failure_or_Success" is-config="true" duration-ms="0" started-at="2020-09-14T15:39:47Z" finished-at="2020-09-14T15:39:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreen_Shot_On_Failure_or_Success -->
+        <test-method status="SKIP" signature="LoginPage()[pri:1, instance:com.FWL1.runner.Runner_One@5025a98f]" name="LoginPage" duration-ms="1" started-at="2020-09-14T15:39:47Z" finished-at="2020-09-14T15:39:47Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.FWL1.runner.Runner_One.takeScreen_Shot_On_Failure_or_Success(Runner_One.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPage -->
+        <test-method status="SKIP" signature="takeScreen_Shot_On_Failure_or_Success(org.testng.ITestResult)[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="takeScreen_Shot_On_Failure_or_Success" is-config="true" duration-ms="0" started-at="2020-09-14T15:39:47Z" finished-at="2020-09-14T15:39:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreen_Shot_On_Failure_or_Success -->
+        <test-method status="SKIP" signature="LoginPage_jsondata()[pri:1, instance:com.FWL1.runner.Runner_One@5025a98f]" name="LoginPage_jsondata" duration-ms="1" started-at="2020-09-14T15:39:47Z" finished-at="2020-09-14T15:39:47Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.FWL1.runner.Runner_One.takeScreen_Shot_On_Failure_or_Success(Runner_One.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPage_jsondata -->
+        <test-method status="SKIP" signature="takeScreen_Shot_On_Failure_or_Success(org.testng.ITestResult)[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="takeScreen_Shot_On_Failure_or_Success" is-config="true" duration-ms="0" started-at="2020-09-14T15:39:47Z" finished-at="2020-09-14T15:39:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreen_Shot_On_Failure_or_Success -->
+        <test-method status="SKIP" signature="AA_Delete_existing_Jenkin_user(java.lang.Object)[pri:2, instance:com.FWL1.runner.Runner_One@5025a98f]" name="AA_Delete_existing_Jenkin_user" duration-ms="40" started-at="2020-09-14T15:39:48Z" data-provider="DP_json_for_user_Delete" finished-at="2020-09-14T15:39:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"userName":"kamal"}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.FWL1.runner.Runner_One.takeScreen_Shot_On_Failure_or_Success(Runner_One.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AA_Delete_existing_Jenkin_user -->
+        <test-method status="SKIP" signature="takeScreen_Shot_On_Failure_or_Success(org.testng.ITestResult)[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="takeScreen_Shot_On_Failure_or_Success" is-config="true" duration-ms="0" started-at="2020-09-14T15:39:48Z" finished-at="2020-09-14T15:39:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreen_Shot_On_Failure_or_Success -->
+        <test-method status="SKIP" signature="AB_Add_user_in_Jenkin_by_admin_jsondata(java.lang.Object)[pri:2, instance:com.FWL1.runner.Runner_One@5025a98f]" name="AB_Add_user_in_Jenkin_by_admin_jsondata" duration-ms="10" started-at="2020-09-14T15:39:48Z" data-provider="DP_json_for_user_Add" finished-at="2020-09-14T15:39:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"userName":"kamal","passWord":"123456","confpassWord":"123456","fullname":"kamal nath sarkar","email":"haloINdia@llfkj.com"}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.FWL1.runner.Runner_One.takeScreen_Shot_On_Failure_or_Success(Runner_One.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AB_Add_user_in_Jenkin_by_admin_jsondata -->
+        <test-method status="SKIP" signature="takeScreen_Shot_On_Failure_or_Success(org.testng.ITestResult)[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="takeScreen_Shot_On_Failure_or_Success" is-config="true" duration-ms="0" started-at="2020-09-14T15:39:48Z" finished-at="2020-09-14T15:39:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreen_Shot_On_Failure_or_Success -->
+        <test-method status="SKIP" signature="AB_Add_user_in_Jenkin_by_admin_jsondata2(java.lang.Object)[pri:2, instance:com.FWL1.runner.Runner_One@5025a98f]" name="AB_Add_user_in_Jenkin_by_admin_jsondata2" duration-ms="2" started-at="2020-09-14T15:39:49Z" data-provider="DP_json_for_user_Add" finished-at="2020-09-14T15:39:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"userName":"kamal","passWord":"123456","confpassWord":"123456","fullname":"kamal nath sarkar","email":"haloINdia@llfkj.com"}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.FWL1.runner.Runner_One.takeScreen_Shot_On_Failure_or_Success(Runner_One.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AB_Add_user_in_Jenkin_by_admin_jsondata2 -->
+        <test-method status="SKIP" signature="takeScreen_Shot_On_Failure_or_Success(org.testng.ITestResult)[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="takeScreen_Shot_On_Failure_or_Success" is-config="true" duration-ms="0" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreen_Shot_On_Failure_or_Success -->
+        <test-method status="SKIP" signature="ClickOnNewItem()[pri:11, instance:com.FWL1.runner.Runner_One@5025a98f]" name="ClickOnNewItem" duration-ms="2" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.FWL1.runner.Runner_One.takeScreen_Shot_On_Failure_or_Success(Runner_One.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnNewItem -->
+        <test-method status="SKIP" signature="takeScreen_Shot_On_Failure_or_Success(org.testng.ITestResult)[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="takeScreen_Shot_On_Failure_or_Success" is-config="true" duration-ms="0" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreen_Shot_On_Failure_or_Success -->
+        <test-method status="SKIP" signature="Enter_The_name_of_the_new_Project_in_theinput_Box_from_xlsx()[pri:12, instance:com.FWL1.runner.Runner_One@5025a98f]" name="Enter_The_name_of_the_new_Project_in_theinput_Box_from_xlsx" duration-ms="4" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.FWL1.runner.Runner_One.takeScreen_Shot_On_Failure_or_Success(Runner_One.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enter_The_name_of_the_new_Project_in_theinput_Box_from_xlsx -->
+        <test-method status="SKIP" signature="takeScreen_Shot_On_Failure_or_Success(org.testng.ITestResult)[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="takeScreen_Shot_On_Failure_or_Success" is-config="true" duration-ms="0" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreen_Shot_On_Failure_or_Success -->
+        <test-method status="SKIP" signature="Select_maven_project_byclick()[pri:13, instance:com.FWL1.runner.Runner_One@5025a98f]" name="Select_maven_project_byclick" duration-ms="2" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.FWL1.runner.Runner_One.takeScreen_Shot_On_Failure_or_Success(Runner_One.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_maven_project_byclick -->
+        <test-method status="SKIP" signature="takeScreen_Shot_On_Failure_or_Success(org.testng.ITestResult)[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="takeScreen_Shot_On_Failure_or_Success" is-config="true" duration-ms="0" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreen_Shot_On_Failure_or_Success -->
+        <test-method status="SKIP" signature="Click_OK_after_Select_maven_project_byclick()[pri:14, instance:com.FWL1.runner.Runner_One@5025a98f]" name="Click_OK_after_Select_maven_project_byclick" duration-ms="1" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.FWL1.runner.Runner_One.takeScreen_Shot_On_Failure_or_Success(Runner_One.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_OK_after_Select_maven_project_byclick -->
+        <test-method status="SKIP" signature="takeScreen_Shot_On_Failure_or_Success(org.testng.ITestResult)[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="takeScreen_Shot_On_Failure_or_Success" is-config="true" duration-ms="0" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreen_Shot_On_Failure_or_Success -->
+        <test-method status="SKIP" signature="get_the_url_of_the_current_page()[pri:15, instance:com.FWL1.runner.Runner_One@5025a98f]" name="get_the_url_of_the_current_page" duration-ms="5" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.FWL1.runner.Runner_One.takeScreen_Shot_On_Failure_or_Success(Runner_One.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_the_url_of_the_current_page -->
+        <test-method status="SKIP" signature="takeScreen_Shot_On_Failure_or_Success(org.testng.ITestResult)[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="takeScreen_Shot_On_Failure_or_Success" is-config="true" duration-ms="0" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreen_Shot_On_Failure_or_Success -->
+        <test-method status="SKIP" signature="Click_the_checkbox_This_project_is_parameterized()[pri:16, instance:com.FWL1.runner.Runner_One@5025a98f]" name="Click_the_checkbox_This_project_is_parameterized" duration-ms="9" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.FWL1.runner.Runner_One.takeScreen_Shot_On_Failure_or_Success(Runner_One.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_the_checkbox_This_project_is_parameterized -->
+        <test-method status="SKIP" signature="takeScreen_Shot_On_Failure_or_Success(org.testng.ITestResult)[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="takeScreen_Shot_On_Failure_or_Success" is-config="true" duration-ms="0" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreen_Shot_On_Failure_or_Success -->
+        <test-method status="SKIP" signature="click_the_check_box_for_Discard_old_builds()[pri:17, instance:com.FWL1.runner.Runner_One@5025a98f]" name="click_the_check_box_for_Discard_old_builds" duration-ms="2" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.FWL1.runner.Runner_One.takeScreen_Shot_On_Failure_or_Success(Runner_One.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_the_check_box_for_Discard_old_builds -->
+        <test-method status="SKIP" signature="takeScreen_Shot_On_Failure_or_Success(org.testng.ITestResult)[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="takeScreen_Shot_On_Failure_or_Success" is-config="true" duration-ms="0" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreen_Shot_On_Failure_or_Success -->
+        <test-method status="SKIP" signature="Select_Choice_parameter_from_Add_Parameter_of_This_project_is_parameterized()[pri:18, instance:com.FWL1.runner.Runner_One@5025a98f]" name="Select_Choice_parameter_from_Add_Parameter_of_This_project_is_parameterized" duration-ms="2" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.FWL1.runner.Runner_One.takeScreen_Shot_On_Failure_or_Success(Runner_One.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_Choice_parameter_from_Add_Parameter_of_This_project_is_parameterized -->
+        <test-method status="SKIP" signature="takeScreen_Shot_On_Failure_or_Success(org.testng.ITestResult)[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="takeScreen_Shot_On_Failure_or_Success" is-config="true" duration-ms="0" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreen_Shot_On_Failure_or_Success -->
+        <test-method status="SKIP" signature="Type_Name_for_Choice_Parameter()[pri:19, instance:com.FWL1.runner.Runner_One@5025a98f]" name="Type_Name_for_Choice_Parameter" duration-ms="1" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.FWL1.runner.Runner_One.takeScreen_Shot_On_Failure_or_Success(Runner_One.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Type_Name_for_Choice_Parameter -->
+        <test-method status="SKIP" signature="takeScreen_Shot_On_Failure_or_Success(org.testng.ITestResult)[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="takeScreen_Shot_On_Failure_or_Success" is-config="true" duration-ms="0" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreen_Shot_On_Failure_or_Success -->
+        <test-method status="SKIP" signature="Type_Choices_for_Choice_Parameter()[pri:20, instance:com.FWL1.runner.Runner_One@5025a98f]" name="Type_Choices_for_Choice_Parameter" duration-ms="2" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.FWL1.runner.Runner_One.takeScreen_Shot_On_Failure_or_Success(Runner_One.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Type_Choices_for_Choice_Parameter -->
+        <test-method status="SKIP" signature="takeScreen_Shot_On_Failure_or_Success(org.testng.ITestResult)[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="takeScreen_Shot_On_Failure_or_Success" is-config="true" duration-ms="0" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreen_Shot_On_Failure_or_Success -->
+        <test-method status="SKIP" signature="Type_Goals_and_Options_in_BUILD()[pri:21, instance:com.FWL1.runner.Runner_One@5025a98f]" name="Type_Goals_and_Options_in_BUILD" duration-ms="2" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.FWL1.runner.Runner_One.takeScreen_Shot_On_Failure_or_Success(Runner_One.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Type_Goals_and_Options_in_BUILD -->
+        <test-method status="SKIP" signature="takeScreen_Shot_On_Failure_or_Success(org.testng.ITestResult)[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="takeScreen_Shot_On_Failure_or_Success" is-config="true" duration-ms="0" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreen_Shot_On_Failure_or_Success -->
+        <test-method status="SKIP" signature="Click_Advanced_Button_Of_BUILD()[pri:22, instance:com.FWL1.runner.Runner_One@5025a98f]" name="Click_Advanced_Button_Of_BUILD" duration-ms="1" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.FWL1.runner.Runner_One.takeScreen_Shot_On_Failure_or_Success(Runner_One.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_Advanced_Button_Of_BUILD -->
+        <test-method status="SKIP" signature="takeScreen_Shot_On_Failure_or_Success(org.testng.ITestResult)[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="takeScreen_Shot_On_Failure_or_Success" is-config="true" duration-ms="0" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreen_Shot_On_Failure_or_Success -->
+        <test-method status="SKIP" signature="Click_Custom_workspace_Checkbox()[pri:23, instance:com.FWL1.runner.Runner_One@5025a98f]" name="Click_Custom_workspace_Checkbox" duration-ms="1" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.FWL1.runner.Runner_One.takeScreen_Shot_On_Failure_or_Success(Runner_One.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_Custom_workspace_Checkbox -->
+        <test-method status="SKIP" signature="takeScreen_Shot_On_Failure_or_Success(org.testng.ITestResult)[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="takeScreen_Shot_On_Failure_or_Success" is-config="true" duration-ms="0" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreen_Shot_On_Failure_or_Success -->
+        <test-method status="SKIP" signature="Enter_text_to_Directory_Custom_workspace()[pri:24, instance:com.FWL1.runner.Runner_One@5025a98f]" name="Enter_text_to_Directory_Custom_workspace" duration-ms="0" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.FWL1.runner.Runner_One.takeScreen_Shot_On_Failure_or_Success(Runner_One.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Enter_text_to_Directory_Custom_workspace -->
+        <test-method status="SKIP" signature="takeScreen_Shot_On_Failure_or_Success(org.testng.ITestResult)[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="takeScreen_Shot_On_Failure_or_Success" is-config="true" duration-ms="0" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreen_Shot_On_Failure_or_Success -->
+        <test-method status="SKIP" signature="Click_the_floating_Apply_Button()[pri:30, instance:com.FWL1.runner.Runner_One@5025a98f]" name="Click_the_floating_Apply_Button" duration-ms="7" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.FWL1.runner.Runner_One.takeScreen_Shot_On_Failure_or_Success(Runner_One.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_the_floating_Apply_Button -->
+        <test-method status="SKIP" signature="takeScreen_Shot_On_Failure_or_Success(org.testng.ITestResult)[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="takeScreen_Shot_On_Failure_or_Success" is-config="true" duration-ms="0" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreen_Shot_On_Failure_or_Success -->
+        <test-method status="SKIP" signature="Click_the_floating_SAVE_Button()[pri:32, instance:com.FWL1.runner.Runner_One@5025a98f]" name="Click_the_floating_SAVE_Button" duration-ms="2" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.FWL1.runner.Runner_One.takeScreen_Shot_On_Failure_or_Success(Runner_One.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click_the_floating_SAVE_Button -->
+        <test-method status="SKIP" signature="takeScreen_Shot_On_Failure_or_Success(org.testng.ITestResult)[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="takeScreen_Shot_On_Failure_or_Success" is-config="true" duration-ms="0" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreen_Shot_On_Failure_or_Success -->
+        <test-method status="SKIP" signature="Verify_that_project_is_created_successfully()[pri:35, instance:com.FWL1.runner.Runner_One@5025a98f]" name="Verify_that_project_is_created_successfully" duration-ms="2" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.FWL1.runner.Runner_One.takeScreen_Shot_On_Failure_or_Success(Runner_One.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_that_project_is_created_successfully -->
+        <test-method status="SKIP" signature="takeScreen_Shot_On_Failure_or_Success(org.testng.ITestResult)[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="takeScreen_Shot_On_Failure_or_Success" is-config="true" duration-ms="0" started-at="2020-09-14T15:39:49Z" finished-at="2020-09-14T15:39:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreen_Shot_On_Failure_or_Success -->
+        <test-method status="SKIP" signature="Delete_Existing_Projects_with_DP(java.lang.String)[pri:91, instance:com.FWL1.runner.Runner_One@5025a98f]" name="Delete_Existing_Projects_with_DP" duration-ms="3" started-at="2020-09-14T15:39:51Z" data-provider="DP_for_projects_Name" finished-at="2020-09-14T15:39:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test_777]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.FWL1.runner.Runner_One.takeScreen_Shot_On_Failure_or_Success(Runner_One.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_Existing_Projects_with_DP -->
+        <test-method status="SKIP" signature="takeScreen_Shot_On_Failure_or_Success(org.testng.ITestResult)[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="takeScreen_Shot_On_Failure_or_Success" is-config="true" duration-ms="0" started-at="2020-09-14T15:39:51Z" finished-at="2020-09-14T15:39:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreen_Shot_On_Failure_or_Success -->
+        <test-method status="SKIP" signature="LogoutJenkinPage()[pri:100, instance:com.FWL1.runner.Runner_One@5025a98f]" name="LogoutJenkinPage" duration-ms="3" started-at="2020-09-14T15:39:51Z" finished-at="2020-09-14T15:39:51Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.FWL1.runner.Runner_One.takeScreen_Shot_On_Failure_or_Success(Runner_One.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:712)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutJenkinPage -->
+        <test-method status="SKIP" signature="takeScreen_Shot_On_Failure_or_Success(org.testng.ITestResult)[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="takeScreen_Shot_On_Failure_or_Success" is-config="true" duration-ms="0" started-at="2020-09-14T15:39:51Z" finished-at="2020-09-14T15:39:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreen_Shot_On_Failure_or_Success -->
+        <test-method status="SKIP" signature="CloseBrowser()[pri:0, instance:com.FWL1.runner.Runner_One@5025a98f]" name="CloseBrowser" is-config="true" duration-ms="0" started-at="2020-09-14T15:39:51Z" finished-at="2020-09-14T15:39:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.FWL1.runner.Runner_One -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

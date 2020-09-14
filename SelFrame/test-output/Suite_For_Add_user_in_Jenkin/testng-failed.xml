@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite_For_Add_user_in_Jenkin]">
+  <listeners>
+    <listener class-name="com.FWL1.lib.Listener"/>
+  </listeners>
+  <test name="Add_new_user_to_Jenkin.(failed)">
+    <groups>
+      <run>
+        <include name="Add_user_group"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.FWL1.runner.Runner_One">
+        <methods>
+          <include name="OpenBrowserForJenkin"/>
+          <include name="LogoutJenkinPage"/>
+          <include name="LogoutJenkinPage"/>
+          <include name="takeScreen_Shot_On_Failure_or_Success"/>
+          <include name="AB_Add_user_in_Jenkin_by_admin_jsondata" invocation-numbers="0"/>
+          <include name="AB_Add_user_in_Jenkin_by_admin_jsondata" invocation-numbers="0"/>
+          <include name="LoginPage"/>
+          <include name="LoginPage"/>
+          <include name="To_create_objects_of_the_imported_class"/>
+        </methods>
+      </class> <!-- com.FWL1.runner.Runner_One -->
+    </classes>
+  </test> <!-- Add_new_user_to_Jenkin.(failed) -->
+</suite> <!-- Failed suite [Suite_For_Add_user_in_Jenkin] -->

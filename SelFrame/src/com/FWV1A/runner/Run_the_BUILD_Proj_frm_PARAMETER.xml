@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite_Run_Build">
+	<listeners>
+		<listener class-name="com.FWV1A.lib.Listener">
+		</listener>
+	</listeners>
+
+	<parameter name="browserType" value="chrome" />
+	<parameter name="url" value="http://localhost:8080/" />
+	<parameter name="driverpath"
+		value="C:/workspace/SelFrame/Drivers/chromedriver.exe" />
+
+	<parameter name="jenkinuserName" value="admin" />
+	<parameter name="jenkinpassword" value="admin" />
+   
+   <!--  The below value -the name of the project to BUILD-->
+	<parameter name="existingprojectName" value="null" />
+
+	<test thread-count="1" preserve-order="true"
+		name="Run the Build">
+		<classes>
+
+			<class name="com.FWV1A.runner.Runner_for_Jenkin_project">
+				<methods>
+					<!-- <include name="To_read_All_parameters_from_the_xml_file"/> -->
+					<include name="To_read_All_parameters_from_the_config_file"/>
+					<include name="OpenBrowserForJenkin"/>
+					<include name="LoginPage"></include>
+					<include name="SelframeBuildWithParameters"></include>
+					<include name="GoTheRunningBuildConsole" />
+					<include
+						name="ToVerifyThatBuildIsFinishedFromConsoleAndFindStatus"></include>
+					<include name="LogoutJenkinPage"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 

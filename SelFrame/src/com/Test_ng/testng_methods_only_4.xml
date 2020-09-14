@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test_ng_Suite_4" parallel="tests" thread-count="2">
+
+<parameter name="a" value="5"/>
+<parameter name="b" value="3"/>
+<parameter name="cc" value="4"/>
+<parameter name="dd" value="6"/>
+
+  <test name="add_multiply_1">
+    <classes>
+      <class name="com.Test_ng.para2">
+      <methods>
+      <include name="tc_002"></include>
+      <include name="tc_003"></include>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- parameter -->
+  
+  <!-- <test name="add_multiply_2">
+    <classes>
+      <class name="com.Test_ng.para2">
+      
+      </class>
+    </classes>
+  </test> 
+   -->  
+</suite> <!-- Suite -->

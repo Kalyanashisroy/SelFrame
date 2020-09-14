@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite_For_Create_new_project_in_Jenkins]">
+  <parameter name="goalsAndOptions" value="test -D suiteXmlFile=$testngxmlfile"/>
+  <parameter name="projectNameToBeCreated" value="final_new005"/>
+  <parameter name="filepath" value="C:/workspace/SelFrame/src/com/FWV1A/runner/Jenkin_DP.xlsx"/>
+  <parameter name="driverpath" value="D:\\Browser\\chromedriver_win32_85\\chromedriver.exe"/>
+  <parameter name="parameterChoices" value="testng_Jenkin.xml"/>
+  <parameter name="jenkinuserName" value="Kalyan"/>
+  <parameter name="sheetname" value="ProjectToCreate"/>
+  <parameter name="projDirectoryName" value="D:\Bivas\SelFrame"/>
+  <parameter name="jenkinpassword" value="pwd@12345"/>
+  <parameter name="parameterName" value="testngxmlfile"/>
+  <parameter name="url" value="http://localhost:8080/"/>
+  <parameter name="browserType" value="chrome"/>
+  <listeners>
+    <listener class-name="com.FWV1A.lib.Listener"/>
+  </listeners>
+  <test name="Create New project of the type maven.(failed)">
+    <classes>
+      <class name="com.FWV1A.runner.Runner_for_Jenkin_project">
+        <methods>
+          <include name="Enter_text_to_Directory_Custom_workspace" invocation-numbers="0"/>
+          <include name="Click_the_floating_SAVE_Button"/>
+          <include name="Type_Name_for_Choice_Parameter" invocation-numbers="0"/>
+          <include name="Click_Advanced_Button_Of_BUILD"/>
+          <include name="Type_Goals_and_Options_in_BUILD" invocation-numbers="0"/>
+          <include name="To_create_objects_of_the_imported_class"/>
+          <include name="Click_Custom_workspace_Checkbox"/>
+          <include name="Select_Choice_parameter_from_Add_Parameter_of_This_project_is_parameterized"/>
+          <include name="Type_Choices_for_Choice_Parameter" invocation-numbers="0"/>
+          <include name="click_the_check_box_for_Discard_old_builds"/>
+          <include name="Click_the_floating_Apply_Button"/>
+          <include name="CloseBrowser"/>
+          <include name="Verify_that_project_is_created_successfully"/>
+          <include name="Click_the_checkbox_This_project_is_parameterized"/>
+        </methods>
+      </class> <!-- com.FWV1A.runner.Runner_for_Jenkin_project -->
+    </classes>
+  </test> <!-- Create New project of the type maven.(failed) -->
+</suite> <!-- Failed suite [Suite_For_Create_new_project_in_Jenkins] -->

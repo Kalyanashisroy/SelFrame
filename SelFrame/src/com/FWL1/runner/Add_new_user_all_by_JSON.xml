@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Create user">
+	<!--factory does not run the BeforeSuite second time. -->
+	<groups>
+		<run>
+			<include name="Group_22_BB" />
+		</run>
+	</groups>
+
+	<listeners>
+		<listener class-name="com.FWL1.lib.Listener" />
+	</listeners>
+
+	<!-- preserve true is very important, it help to repeat the whole group -->
+	<test thread-count="1" preserve-order="true"
+		name="Create_user">
+		<classes>
+			<class name="com.FWL1.runner.Factory_Two_BB" />
+		</classes>
+	</test>
+</suite> 

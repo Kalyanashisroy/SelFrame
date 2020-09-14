@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite_staticPage">
+	<listeners>
+		<listener class-name="com.FW2B.Lib.Listener" />
+	</listeners>
+<!-- <parameter name="browser" value="chrome"/> -->
+<parameter name="browser" value="rchrome"/>
+
+	<test thread-count="5" name="Test_staticPage_J1.00">
+		<classes>
+			<class name="com.FW2B.Runner.Runner_One" />
+		</classes>
+	</test> <!-- Test_staticPage_1 -->
+</suite> <!-- Suite_staticPage -->

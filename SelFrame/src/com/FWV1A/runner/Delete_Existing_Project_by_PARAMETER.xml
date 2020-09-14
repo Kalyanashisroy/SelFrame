@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite_For_Create_new_project_in_Jenkins">
+	<listeners>
+		<listener class-name="com.FWV1A.lib.Listener">
+		</listener>
+	</listeners>
+
+	<parameter name="browserType" value="chrome" />
+	<parameter name="url" value="http://localhost:8080/" />
+	<parameter name="driverpath"
+		value="C:/workspace/SelFrame/Drivers/chromedriver.exe" />
+
+	<parameter name="jenkinuserName" value="admin" />
+	<parameter name="jenkinpassword" value="admin" />
+	
+<!-- Please change the value - the project to be deleted.  -->
+	<parameter name="projectToBeDeleted" value="ajoy1" />
+
+	<test thread-count="1" preserve-order="true"
+		name="Delete the existing Project.">
+		<classes>
+
+			<class name="com.FWV1A.runner.Runner_for_Jenkin_project">
+				<methods>
+					<include name="To_read_All_parameters_from_the_xml_file" />
+					<include name="LoginPage"></include>
+					<include name="OpenBrowserForJenkin" />
+					<include name="Delete_an_Existing_Project" />
+					<include name="LogoutJenkinPage" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 

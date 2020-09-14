@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test_ng_groups_in_group_7">
+
+	<test name="adding">
+
+		<groups>
+			<define name="polofoot_1">
+				<include name="football" />
+				<include name="polo" />
+			</define>
+		
+			<define name="polocri_2">
+				<include name="cricket" />
+				<include name="polo" />
+			</define>
+		
+			<define name="footcri_3">
+				<include name="football" />
+				<include name="cricket" />
+			</define>
+
+			<run>
+				<include name="footcri_3" />
+			</run>
+		</groups>
+
+
+		<classes>
+			<class name="com.Test_ng.group_in_group_1" />
+			<class name="com.Test_ng.group_in_group_2" />
+		</classes>
+	</test> <!-- parameter -->
+
+
+
+
+</suite> <!-- Suite -->

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test_ng_Suite_5">
+<listeners>
+<listener class-name="com.Test_ng.Listener"/>
+</listeners>
+
+<parameter name="a" value="5"/>
+<parameter name="b" value="3"/>
+<parameter name="cc" value="4"/>
+<parameter name="dd" value="6"/>
+
+  
+  <test name="adding">
+    <classes>
+      <class name="com.Test_ng.parametertest"/>
+    </classes>
+  </test> <!-- parameter -->
+
+
+
+    <test name="multiply">
+    <classes>
+      <class name="com.Test_ng.para2"/>
+    </classes>
+  </test> <!-- parameter -->
+  
+</suite> <!-- Suite -->

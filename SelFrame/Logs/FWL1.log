@@ -1,0 +1,269 @@
+10-09-2020 22:53:26 INFO [Listener]: L:: The name of the testcase from testng xml: Add_new_user_to_Jenkin.
+10-09-2020 22:53:26 INFO [PO_LoginPage]: Page object login page is called. 
+10-09-2020 22:53:27 INFO [Runner_One]: Objects of the imported class created. 
+10-09-2020 22:53:27 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin
+10-09-2020 22:53:34 INFO [Listener]: L:: onTestFailure : OpenBrowserForJenkin
+10-09-2020 22:53:34 INFO [Listener]: L:: The name of the method: LoginPage
+10-09-2020 22:53:34 INFO [Listener]: L:: onTestSkipped : LoginPage
+10-09-2020 22:53:35 INFO [Listener]: L:: onTestSkipped : Add_user_in_Jenkin_by_admin
+10-09-2020 22:53:35 INFO [Listener]: L:: The name of the method: LogoutJenkinPage
+10-09-2020 22:53:35 INFO [Listener]: L:: onTestSkipped : LogoutJenkinPage
+10-09-2020 22:53:36 INFO [Listener]: L:: onFinish : Add_new_user_to_Jenkin.
+10-09-2020 22:58:52 INFO [Listener]: L:: The name of the testcase from testng xml: Add_new_user_to_Jenkin.
+10-09-2020 22:58:52 INFO [PO_LoginPage]: Page object login page is called. 
+10-09-2020 22:58:52 INFO [Runner_One]: Objects of the imported class created. 
+10-09-2020 22:58:52 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin
+10-09-2020 22:58:57 INFO [Listener]: L:: onTestFailure : OpenBrowserForJenkin
+10-09-2020 22:58:57 INFO [Listener]: L:: The name of the method: LoginPage
+10-09-2020 22:58:57 INFO [Listener]: L:: onTestSkipped : LoginPage
+10-09-2020 22:58:57 INFO [Listener]: L:: onTestSkipped : Add_user_in_Jenkin_by_admin
+10-09-2020 22:58:57 INFO [Listener]: L:: The name of the method: LogoutJenkinPage
+10-09-2020 22:58:57 INFO [Listener]: L:: onTestSkipped : LogoutJenkinPage
+10-09-2020 22:58:57 INFO [Listener]: L:: onFinish : Add_new_user_to_Jenkin.
+10-09-2020 23:02:22 INFO [Listener]: L:: The name of the testcase from testng xml: Add_new_user_to_Jenkin.
+10-09-2020 23:02:23 INFO [PO_LoginPage]: Page object login page is called. 
+10-09-2020 23:02:24 INFO [Runner_One]: Objects of the imported class created. 
+10-09-2020 23:02:24 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin
+10-09-2020 23:02:28 INFO [BrowserAndDataFactory]: browserFactory>initiateBrowser> chrome opened. 
+10-09-2020 23:02:31 INFO [TestCases_for_Jenkins]: openBrowser done
+10-09-2020 23:02:32 INFO [Listener]: L:: onTestSuccess : OpenBrowserForJenkin
+10-09-2020 23:02:32 INFO [Listener]: L:: The name of the method: LoginPage
+10-09-2020 23:02:34 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+10-09-2020 23:02:34 INFO [Listener]: L:: onTestSuccess : LoginPage
+10-09-2020 23:02:34 INFO [Listener]: L:: onTestSkipped : Add_user_in_Jenkin_by_admin
+10-09-2020 23:02:34 INFO [Listener]: L:: The name of the method: LogoutJenkinPage
+10-09-2020 23:02:35 INFO [Listener]: L:: onTestSuccess : LogoutJenkinPage
+10-09-2020 23:02:37 INFO [Listener]: L:: onFinish : Add_new_user_to_Jenkin.
+10-09-2020 23:07:57 INFO [Listener]: L:: The name of the testcase from testng xml: Add_new_user_to_Jenkin.
+10-09-2020 23:07:58 INFO [PO_LoginPage]: Page object login page is called. 
+10-09-2020 23:07:58 INFO [Runner_One]: Objects of the imported class created. 
+10-09-2020 23:07:58 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin
+10-09-2020 23:08:02 INFO [BrowserAndDataFactory]: browserFactory>initiateBrowser> chrome opened. 
+10-09-2020 23:08:03 INFO [TestCases_for_Jenkins]: openBrowser done
+10-09-2020 23:08:05 INFO [Listener]: L:: onTestSuccess : OpenBrowserForJenkin
+10-09-2020 23:08:05 INFO [Listener]: L:: The name of the method: LoginPage
+10-09-2020 23:08:06 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+10-09-2020 23:08:06 INFO [Listener]: L:: onTestSuccess : LoginPage
+10-09-2020 23:08:07 INFO [Listener]: L:: onTestSkipped : Add_user_in_Jenkin_by_admin
+10-09-2020 23:08:07 INFO [Listener]: L:: The name of the method: LogoutJenkinPage
+10-09-2020 23:08:07 INFO [Listener]: L:: onTestSuccess : LogoutJenkinPage
+10-09-2020 23:08:09 INFO [Listener]: L:: onFinish : Add_new_user_to_Jenkin.
+10-09-2020 23:09:55 INFO [Listener]: L:: The name of the testcase from testng xml: Add_new_user_to_Jenkin.
+10-09-2020 23:09:56 INFO [PO_LoginPage]: Page object login page is called. 
+10-09-2020 23:09:56 INFO [Runner_One]: Objects of the imported class created. 
+10-09-2020 23:09:56 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin
+10-09-2020 23:10:01 INFO [BrowserAndDataFactory]: browserFactory>initiateBrowser> chrome opened. 
+10-09-2020 23:10:05 INFO [TestCases_for_Jenkins]: openBrowser done
+10-09-2020 23:10:07 INFO [Listener]: L:: onTestSuccess : OpenBrowserForJenkin
+10-09-2020 23:10:07 INFO [Listener]: L:: The name of the method: LoginPage
+10-09-2020 23:10:09 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+10-09-2020 23:10:09 INFO [Listener]: L:: onTestSuccess : LoginPage
+10-09-2020 23:10:10 INFO [Listener]: L:: onTestSkipped : Add_user_in_Jenkin_by_admin
+10-09-2020 23:10:10 INFO [Listener]: L:: The name of the method: LogoutJenkinPage
+10-09-2020 23:10:10 INFO [Listener]: L:: onTestSuccess : LogoutJenkinPage
+10-09-2020 23:10:12 INFO [Listener]: L:: onFinish : Add_new_user_to_Jenkin.
+10-09-2020 23:12:21 INFO [Listener]: L:: The name of the testcase from testng xml: Add_new_user_to_Jenkin.
+10-09-2020 23:12:22 INFO [PO_LoginPage]: Page object login page is called. 
+10-09-2020 23:12:22 INFO [Runner_One]: Objects of the imported class created. 
+10-09-2020 23:12:22 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin
+10-09-2020 23:12:26 INFO [BrowserAndDataFactory]: browserFactory>initiateBrowser> chrome opened. 
+10-09-2020 23:12:26 INFO [TestCases_for_Jenkins]: openBrowser done
+10-09-2020 23:12:28 INFO [Listener]: L:: onTestSuccess : OpenBrowserForJenkin
+10-09-2020 23:12:28 INFO [Listener]: L:: The name of the method: LoginPage
+10-09-2020 23:12:29 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+10-09-2020 23:12:29 INFO [Listener]: L:: onTestSuccess : LoginPage
+10-09-2020 23:12:30 INFO [Listener]: L:: onTestSkipped : Add_user_in_Jenkin_by_admin
+10-09-2020 23:12:30 INFO [Listener]: L:: The name of the method: LogoutJenkinPage
+10-09-2020 23:12:30 INFO [Listener]: L:: onTestSuccess : LogoutJenkinPage
+10-09-2020 23:12:32 INFO [Listener]: L:: onFinish : Add_new_user_to_Jenkin.
+10-09-2020 23:16:31 INFO [Listener]: L:: The name of the testcase from testng xml: Add_new_user_to_Jenkin.
+10-09-2020 23:16:32 INFO [PO_LoginPage]: Page object login page is called. 
+10-09-2020 23:16:32 INFO [Runner_One]: Objects of the imported class created. 
+10-09-2020 23:16:32 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin
+10-09-2020 23:16:36 INFO [BrowserAndDataFactory]: browserFactory>initiateBrowser> chrome opened. 
+10-09-2020 23:16:37 INFO [TestCases_for_Jenkins]: openBrowser done
+10-09-2020 23:16:38 INFO [Listener]: L:: onTestSuccess : OpenBrowserForJenkin
+10-09-2020 23:16:39 INFO [Listener]: L:: The name of the method: LoginPage
+10-09-2020 23:16:46 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+10-09-2020 23:16:46 INFO [Listener]: L:: onTestSuccess : LoginPage
+10-09-2020 23:16:47 INFO [Listener]: L:: The name of the method: Add_user_in_Jenkin_by_admin
+10-09-2020 23:16:52 INFO [Listener]: L:: onTestSuccess : Add_user_in_Jenkin_by_admin
+10-09-2020 23:16:52 INFO [Listener]: L:: The name of the method: LogoutJenkinPage
+10-09-2020 23:16:53 INFO [Listener]: L:: onTestSuccess : LogoutJenkinPage
+10-09-2020 23:16:55 INFO [Listener]: L:: onFinish : Add_new_user_to_Jenkin.
+12-09-2020 22:59:02 INFO [Listener]: L:: The name of the testcase from testng xml: Create_user
+12-09-2020 22:59:02 INFO [PO_LoginPage]: Page object login page is called. 
+12-09-2020 22:59:02 INFO [Runner_One]: Objects of the imported class created. 
+12-09-2020 22:59:02 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin_jsondata
+12-09-2020 22:59:16 INFO [BrowserAndDataFactory]: browserFactory>initiateBrowser> chrome opened. 
+12-09-2020 22:59:28 INFO [TestCases_for_Jenkins]: openBrowser done
+12-09-2020 22:59:29 INFO [Listener]: L:: onTestSuccess : OpenBrowserForJenkin_jsondata
+12-09-2020 22:59:29 INFO [Listener]: L:: The name of the method: LoginPage_jsondata
+12-09-2020 22:59:33 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+12-09-2020 22:59:33 INFO [Listener]: L:: onTestSuccess : LoginPage_jsondata
+12-09-2020 22:59:33 INFO [Listener]: L:: The name of the method: AB_Add_user_in_Jenkin_by_admin_jsondata2
+12-09-2020 22:59:54 INFO [Listener]: L:: onTestSuccess : AB_Add_user_in_Jenkin_by_admin_jsondata2
+12-09-2020 22:59:54 INFO [Listener]: L:: onFinish : Create_user
+12-09-2020 23:02:30 INFO [Listener]: L:: The name of the testcase from testng xml: Create_user
+12-09-2020 23:02:30 INFO [PO_LoginPage]: Page object login page is called. 
+12-09-2020 23:02:30 INFO [Runner_One]: Objects of the imported class created. 
+12-09-2020 23:02:30 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin_jsondata
+12-09-2020 23:02:36 INFO [BrowserAndDataFactory]: browserFactory>initiateBrowser> chrome opened. 
+12-09-2020 23:02:38 INFO [TestCases_for_Jenkins]: openBrowser done
+12-09-2020 23:02:40 INFO [Listener]: L:: onTestSuccess : OpenBrowserForJenkin_jsondata
+12-09-2020 23:02:40 INFO [Listener]: L:: The name of the method: LoginPage_jsondata
+12-09-2020 23:02:55 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+12-09-2020 23:02:55 INFO [Listener]: L:: onTestSuccess : LoginPage_jsondata
+12-09-2020 23:02:55 INFO [Listener]: L:: The name of the method: AB_Add_user_in_Jenkin_by_admin_jsondata2
+12-09-2020 23:03:09 INFO [Listener]: L:: onTestSuccess : AB_Add_user_in_Jenkin_by_admin_jsondata2
+12-09-2020 23:03:09 INFO [Listener]: L:: onFinish : Create_user
+12-09-2020 23:04:12 INFO [Listener]: L:: The name of the testcase from testng xml: Delete_User
+12-09-2020 23:04:12 INFO [PO_LoginPage]: Page object login page is called. 
+12-09-2020 23:04:12 INFO [Runner_One]: Objects of the imported class created. 
+12-09-2020 23:04:12 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin_jsondata
+12-09-2020 23:04:18 INFO [BrowserAndDataFactory]: browserFactory>initiateBrowser> chrome opened. 
+12-09-2020 23:04:19 INFO [TestCases_for_Jenkins]: openBrowser done
+12-09-2020 23:04:20 INFO [Listener]: L:: onTestSuccess : OpenBrowserForJenkin_jsondata
+12-09-2020 23:04:20 INFO [Listener]: L:: The name of the method: LoginPage_jsondata
+12-09-2020 23:04:26 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+12-09-2020 23:04:26 INFO [Listener]: L:: onTestSuccess : LoginPage_jsondata
+12-09-2020 23:04:26 INFO [Listener]: L:: The name of the method: AA_Delete_existing_Jenkin_user
+12-09-2020 23:04:34 INFO [Listener]: L:: onTestSuccess : AA_Delete_existing_Jenkin_user
+12-09-2020 23:04:34 INFO [Listener]: L:: onFinish : Delete_User
+12-09-2020 23:06:45 INFO [Listener]: L:: The name of the testcase from testng xml: Create_user
+12-09-2020 23:06:46 INFO [PO_LoginPage]: Page object login page is called. 
+12-09-2020 23:06:46 INFO [Runner_One]: Objects of the imported class created. 
+12-09-2020 23:06:46 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin_jsondata
+12-09-2020 23:06:51 INFO [BrowserAndDataFactory]: browserFactory>initiateBrowser> chrome opened. 
+12-09-2020 23:06:51 INFO [TestCases_for_Jenkins]: openBrowser done
+12-09-2020 23:06:52 INFO [Listener]: L:: onTestSuccess : OpenBrowserForJenkin_jsondata
+12-09-2020 23:06:52 INFO [Listener]: L:: The name of the method: LoginPage_jsondata
+12-09-2020 23:07:06 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+12-09-2020 23:07:06 INFO [Listener]: L:: onTestSuccess : LoginPage_jsondata
+12-09-2020 23:07:06 INFO [Listener]: L:: The name of the method: AB_Add_user_in_Jenkin_by_admin_jsondata2
+12-09-2020 23:07:13 INFO [Listener]: L:: onTestSuccess : AB_Add_user_in_Jenkin_by_admin_jsondata2
+12-09-2020 23:07:13 INFO [Listener]: L:: onFinish : Create_user
+12-09-2020 23:07:38 INFO [Listener]: L:: The name of the testcase from testng xml: Create_user
+12-09-2020 23:07:38 INFO [PO_LoginPage]: Page object login page is called. 
+12-09-2020 23:07:38 INFO [Runner_One]: Objects of the imported class created. 
+12-09-2020 23:07:38 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin_jsondata
+12-09-2020 23:07:44 INFO [BrowserAndDataFactory]: browserFactory>initiateBrowser> chrome opened. 
+12-09-2020 23:07:45 INFO [TestCases_for_Jenkins]: openBrowser done
+12-09-2020 23:07:46 INFO [Listener]: L:: onTestSuccess : OpenBrowserForJenkin_jsondata
+12-09-2020 23:07:46 INFO [Listener]: L:: The name of the method: LoginPage_jsondata
+12-09-2020 23:08:00 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+12-09-2020 23:08:00 INFO [Listener]: L:: onTestSuccess : LoginPage_jsondata
+12-09-2020 23:08:00 INFO [Listener]: L:: The name of the method: AB_Add_user_in_Jenkin_by_admin_jsondata2
+12-09-2020 23:08:12 INFO [Listener]: L:: onTestSuccess : AB_Add_user_in_Jenkin_by_admin_jsondata2
+12-09-2020 23:08:12 INFO [Listener]: L:: onFinish : Create_user
+12-09-2020 23:09:17 INFO [Listener]: L:: The name of the testcase from testng xml: Create_user
+12-09-2020 23:09:17 INFO [PO_LoginPage]: Page object login page is called. 
+12-09-2020 23:09:17 INFO [Runner_One]: Objects of the imported class created. 
+12-09-2020 23:09:17 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin_jsondata
+12-09-2020 23:09:22 INFO [BrowserAndDataFactory]: browserFactory>initiateBrowser> chrome opened. 
+12-09-2020 23:09:23 INFO [TestCases_for_Jenkins]: openBrowser done
+12-09-2020 23:09:24 INFO [Listener]: L:: onTestSuccess : OpenBrowserForJenkin_jsondata
+12-09-2020 23:09:24 INFO [Listener]: L:: The name of the method: LoginPage_jsondata
+12-09-2020 23:09:29 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+12-09-2020 23:09:29 INFO [Listener]: L:: onTestSuccess : LoginPage_jsondata
+12-09-2020 23:09:30 INFO [Listener]: L:: The name of the method: AB_Add_user_in_Jenkin_by_admin_jsondata2
+12-09-2020 23:09:38 INFO [Listener]: L:: onTestSuccess : AB_Add_user_in_Jenkin_by_admin_jsondata2
+12-09-2020 23:09:38 INFO [Listener]: L:: onFinish : Create_user
+13-09-2020 00:07:25 INFO [Listener]: L:: The name of the testcase from testng xml: Add_new_user_to_Jenkin.
+13-09-2020 00:07:25 INFO [PO_LoginPage]: Page object login page is called. 
+13-09-2020 00:07:25 INFO [Runner_One]: Objects of the imported class created. 
+13-09-2020 00:07:25 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin
+13-09-2020 00:07:32 INFO [BrowserAndDataFactory]: browserFactory>initiateBrowser> chrome opened. 
+13-09-2020 00:07:33 INFO [TestCases_for_Jenkins]: openBrowser done
+13-09-2020 00:07:35 INFO [Listener]: L:: onTestSuccess : OpenBrowserForJenkin
+13-09-2020 00:07:35 INFO [PO_LoginPage]: Page object login page is called. 
+13-09-2020 00:07:35 INFO [Runner_One]: Objects of the imported class created. 
+13-09-2020 00:07:35 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin
+13-09-2020 00:07:35 INFO [Listener]: L:: onTestFailure : OpenBrowserForJenkin
+13-09-2020 00:07:35 INFO [Listener]: L:: The name of the method: LoginPage
+13-09-2020 00:07:35 INFO [Listener]: L:: onTestSkipped : LoginPage
+13-09-2020 00:07:35 INFO [Listener]: L:: The name of the method: LoginPage
+13-09-2020 00:07:35 INFO [Listener]: L:: onTestSkipped : LoginPage
+13-09-2020 00:07:36 INFO [Listener]: L:: The name of the method: AB_Add_user_in_Jenkin_by_admin_jsondata
+13-09-2020 00:07:36 INFO [Listener]: L:: onTestSkipped : AB_Add_user_in_Jenkin_by_admin_jsondata
+13-09-2020 00:07:36 INFO [Listener]: L:: The name of the method: AB_Add_user_in_Jenkin_by_admin_jsondata
+13-09-2020 00:07:36 INFO [Listener]: L:: onTestSkipped : AB_Add_user_in_Jenkin_by_admin_jsondata
+13-09-2020 00:07:36 INFO [Listener]: L:: The name of the method: LogoutJenkinPage
+13-09-2020 00:07:36 INFO [Listener]: L:: onTestSkipped : LogoutJenkinPage
+13-09-2020 00:07:36 INFO [Listener]: L:: The name of the method: LogoutJenkinPage
+13-09-2020 00:07:36 INFO [Listener]: L:: onTestSkipped : LogoutJenkinPage
+13-09-2020 00:07:36 INFO [Listener]: L:: onFinish : Add_new_user_to_Jenkin.
+13-09-2020 00:09:01 INFO [Listener]: L:: The name of the testcase from testng xml: Create_user
+13-09-2020 00:09:01 INFO [PO_LoginPage]: Page object login page is called. 
+13-09-2020 00:09:01 INFO [Runner_One]: Objects of the imported class created. 
+13-09-2020 00:09:01 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin_jsondata
+13-09-2020 00:09:06 INFO [BrowserAndDataFactory]: browserFactory>initiateBrowser> chrome opened. 
+13-09-2020 00:09:07 INFO [TestCases_for_Jenkins]: openBrowser done
+13-09-2020 00:09:08 INFO [Listener]: L:: onTestSuccess : OpenBrowserForJenkin_jsondata
+13-09-2020 00:09:08 INFO [PO_LoginPage]: Page object login page is called. 
+13-09-2020 00:09:08 INFO [Runner_One]: Objects of the imported class created. 
+13-09-2020 00:09:08 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin_jsondata
+13-09-2020 00:09:11 INFO [BrowserAndDataFactory]: browserFactory>initiateBrowser> chrome opened. 
+13-09-2020 00:09:12 INFO [TestCases_for_Jenkins]: openBrowser done
+13-09-2020 00:09:13 INFO [Listener]: L:: onTestSuccess : OpenBrowserForJenkin_jsondata
+13-09-2020 00:09:13 INFO [Listener]: L:: The name of the method: LoginPage_jsondata
+13-09-2020 00:09:20 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+13-09-2020 00:09:20 INFO [Listener]: L:: onTestSuccess : LoginPage_jsondata
+13-09-2020 00:09:20 INFO [Listener]: L:: The name of the method: LoginPage_jsondata
+13-09-2020 00:09:25 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+13-09-2020 00:09:25 INFO [Listener]: L:: onTestSuccess : LoginPage_jsondata
+13-09-2020 00:09:25 INFO [Listener]: L:: The name of the method: AB_Add_user_in_Jenkin_by_admin_jsondata2
+13-09-2020 00:09:35 INFO [Listener]: L:: onTestSuccess : AB_Add_user_in_Jenkin_by_admin_jsondata2
+13-09-2020 00:09:35 INFO [Listener]: L:: The name of the method: AB_Add_user_in_Jenkin_by_admin_jsondata2
+13-09-2020 00:09:45 INFO [Listener]: L:: onTestSuccess : AB_Add_user_in_Jenkin_by_admin_jsondata2
+13-09-2020 00:09:45 INFO [Listener]: L:: onFinish : Create_user
+13-09-2020 00:10:57 INFO [Listener]: L:: The name of the testcase from testng xml: Create_user
+13-09-2020 00:10:58 INFO [PO_LoginPage]: Page object login page is called. 
+13-09-2020 00:10:58 INFO [Runner_One]: Objects of the imported class created. 
+13-09-2020 00:10:58 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin_jsondata
+13-09-2020 00:11:03 INFO [BrowserAndDataFactory]: browserFactory>initiateBrowser> chrome opened. 
+13-09-2020 00:11:04 INFO [TestCases_for_Jenkins]: openBrowser done
+13-09-2020 00:11:05 INFO [Listener]: L:: onTestSuccess : OpenBrowserForJenkin_jsondata
+13-09-2020 00:11:05 INFO [PO_LoginPage]: Page object login page is called. 
+13-09-2020 00:11:05 INFO [Runner_One]: Objects of the imported class created. 
+13-09-2020 00:11:05 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin_jsondata
+13-09-2020 00:11:08 INFO [BrowserAndDataFactory]: browserFactory>initiateBrowser> chrome opened. 
+13-09-2020 00:11:15 INFO [TestCases_for_Jenkins]: openBrowser done
+13-09-2020 00:11:16 INFO [Listener]: L:: onTestSuccess : OpenBrowserForJenkin_jsondata
+13-09-2020 00:11:16 INFO [Listener]: L:: The name of the method: LoginPage_jsondata
+13-09-2020 00:11:28 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+13-09-2020 00:11:28 INFO [Listener]: L:: onTestSuccess : LoginPage_jsondata
+13-09-2020 00:11:28 INFO [Listener]: L:: The name of the method: LoginPage_jsondata
+13-09-2020 00:11:33 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+13-09-2020 00:11:33 INFO [Listener]: L:: onTestSuccess : LoginPage_jsondata
+13-09-2020 00:11:33 INFO [Listener]: L:: The name of the method: AB_Add_user_in_Jenkin_by_admin_jsondata2
+13-09-2020 00:11:43 INFO [Listener]: L:: onTestSuccess : AB_Add_user_in_Jenkin_by_admin_jsondata2
+13-09-2020 00:11:43 INFO [Listener]: L:: The name of the method: AB_Add_user_in_Jenkin_by_admin_jsondata2
+13-09-2020 00:11:56 INFO [Listener]: L:: onTestSuccess : AB_Add_user_in_Jenkin_by_admin_jsondata2
+13-09-2020 00:11:56 INFO [Listener]: L:: onFinish : Create_user
+13-09-2020 16:33:33 INFO [Listener]: L:: The name of the testcase from testng xml: Create_user
+13-09-2020 16:33:34 INFO [PO_LoginPage]: Page object login page is called. 
+13-09-2020 16:33:34 INFO [Runner_One]: Objects of the imported class created. 
+13-09-2020 16:33:34 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin_jsondata
+13-09-2020 16:33:40 INFO [BrowserAndDataFactory]: browserFactory>initiateBrowser> chrome opened. 
+13-09-2020 16:33:41 INFO [TestCases_for_Jenkins]: openBrowser done
+13-09-2020 16:33:42 INFO [Listener]: L:: onTestSuccess : OpenBrowserForJenkin_jsondata
+13-09-2020 16:33:42 INFO [PO_LoginPage]: Page object login page is called. 
+13-09-2020 16:33:43 INFO [Runner_One]: Objects of the imported class created. 
+13-09-2020 16:33:43 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin_jsondata
+13-09-2020 16:33:45 INFO [BrowserAndDataFactory]: browserFactory>initiateBrowser> chrome opened. 
+13-09-2020 16:33:46 INFO [TestCases_for_Jenkins]: openBrowser done
+13-09-2020 16:33:47 INFO [Listener]: L:: onTestSuccess : OpenBrowserForJenkin_jsondata
+13-09-2020 16:33:48 INFO [Listener]: L:: The name of the method: LoginPage_jsondata
+13-09-2020 16:33:53 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+13-09-2020 16:33:53 INFO [Listener]: L:: onTestSuccess : LoginPage_jsondata
+13-09-2020 16:33:54 INFO [Listener]: L:: The name of the method: LoginPage_jsondata
+13-09-2020 16:33:58 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+13-09-2020 16:33:58 INFO [Listener]: L:: onTestSuccess : LoginPage_jsondata
+13-09-2020 16:33:59 INFO [Listener]: L:: The name of the method: AB_Add_user_in_Jenkin_by_admin_jsondata2
+13-09-2020 16:34:06 INFO [Listener]: L:: onTestSuccess : AB_Add_user_in_Jenkin_by_admin_jsondata2
+13-09-2020 16:34:06 INFO [Listener]: L:: The name of the method: AB_Add_user_in_Jenkin_by_admin_jsondata2
+13-09-2020 16:34:12 INFO [Listener]: L:: onTestSuccess : AB_Add_user_in_Jenkin_by_admin_jsondata2
+13-09-2020 16:34:12 INFO [Listener]: L:: onFinish : Create_user
+14-09-2020 15:39:47 INFO [PO_LoginPage]: Page object login page is called. 
+14-09-2020 15:39:47 INFO [Runner_One]: Objects of the imported class created. 

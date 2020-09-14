@@ -1,0 +1,40 @@
+{
+	"loginPage": [
+		{
+			"browserType": "chrome",
+			"screenCaptureFlag":"3",
+			"url": "http://localhost:8080/",
+			"jenkinuserName": "Kalyan",
+			"jenkinpassword": "pwd@12345"
+		},
+		{
+			"browserType": "chrome",
+			"url": "http://localhost:8080/",
+			"jenkinuserName": "kamal",
+			"jenkinpassword": "123456"
+		}
+	],
+	"addUserPage": [
+		{
+			"userName": "kamal",
+			"passWord": "123456",
+			"confpassWord": "123456",
+			"fullname": "kamal nath sarkar",
+			"email": "haloINdia@llfkj.com"
+		}
+	],
+	"deleteUser": [
+		{
+			"userName": "kamal"
+		}
+	],
+	"addNewProject": [
+		{
+			"projectNameToBeCreated": "trial_001",
+			"parameterName": "testngxmlfile",
+			"parameterChoices": "testng_Jenkin.xml",
+			"goalsAndOptions": "test -D suiteXmlFile=$testngxmlfile",
+			"projDirectoryName": "c:/workspace/SelFrame"
+		}
+	]
+}

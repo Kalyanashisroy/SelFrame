@@ -1,0 +1,15 @@
+{
+	"loginPage": {
+		"passWord": "By.name(\"j_password\")",
+		"userName": "By.id(\"j_username\")",
+		"submit": "By.name(\"Submit\")"
+	},
+	"addUserPage": {
+		"userName": "By.xpath(\"//input[@id='username' and @name='username']\")",
+		"passWord": "By.xpath(\"//input[ @name='password1' and @type='password']\")",
+		"confpassWord": "By.xpath(\"//input[ @name='password2' and @type='password']\")",
+		"fullname": "By.xpath(\"//input[@type='text' and @name='fullname']\")",
+		"email": "By.xpath(\"//input[@type='text' and @name='email']\")",
+		"button": "By.xpath(\"//button[text()='Create User']\")"
+	}
+}

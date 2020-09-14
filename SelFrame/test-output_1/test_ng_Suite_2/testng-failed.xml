@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [test_ng_Suite_2]" parallel="tests">
+  <parameter name="cc" value="4"/>
+  <parameter name="dd" value="6"/>
+  <parameter name="a" value="5"/>
+  <parameter name="b" value="3"/>
+  <listeners>
+    <listener class-name="com.Test_ng.Listener"/>
+  </listeners>
+  <test name="adding(failed)" parallel="tests">
+    <classes>
+      <class name="com.Test_ng.para2">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.Test_ng.para2 -->
+      <class name="com.Test_ng.parametertest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="TestListen_testcaseConditionalSkipExecution_5e"/>
+          <include name="afterClass"/>
+          <include name="TestListen_timeoutTest_6f"/>
+          <include name="TestListen_3c"/>
+          <include name="screenCaptureOnFailure"/>
+          <include name="TestListen_testcaseSkipException_4d"/>
+        </methods>
+      </class> <!-- com.Test_ng.parametertest -->
+    </classes>
+  </test> <!-- adding(failed) -->
+</suite> <!-- Failed suite [test_ng_Suite_2] -->

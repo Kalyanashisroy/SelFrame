@@ -1,0 +1,168 @@
+04-08-2020 14:48:04 INFO [Runner_AAA_111]: AAAA_AAAA -- ended
+04-08-2020 14:48:04 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 14:48:04 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 14:48:04 INFO [Runner_AAA_111]: AAAA_AAAA -- started
+04-08-2020 14:48:05 INFO [Runner_AAA_111]: AAAA_AAAA -- ended
+04-08-2020 14:48:05 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 14:48:05 INFO [Runner_AAA_111]: DataProvidr
+04-08-2020 14:48:05 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 14:48:05 INFO [Runner_AAA_111]: testcase1 
+04-08-2020 14:48:05 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 14:48:05 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 14:48:05 INFO [Runner_AAA_111]: testcase1 
+04-08-2020 14:48:05 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 14:48:05 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 14:48:05 INFO [Runner_AAA_111]: testcase1 
+04-08-2020 14:48:05 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 14:48:05 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 14:48:05 INFO [Runner_AAA_111]: Testcase_3 --- started
+04-08-2020 14:48:06 INFO [Runner_AAA_111]: Testcase_3 --- ended
+04-08-2020 14:48:06 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 14:48:06 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 14:48:06 INFO [Runner_AAA_111]: Testcase2 --- started
+04-08-2020 14:48:08 INFO [Runner_AAA_111]: Testcase2 --- ended
+04-08-2020 14:48:08 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 14:48:08 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 14:48:08 INFO [Runner_AAA_111]: Testcase_4 start
+04-08-2020 14:48:08 INFO [Runner_AAA_111]: Testcase_4 end
+04-08-2020 14:48:08 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 14:48:08 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 14:48:08 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 14:48:08 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 14:48:08 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 14:48:08 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 14:48:08 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 14:48:08 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 14:48:08 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 14:48:08 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 14:48:08 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 14:48:08 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 14:48:09 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 14:48:09 INFO [Runner_AAA_111]: afterCLass
+04-08-2020 14:48:09 INFO [Runner_AAA_111]: afterTEst --start--
+04-08-2020 14:48:09 INFO [Testcases_Methods_1]: closing chrome ---start
+04-08-2020 14:48:11 INFO [Testcases_Methods_1]: closing chrome ---end
+04-08-2020 14:48:11 INFO [Runner_AAA_111]: afterTEst --end--
+04-08-2020 14:48:11 INFO [Runner_AAA_111]: I am inside after suite
+04-08-2020 18:27:07 INFO [Runner_AAA_111]: From --DraftTestng--Constructors
+04-08-2020 18:27:07 INFO [Runner_AAA_111]: I am inside before suite
+04-08-2020 18:27:07 INFO [Runner_AAA_111]: beforeTest() --start--
+04-08-2020 18:27:17 INFO [Runner_AAA_111]: beforeTest() --end--
+04-08-2020 18:27:17 INFO [Runner_AAA_111]: beforeClass
+04-08-2020 18:27:19 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 18:27:19 INFO [Runner_AAA_111]: AAAA_AAAA -- started
+04-08-2020 18:27:21 INFO [Runner_AAA_111]: AAAA_AAAA -- ended
+04-08-2020 18:27:21 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 18:27:21 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 18:27:21 INFO [Runner_AAA_111]: AAAA_AAAA -- started
+04-08-2020 18:27:22 INFO [Runner_AAA_111]: AAAA_AAAA -- ended
+04-08-2020 18:27:22 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 18:27:22 INFO [Runner_AAA_111]: DataProvidr
+04-08-2020 18:27:22 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 18:27:22 INFO [Runner_AAA_111]: testcase1 
+04-08-2020 18:27:22 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 18:27:22 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 18:27:22 INFO [Runner_AAA_111]: testcase1 
+04-08-2020 18:27:22 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 18:27:22 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 18:27:22 INFO [Runner_AAA_111]: testcase1 
+04-08-2020 18:27:22 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 18:27:22 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 18:27:22 INFO [Runner_AAA_111]: Testcase_3 --- started
+04-08-2020 18:27:23 INFO [Runner_AAA_111]: Testcase_3 --- ended
+04-08-2020 18:27:23 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 18:27:23 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 18:27:23 INFO [Runner_AAA_111]: Testcase2 --- started
+04-08-2020 18:27:24 INFO [Runner_AAA_111]: Testcase2 --- ended
+04-08-2020 18:27:24 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 18:27:24 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 18:27:24 INFO [Runner_AAA_111]: Testcase_4 start
+04-08-2020 18:27:24 INFO [Runner_AAA_111]: Testcase_4 end
+04-08-2020 18:27:24 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 18:27:24 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 18:27:24 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 18:27:24 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 18:27:24 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 18:27:24 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 18:27:24 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 18:27:24 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 18:27:24 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 18:27:24 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 18:27:24 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 18:27:24 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 18:27:25 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 18:27:25 INFO [Runner_AAA_111]: afterCLass
+04-08-2020 18:27:25 INFO [Runner_AAA_111]: afterTEst --start--
+04-08-2020 18:27:25 INFO [Testcases_Methods_1]: closing chrome ---start
+04-08-2020 18:27:28 INFO [Testcases_Methods_1]: closing chrome ---end
+04-08-2020 18:27:28 INFO [Runner_AAA_111]: afterTEst --end--
+04-08-2020 18:27:28 INFO [Runner_AAA_111]: I am inside after suite
+04-08-2020 18:28:40 INFO [Runner_AAA_111]: From --DraftTestng--Constructors
+04-08-2020 18:28:40 INFO [Runner_AAA_111]: I am inside before suite
+04-08-2020 18:28:40 INFO [Runner_AAA_111]: beforeTest() --start--
+04-08-2020 18:28:48 INFO [Runner_AAA_111]: beforeTest() --end--
+04-08-2020 18:28:48 INFO [Runner_AAA_111]: beforeClass
+04-08-2020 18:28:50 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 18:28:50 INFO [Runner_AAA_111]: AAAA_AAAA -- started
+04-08-2020 18:28:51 INFO [Runner_AAA_111]: AAAA_AAAA -- ended
+04-08-2020 18:28:51 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 18:28:51 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 18:28:51 INFO [Runner_AAA_111]: AAAA_AAAA -- started
+04-08-2020 18:28:52 INFO [Runner_AAA_111]: AAAA_AAAA -- ended
+04-08-2020 18:28:52 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 18:28:52 INFO [Runner_AAA_111]: DataProvidr
+04-08-2020 18:28:52 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 18:28:52 INFO [Runner_AAA_111]: testcase1 
+04-08-2020 18:28:52 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 18:28:52 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 18:28:52 INFO [Runner_AAA_111]: testcase1 
+04-08-2020 18:28:52 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 18:28:52 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 18:28:52 INFO [Runner_AAA_111]: testcase1 
+04-08-2020 18:28:52 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 18:28:52 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 18:28:52 INFO [Runner_AAA_111]: Testcase_3 --- started
+04-08-2020 18:28:53 INFO [Runner_AAA_111]: Testcase_3 --- ended
+04-08-2020 18:28:53 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 18:28:53 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 18:28:53 INFO [Runner_AAA_111]: Testcase2 --- started
+04-08-2020 18:28:54 INFO [Runner_AAA_111]: Testcase2 --- ended
+04-08-2020 18:28:54 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 18:28:54 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 18:28:54 INFO [Runner_AAA_111]: Testcase_4 start
+04-08-2020 18:28:54 INFO [Runner_AAA_111]: Testcase_4 end
+04-08-2020 18:28:54 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 18:28:54 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 18:28:54 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 18:28:54 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 18:28:54 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 18:28:54 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 18:28:54 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 18:28:54 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 18:28:54 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 18:28:54 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 18:28:54 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 18:28:54 INFO [Runner_AAA_111]: beforeMethod---BM
+04-08-2020 18:28:55 INFO [Runner_AAA_111]: afterMehtod--AM
+04-08-2020 18:28:55 INFO [Runner_AAA_111]: afterCLass
+04-08-2020 18:28:55 INFO [Runner_AAA_111]: afterTEst --start--
+04-08-2020 18:28:55 INFO [Testcases_Methods_1]: closing chrome ---start
+04-08-2020 18:28:56 INFO [Testcases_Methods_1]: closing chrome ---end
+04-08-2020 18:28:56 INFO [Runner_AAA_111]: afterTEst --end--
+04-08-2020 18:28:56 INFO [Runner_AAA_111]: I am inside after suite
+05-08-2020 00:59:33 INFO [TestSuite_One]: Starting the browser
+05-08-2020 00:59:36 INFO [TestSuite_One]: method: Polling_by_Explicit_Wait --start--
+05-08-2020 00:59:36 INFO [TestSuite_One]: 2.before Click the button:: Hello
+05-08-2020 00:59:37 INFO [TestSuite_One]: click the button
+05-08-2020 00:59:37 INFO [TestSuite_One]: 2.After Click the button ::The POP will come after 5939 milliseconds
+05-08-2020 00:59:43 INFO [TestSuite_One]: 2.the time taken click-accept alert :: 6027 milliseconds
+05-08-2020 00:59:43 INFO [TestSuite_One]: The title of the page is::Welcome Main page
+05-08-2020 00:59:43 INFO [TestSuite_One]: method: Polling_by_Explicit_Wait --ended--
+05-08-2020 01:07:52 INFO [TestSuite_One]: Starting the browser
+05-08-2020 01:07:55 INFO [TestSuite_One]: method: Polling_by_Explicit_Wait --start--
+05-08-2020 01:07:55 INFO [TestSuite_One]: 2.before Click the button:: Hello
+05-08-2020 01:07:55 INFO [TestSuite_One]: click the button
+05-08-2020 01:07:55 INFO [TestSuite_One]: 2.After Click the button ::The POP will come after 1167 milliseconds
+05-08-2020 01:07:57 INFO [TestSuite_One]: 2.the time taken click-accept alert :: 1290 milliseconds
+05-08-2020 01:07:57 INFO [TestSuite_One]: The title of the page is::Welcome Main page
+05-08-2020 01:07:57 INFO [TestSuite_One]: method: Polling_by_Explicit_Wait --ended--

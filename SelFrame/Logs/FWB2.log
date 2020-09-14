@@ -1,0 +1,245 @@
+13-08-2020 20:26:38 INFO [Runner_One]: The path of log4j.xml from property file: null
+13-08-2020 20:26:38 INFO [Runner_One]: The pomurl from pom> null
+13-08-2020 20:31:09 INFO [Runner_One]: The path of log4j.xml from property file: null
+13-08-2020 20:31:09 INFO [Runner_One]: The pomurl from pom> null
+14-08-2020 10:59:45 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 10:59:46 INFO [Runner_One]: The pomurl from pom> null
+14-08-2020 11:25:29 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 11:25:29 INFO [Runner_One]: The pomurl from pom> null
+14-08-2020 11:29:26 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 11:31:15 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 11:31:15 INFO [Runner_One]: The environment variable from pom:> null
+14-08-2020 11:31:15 INFO [Runner_One]: The type of browser from pom:> null
+14-08-2020 12:25:14 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 12:25:14 INFO [Runner_One]: The environment variable from pom:> null
+14-08-2020 12:25:14 INFO [Runner_One]: The type of browser from pom:> null
+14-08-2020 12:33:34 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 12:33:35 INFO [Runner_One]: The environment variable from pom:> null
+14-08-2020 12:33:35 INFO [Runner_One]: The type of browser from pom:> null
+14-08-2020 14:18:15 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 14:18:15 INFO [Runner_One]: The pomurl from pom> null
+14-08-2020 14:21:46 INFO [Runner_One]: The pomurl from pom> null
+14-08-2020 14:46:02 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 14:46:02 INFO [Runner_One]: The pomurl from pom> null
+14-08-2020 14:49:46 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 14:49:46 INFO [Runner_One]: The pomurl from pom> null
+14-08-2020 16:18:04 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 16:30:53 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 17:20:37 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 17:43:34 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 17:43:36 INFO [TestCases_One]: Closing the browser
+14-08-2020 17:44:46 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 17:45:13 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 17:51:11 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 17:54:44 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 17:59:58 INFO [BrowserFactory]: The chromedriver loaded from property file:> D:/Bivas/SelFrame/Drivers/chromedriver.exe
+14-08-2020 18:00:10 INFO [TestCases_One]: Starting the browser
+14-08-2020 18:00:10 INFO [TestCases_One]: creating object for parent page
+14-08-2020 18:00:10 INFO [TestCases_One]: Created parent page object
+14-08-2020 18:00:10 INFO [TestCases_One]: Create done object for parent page
+14-08-2020 18:01:54 INFO [BrowserFactory]: The chromedriver loaded from property file:> D:/Bivas/SelFrame/Drivers/chromedriver.exe
+14-08-2020 18:02:01 INFO [TestCases_One]: Starting the browser
+14-08-2020 18:02:01 INFO [TestCases_One]: creating object for parent page
+14-08-2020 18:02:01 INFO [TestCases_One]: Created parent page object
+14-08-2020 18:02:01 INFO [TestCases_One]: Create done object for parent page
+14-08-2020 18:02:01 INFO [TestCases_One]: TC- test_alllinks_of_main_page- started
+14-08-2020 18:03:33 INFO [BrowserFactory]: The chromedriver loaded from property file:> D:/Bivas/SelFrame/Drivers/chromedriver.exe
+14-08-2020 18:03:40 INFO [TestCases_One]: Starting the browser
+14-08-2020 18:03:40 INFO [TestCases_One]: creating object for parent page
+14-08-2020 18:03:40 INFO [TestCases_One]: Created parent page object
+14-08-2020 18:03:40 INFO [TestCases_One]: Create done object for parent page
+14-08-2020 18:03:40 INFO [TestCases_One]: TC- test_alllinks_of_main_page- started
+14-08-2020 18:04:49 INFO [BrowserFactory]: The chromedriver loaded from property file:> D:/Bivas/SelFrame/Drivers/chromedriver.exe
+14-08-2020 18:04:56 INFO [TestCases_One]: Starting the browser
+14-08-2020 18:04:56 INFO [TestCases_One]: creating object for parent page
+14-08-2020 18:04:56 INFO [TestCases_One]: Created parent page object
+14-08-2020 18:04:56 INFO [TestCases_One]: Create done object for parent page
+14-08-2020 18:04:56 INFO [TestCases_One]: TC- test_alllinks_of_main_page- started
+14-08-2020 18:05:10 INFO [TestCases_One]: TC- test_alllinks_of_main_page- ended
+14-08-2020 18:24:05 INFO [BrowserFactory]: The chromedriver loaded from property file:> D:/Bivas/SelFrame/Drivers/chromedriver.exe
+14-08-2020 18:24:13 INFO [TestCases_One]: Starting the browser
+14-08-2020 18:24:13 INFO [TestCases_One]: creating object for parent page
+14-08-2020 18:24:13 INFO [TestCases_One]: Created parent page object
+14-08-2020 18:24:13 INFO [TestCases_One]: Create done object for parent page
+14-08-2020 18:24:13 INFO [TestCases_One]: TC- test_alllinks_of_main_page- started
+14-08-2020 18:24:26 INFO [TestCases_One]: TC- test_alllinks_of_main_page- ended
+14-08-2020 19:15:38 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 19:21:25 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 19:23:40 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 19:24:50 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 19:24:51 INFO [BrowserFactory]: The chromedriver loaded from property file:> D:/Bivas/SelFrame/Drivers/chromedriver.exe
+14-08-2020 19:24:58 INFO [TestCases_One]: Starting the browser
+14-08-2020 19:24:58 INFO [TestCases_One]: creating object for parent page
+14-08-2020 19:24:58 INFO [TestCases_One]: Created parent page object
+14-08-2020 19:24:58 INFO [TestCases_One]: Create done object for parent page
+14-08-2020 19:35:37 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 19:35:37 INFO [BrowserFactory]: The chromedriver loaded from property file:> D:/Bivas/SelFrame/Drivers/chromedriver.exe
+14-08-2020 19:35:45 INFO [TestCases_One]: Starting the browser
+14-08-2020 19:35:45 INFO [TestCases_One]: creating object for parent page
+14-08-2020 19:35:45 INFO [TestCases_One]: Created parent page object
+14-08-2020 19:35:45 INFO [TestCases_One]: Create done object for parent page
+14-08-2020 19:36:04 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 19:36:04 INFO [BrowserFactory]: The chromedriver loaded from property file:> D:/Bivas/SelFrame/Drivers/chromedriver.exe
+14-08-2020 19:36:11 INFO [TestCases_One]: Starting the browser
+14-08-2020 19:36:11 INFO [TestCases_One]: creating object for parent page
+14-08-2020 19:36:11 INFO [TestCases_One]: Created parent page object
+14-08-2020 19:36:11 INFO [TestCases_One]: Create done object for parent page
+14-08-2020 19:36:13 INFO [TestCases_One]: Closing the browser
+14-08-2020 19:38:02 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 19:38:02 INFO [BrowserFactory]: The chromedriver loaded from property file:> D:/Bivas/SelFrame/Drivers/chromedriver.exe
+14-08-2020 19:38:09 INFO [TestCases_One]: Starting the browser
+14-08-2020 19:38:09 INFO [TestCases_One]: creating object for parent page
+14-08-2020 19:38:09 INFO [TestCases_One]: Created parent page object
+14-08-2020 19:38:09 INFO [TestCases_One]: Create done object for parent page
+14-08-2020 19:38:11 INFO [TestCases_One]: Closing the browser
+14-08-2020 19:38:47 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 19:38:48 INFO [BrowserFactory]: The chromedriver loaded from property file:> D:/Bivas/SelFrame/Drivers/chromedriver.exe
+14-08-2020 19:38:54 INFO [TestCases_One]: Starting the browser
+14-08-2020 19:38:54 INFO [TestCases_One]: creating object for parent page
+14-08-2020 19:38:54 INFO [TestCases_One]: Created parent page object
+14-08-2020 19:38:54 INFO [TestCases_One]: Create done object for parent page
+14-08-2020 19:38:54 INFO [TestCases_One]: Closing the browser
+14-08-2020 19:49:45 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 19:49:45 INFO [BrowserFactory]: The chromedriver loaded from property file:> D:/Bivas/SelFrame/Drivers/chromedriver.exe
+14-08-2020 19:49:52 INFO [TestCases_One]: Starting the browser
+14-08-2020 19:49:52 INFO [TestCases_One]: creating object for parent page
+14-08-2020 19:49:52 INFO [TestCases_One]: Created parent page object
+14-08-2020 19:49:52 INFO [TestCases_One]: Create done object for parent page
+14-08-2020 19:49:52 INFO [TestCases_One]: Closing the browser
+14-08-2020 19:51:31 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 19:51:31 INFO [BrowserFactory]: The chromedriver loaded from property file:> D:/Bivas/SelFrame/Drivers/chromedriver.exe
+14-08-2020 19:51:38 INFO [TestCases_One]: Starting the browser
+14-08-2020 19:51:38 INFO [TestCases_One]: creating object for parent page
+14-08-2020 19:51:38 INFO [TestCases_One]: Created parent page object
+14-08-2020 19:51:38 INFO [TestCases_One]: Create done object for parent page
+14-08-2020 19:51:38 INFO [TestCases_One]: Closing the browser
+14-08-2020 20:01:38 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 20:01:39 INFO [BrowserFactory]: The chromedriver loaded from property file:> D:/Bivas/SelFrame/Drivers/chromedriver.exe
+14-08-2020 20:01:45 INFO [TestCases_One]: Starting the browser
+14-08-2020 20:01:45 INFO [TestCases_One]: creating object for parent page
+14-08-2020 20:01:45 INFO [TestCases_One]: Created parent page object
+14-08-2020 20:01:45 INFO [TestCases_One]: Create done object for parent page
+14-08-2020 20:01:45 INFO [TestCases_One]: Closing the browser
+14-08-2020 20:04:29 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 20:04:29 INFO [BrowserFactory]: The chromedriver loaded from property file:> D:/Bivas/SelFrame/Drivers/chromedriver.exe
+14-08-2020 20:04:38 INFO [TestCases_One]: Starting the browser
+14-08-2020 20:04:38 INFO [TestCases_One]: creating object for parent page
+14-08-2020 20:04:38 INFO [TestCases_One]: Created parent page object
+14-08-2020 20:04:38 INFO [TestCases_One]: Create done object for parent page
+14-08-2020 20:04:38 INFO [TestCases_One]: Closing the browser
+14-08-2020 20:05:23 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 20:05:23 INFO [BrowserFactory]: The chromedriver loaded from property file:> D:/Bivas/SelFrame/Drivers/chromedriver.exe
+14-08-2020 20:05:33 INFO [TestCases_One]: Starting the browser
+14-08-2020 20:05:33 INFO [TestCases_One]: creating object for parent page
+14-08-2020 20:05:33 INFO [TestCases_One]: Created parent page object
+14-08-2020 20:05:33 INFO [TestCases_One]: Create done object for parent page
+14-08-2020 20:05:33 INFO [TestCases_One]: Closing the browser
+14-08-2020 20:09:59 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 20:09:59 INFO [BrowserFactory]: The chromedriver loaded from property file:> D:/Bivas/SelFrame/Drivers/chromedriver.exe
+14-08-2020 20:10:06 INFO [TestCases_One]: Starting the browser
+14-08-2020 20:10:06 INFO [TestCases_One]: creating object for parent page
+14-08-2020 20:10:06 INFO [TestCases_One]: Created parent page object
+14-08-2020 20:10:06 INFO [TestCases_One]: Create done object for parent page
+14-08-2020 20:10:06 INFO [TestCases_One]: Closing the browser
+14-08-2020 20:10:57 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 20:10:58 INFO [BrowserFactory]: The chromedriver loaded from property file:> D:/Bivas/SelFrame/Drivers/chromedriver.exe
+14-08-2020 20:11:04 INFO [TestCases_One]: Starting the browser
+14-08-2020 20:11:04 INFO [TestCases_One]: creating object for parent page
+14-08-2020 20:11:04 INFO [TestCases_One]: Created parent page object
+14-08-2020 20:11:04 INFO [TestCases_One]: Create done object for parent page
+14-08-2020 20:11:04 INFO [TestCases_One]: Closing the browser
+14-08-2020 20:24:16 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 20:24:16 INFO [BrowserFactory]: The chromedriver loaded from property file:> D:/Bivas/SelFrame/Drivers/chromedriver.exe
+14-08-2020 20:24:23 INFO [TestCases_One]: Starting the browser
+14-08-2020 20:24:23 INFO [TestCases_One]: creating object for parent page
+14-08-2020 20:24:23 INFO [TestCases_One]: Created parent page object
+14-08-2020 20:24:23 INFO [TestCases_One]: Create done object for parent page
+14-08-2020 20:24:23 INFO [TestCases_One]: Closing the browser
+14-08-2020 20:32:55 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 20:32:55 INFO [BrowserFactory]: The chromedriver loaded from property file:> D:/Bivas/SelFrame/Drivers/chromedriver.exe
+14-08-2020 20:33:01 INFO [TestCases_One]: Starting the browser
+14-08-2020 20:33:01 INFO [TestCases_One]: creating object for parent page
+14-08-2020 20:33:02 INFO [TestCases_One]: Created parent page object
+14-08-2020 20:33:02 INFO [TestCases_One]: Create done object for parent page
+14-08-2020 20:33:02 INFO [TestCases_One]: Closing the browser
+14-08-2020 20:37:13 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 20:37:14 INFO [BrowserFactory]: The chromedriver loaded from property file:> D:/Bivas/SelFrame/Drivers/chromedriver.exe
+14-08-2020 20:37:21 INFO [TestCases_One]: Starting the browser
+14-08-2020 20:37:21 INFO [TestCases_One]: creating object for parent page
+14-08-2020 20:37:21 INFO [TestCases_One]: Created parent page object
+14-08-2020 20:37:21 INFO [TestCases_One]: Create done object for parent page
+14-08-2020 20:37:21 INFO [TestCases_One]: Closing the browser
+14-08-2020 20:37:24 INFO [TestCases_One]: Closed and quit the browser
+14-08-2020 20:41:12 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 20:41:12 INFO [BrowserFactory]: The chromedriver loaded from property file:> D:/Bivas/SelFrame/Drivers/chromedriver.exe
+14-08-2020 20:41:19 INFO [TestCases_One]: Starting the browser
+14-08-2020 20:41:19 INFO [TestCases_One]: creating object for parent page
+14-08-2020 20:41:19 INFO [TestCases_One]: Created parent page object
+14-08-2020 20:41:19 INFO [TestCases_One]: Create done object for parent page
+14-08-2020 20:41:19 INFO [TestCases_One]: Closing the browser
+14-08-2020 20:41:55 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 20:41:55 INFO [BrowserFactory]: The chromedriver loaded from property file:> D:/Bivas/SelFrame/Drivers/chromedriver.exe
+14-08-2020 20:42:01 INFO [TestCases_One]: Starting the browser
+14-08-2020 20:42:01 INFO [TestCases_One]: creating object for parent page
+14-08-2020 20:42:01 INFO [TestCases_One]: Created parent page object
+14-08-2020 20:42:01 INFO [TestCases_One]: Create done object for parent page
+14-08-2020 20:42:01 INFO [TestCases_One]: Closing the browser
+14-08-2020 20:42:04 INFO [TestCases_One]: Closed and quit the browser
+14-08-2020 20:42:27 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 20:42:27 INFO [BrowserFactory]: The chromedriver loaded from property file:> D:/Bivas/SelFrame/Drivers/chromedriver.exe
+14-08-2020 20:42:34 INFO [TestCases_One]: Starting the browser
+14-08-2020 20:42:34 INFO [TestCases_One]: creating object for parent page
+14-08-2020 20:42:34 INFO [TestCases_One]: Created parent page object
+14-08-2020 20:42:34 INFO [TestCases_One]: Create done object for parent page
+14-08-2020 20:42:34 INFO [TestCases_One]: Closing the browser
+14-08-2020 20:42:37 INFO [TestCases_One]: Closed and quit the browser
+14-08-2020 20:45:38 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 20:45:38 INFO [BrowserFactory]: The chromedriver loaded from property file:> D:/Bivas/SelFrame/Drivers/chromedriver.exe
+14-08-2020 20:45:45 INFO [TestCases_One]: Starting the browser
+14-08-2020 20:45:45 INFO [TestCases_One]: creating object for parent page
+14-08-2020 20:45:45 INFO [TestCases_One]: Created parent page object
+14-08-2020 20:45:45 INFO [TestCases_One]: Create done object for parent page
+14-08-2020 20:50:07 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 20:50:08 INFO [BrowserFactory]: The chromedriver loaded from property file:> D:/Bivas/SelFrame/Drivers/chromedriver.exe
+14-08-2020 20:50:15 INFO [TestCases_One]: Starting the browser
+14-08-2020 20:50:15 INFO [TestCases_One]: creating object for parent page
+14-08-2020 20:50:15 INFO [TestCases_One]: Created parent page object
+14-08-2020 20:50:15 INFO [TestCases_One]: Create done object for parent page
+14-08-2020 20:50:15 INFO [TestCases_One]: Closing the browser
+14-08-2020 20:50:18 INFO [TestCases_One]: Closed and quit the browser
+14-08-2020 21:11:19 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 21:11:19 INFO [BrowserFactory]: The chromedriver loaded from property file:> D:/Bivas/SelFrame/Drivers/chromedriver.exe
+14-08-2020 21:11:25 INFO [TestCases_One]: Starting the browser
+14-08-2020 21:11:25 INFO [TestCases_One]: creating object for parent page
+14-08-2020 21:11:25 INFO [TestCases_One]: Created parent page object
+14-08-2020 21:11:25 INFO [TestCases_One]: Create done object for parent page
+14-08-2020 21:11:25 INFO [TestCases_One]: Closing the browser
+14-08-2020 21:11:28 INFO [TestCases_One]: Closed and quit the browser
+14-08-2020 21:12:59 INFO [Runner_One]: The path of log4j.xml from property file: null
+14-08-2020 21:12:59 INFO [BrowserFactory]: The chromedriver loaded from property file:> D:/Bivas/SelFrame/Drivers/chromedriver.exe
+14-08-2020 21:13:05 INFO [TestCases_One]: Starting the browser
+14-08-2020 21:13:05 INFO [TestCases_One]: creating object for parent page
+14-08-2020 21:13:05 INFO [TestCases_One]: Created parent page object
+14-08-2020 21:13:05 INFO [TestCases_One]: Create done object for parent page
+14-08-2020 21:13:05 INFO [TestCases_One]: Closing the browser
+14-08-2020 21:13:08 INFO [TestCases_One]: Closed and quit the browser
+15-08-2020 13:42:34 INFO [Runner_One]: The path of log4j.xml from property file: null
+15-08-2020 13:42:34 INFO [BrowserFactory]: The chromedriver loaded from property file:> D:/Bivas/SelFrame/Drivers/chromedriver.exe
+15-08-2020 13:42:42 INFO [TestCases_One]: Starting the browser
+15-08-2020 13:42:42 INFO [TestCases_One]: creating object for parent page
+15-08-2020 13:42:42 INFO [TestCases_One]: Created parent page object
+15-08-2020 13:42:42 INFO [TestCases_One]: Create done object for parent page
+15-08-2020 13:42:42 INFO [TestCases_One]: Closing the browser
+15-08-2020 13:42:45 INFO [TestCases_One]: Closed and quit the browser
+15-08-2020 13:48:09 INFO [Runner_One]: The path of log4j.xml from property file: null
+15-08-2020 13:48:09 INFO [Runner_One]: The environment variable from pom:> null
+15-08-2020 13:48:09 INFO [Runner_One]: The type of browser from pom:> null
+15-08-2020 19:52:13 INFO [Runner_One]: The path of log4j.xml from property file: null
+15-08-2020 19:52:13 INFO [Runner_One]: The environment variable from pom:> null
+15-08-2020 19:52:13 INFO [Runner_One]: The type of browser from pom:> null
+15-08-2020 19:54:12 INFO [Runner_One]: The path of log4j.xml from property file: null
+15-08-2020 19:54:12 INFO [Runner_One]: The environment variable from pom:> null
+15-08-2020 19:54:12 INFO [Runner_One]: The type of browser from pom:> null
+15-08-2020 19:55:24 INFO [Runner_One]: The path of log4j.xml from property file: null
+15-08-2020 19:55:24 INFO [Runner_One]: The environment variable from pom:> null
+15-08-2020 19:55:24 INFO [Runner_One]: The type of browser from pom:> null

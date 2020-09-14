@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SuiteTestGroup1" duration-ms="484" started-at="2020-09-06T15:11:25Z" finished-at="2020-09-06T15:11:26Z">
+    <groups>
+      <group name="A">
+        <method signature="TestGroup1.verifyTest1()[pri:0, instance:demo2b.DemoTestNG.TestGroup1@204f30ec]" name="verifyTest1" class="demo2b.DemoTestNG.TestGroup1"/>
+      </group> <!-- A -->
+      <group name="B">
+        <method signature="TestGroup1.verifyTest2()[pri:0, instance:demo2b.DemoTestNG.TestGroup1@204f30ec]" name="verifyTest2" class="demo2b.DemoTestNG.TestGroup1"/>
+      </group> <!-- B -->
+      <group name="C">
+        <method signature="TestGroup1.verifyTest3()[pri:0, instance:demo2b.DemoTestNG.TestGroup1@204f30ec]" name="verifyTest3" class="demo2b.DemoTestNG.TestGroup1"/>
+      </group> <!-- C -->
+      <group name="D">
+        <method signature="TestGroup1.verifyTest4()[pri:0, instance:demo2b.DemoTestNG.TestGroup1@204f30ec]" name="verifyTest4" class="demo2b.DemoTestNG.TestGroup1"/>
+      </group> <!-- D -->
+      <group name="E">
+        <method signature="TestGroup1.verifyTest5()[pri:0, instance:demo2b.DemoTestNG.TestGroup1@204f30ec]" name="verifyTest5" class="demo2b.DemoTestNG.TestGroup1"/>
+      </group> <!-- E -->
+      <group name="F">
+        <method signature="TestGroup1.verifyTest6()[pri:0, instance:demo2b.DemoTestNG.TestGroup1@204f30ec]" name="verifyTest6" class="demo2b.DemoTestNG.TestGroup1"/>
+      </group> <!-- F -->
+      <group name="G">
+        <method signature="TestGroup1.verifyTest7()[pri:0, instance:demo2b.DemoTestNG.TestGroup1@204f30ec]" name="verifyTest7" class="demo2b.DemoTestNG.TestGroup1"/>
+      </group> <!-- G -->
+      <group name="H">
+        <method signature="TestGroup1.verifyTest8()[pri:0, instance:demo2b.DemoTestNG.TestGroup1@204f30ec]" name="verifyTest8" class="demo2b.DemoTestNG.TestGroup1"/>
+      </group> <!-- H -->
+      <group name="I">
+        <method signature="TestGroup1.verifyTest9()[pri:0, instance:demo2b.DemoTestNG.TestGroup1@204f30ec]" name="verifyTest9" class="demo2b.DemoTestNG.TestGroup1"/>
+      </group> <!-- I -->
+    </groups>
+    <test name="beforegroup" duration-ms="484" started-at="2020-09-06T15:11:25Z" finished-at="2020-09-06T15:11:26Z">
+      <class name="demo2b.DemoTestNG.TestGroup1">
+        <test-method status="PASS" signature="verifyTest1()[pri:0, instance:demo2b.DemoTestNG.TestGroup1@204f30ec]" name="verifyTest1" duration-ms="31" started-at="2020-09-06T20:41:25Z" finished-at="2020-09-06T20:41:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTest1 -->
+        <test-method status="PASS" signature="verifyTest2()[pri:0, instance:demo2b.DemoTestNG.TestGroup1@204f30ec]" name="verifyTest2" duration-ms="0" started-at="2020-09-06T20:41:26Z" finished-at="2020-09-06T20:41:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTest2 -->
+        <test-method status="PASS" signature="verifyTest3()[pri:0, instance:demo2b.DemoTestNG.TestGroup1@204f30ec]" name="verifyTest3" duration-ms="0" started-at="2020-09-06T20:41:26Z" finished-at="2020-09-06T20:41:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTest3 -->
+        <test-method status="PASS" signature="verifyTest4()[pri:0, instance:demo2b.DemoTestNG.TestGroup1@204f30ec]" name="verifyTest4" duration-ms="0" started-at="2020-09-06T20:41:26Z" finished-at="2020-09-06T20:41:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTest4 -->
+        <test-method status="PASS" signature="verifyBeforeTest()[pri:0, instance:demo2b.DemoTestNG.TestGroup1@204f30ec]" name="verifyBeforeTest" is-config="true" duration-ms="0" started-at="2020-09-06T20:41:26Z" finished-at="2020-09-06T20:41:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBeforeTest -->
+        <test-method status="PASS" signature="verifyTest5()[pri:0, instance:demo2b.DemoTestNG.TestGroup1@204f30ec]" name="verifyTest5" duration-ms="16" started-at="2020-09-06T20:41:26Z" finished-at="2020-09-06T20:41:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTest5 -->
+        <test-method status="PASS" signature="verifyTest6()[pri:0, instance:demo2b.DemoTestNG.TestGroup1@204f30ec]" name="verifyTest6" duration-ms="0" started-at="2020-09-06T20:41:26Z" finished-at="2020-09-06T20:41:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTest6 -->
+        <test-method status="PASS" signature="verifyTest7()[pri:0, instance:demo2b.DemoTestNG.TestGroup1@204f30ec]" name="verifyTest7" duration-ms="15" started-at="2020-09-06T20:41:26Z" finished-at="2020-09-06T20:41:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTest7 -->
+        <test-method status="PASS" signature="verifyTest8()[pri:0, instance:demo2b.DemoTestNG.TestGroup1@204f30ec]" name="verifyTest8" duration-ms="0" started-at="2020-09-06T20:41:26Z" finished-at="2020-09-06T20:41:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTest8 -->
+        <test-method status="PASS" signature="verifyTest9()[pri:0, instance:demo2b.DemoTestNG.TestGroup1@204f30ec]" name="verifyTest9" duration-ms="0" started-at="2020-09-06T20:41:26Z" finished-at="2020-09-06T20:41:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTest9 -->
+        <test-method status="PASS" signature="verifyBeforeTest()[pri:0, instance:demo2b.DemoTestNG.TestGroup1@204f30ec]" name="verifyBeforeTest" is-config="true" duration-ms="0" started-at="2020-09-06T20:41:26Z" finished-at="2020-09-06T20:41:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBeforeTest -->
+      </class> <!-- demo2b.DemoTestNG.TestGroup1 -->
+    </test> <!-- beforegroup -->
+  </suite> <!-- SuiteTestGroup1 -->
+</testng-results>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite_group_annotation">
+  <test  name="beforegroups > cricket">
+    <classes>
+      <class name="com.Test_ng.group_in_group_1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite_group_annotation -->

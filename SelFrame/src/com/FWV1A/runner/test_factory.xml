@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+
+<parameter name="filepath"
+		value="C:/workspace/SelFrame/src/com/FWV1A/runner/Jenkin_DP.xlsx" />
+	<parameter name="sheetname" value="ProjectToCreate" />
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.FWV1A.runner.Factory_create_New_Projects"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
