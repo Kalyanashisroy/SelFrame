@@ -1,0 +1,2384 @@
+Page Object Model in Selenium Webdriver Step by Step Guide:
+-----------------------------------------------------------------------------------
+POM:Page object model
+1.Page object model is just a design pattern not a framework.
+2.As the name says we will be working as pages(pages will be pure java classes)
+3.Based on application behavior we will be creating separate pages and will store all the
+ locator and respective method to use them.
+Advantage:1)Script will be more readable format.
+2)Using POM you will be able to achieve below three features easy to maintain,readable format,
+reusable scripts.
+
+>There are 2 ways to implement
+1)Using normal approach
+2)Using PageFactory and @findBy
+
+Page factory:1)In order to support the PageObject pattern,WebDriver's support library contains a factory class.
+2)We have separate method to initialize web elemet of page object is initelemet.
+3)Important feature of page factory is cache feature that will store all frequently used webelement in cache.
+
+=======================================================================================
+What is framwork in selenium webdriver:
+------------------------------------------------------
+Intro to Framework:
+1)Let us talk about a simple situation where I ask a few team members to write different tests on 
+same application.The starting point would be a set of requirements that I want everybody to adhere.
+2)Automate some piece of functionality.
+3)Implement logging.
+4)Implement reporting.
+5)All the members will go back to their seats,will read the requirements assigned to them and will 
+write the tests in a way that they are most comfortable with.
+What's the problem here?
+-->All the tests will be written in different ways.That will cause a problem in running them together.
+-->All the tests will have custom ways of loggin,that will bring in problem in collecting logs at the end 
+    of test run.
+-->All the testa will have different ways to fetch test data,some will be hardcoded and some will pick 
+    from XML or excel sheets.
+-->As the test are on some application,there is a high probability that all test will pass through common
+    areas of application.It will cause duplication of code every where.
+-->All test will report pass of fail in  their own way.Causing report collection a nightmare.
+-->Now all tests are different,so running them would also be different.A custom runner for every test is just
+    an insane thought.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Why we need Framework:
+----------------------------------
+-->The initial requirement of having a standard way of writing tests is what will evolve into a framework.
+-->Every company or team can have different frameworks but the whole idea will be to have a common 
+   set of rules.
+-->Note-Framework development takes time
+
+What is a Framework:
+-->A framework is set of assumptions,concepts and practices that need to be followed.
+-->Something similar to the syntax of a programming language.Syntax sets the rules.In a testing framework
+    it could be the standard with which a test class needs to be designed or a standard which should always
+    be followed to perform test logging.
+
+Components of framewoorks:
+-->The first problem that we came across we found the need of having a test writing a standard,where test 
+    will be written in a specific format that will enable us to have a uniformity around all the tests.
+
+Req 1)Test case standardization.
+Req 2)Loggin standardization.
+Req 3)Test data and configuration utility.
+Req 4)Helper/Utililty library.
+Fourth problem that we saw was in terms of having function/procedures that help us perform fuctions in 
+      the overlapping area of functionality without knowing the details of that functionality.
+      Eg. Lets say you want to test the payment gateway but to reach there you have to go through by login.
+      So login can be a function/procedure or a module to abstract out logging complexity.
+Req 5)Test execution engine
+      As all the tests were different we were not able to run them in a consistent way.This gives a need to 
+      have a consistent test running calls defined by
+Req 6)Reporting utility
+     Reporting was big concern as all the test for not conforming to a fixed reporting pattern.
+     This gives a rise to
+
+Basic framework design:
+
+         Test Runner       DataProvider
+         Reporter             Helper/Reusable
+         Logger                Tests 		
+
+--------------------------------------------------------------------------------------------------------------------------------------
+B)How to setup Maven project for hybrid framework:
+Tools & concepts you should know
+
+Maven-Build tool
+TestNG-Unit testing framework
+Jenkins-CI tool
+Git-SCM tools
+Github-Web based code repository
+Page object model-Design pattern
+Reading external files(Excel and config)
+Selenium concepts-Dealing with webelements and so on
+
+Flow
+Jenkins----->Github------->Local system (Framework)------->
+
+About eclipse-version oxygen release (4.7.0)
+=========================================================================================
+How To Integrate Framework With Git and Github:
+------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------
+
+Push-Submit the code to central repository
+Pull-Pull or download the code from central library
+
+1.GIT:
+a)GIT is version control system for tracking changes in computer files.
+b)SCM-Source code management.
+c)Git is a mature,actively maintained open source project originally developed in 2005 by Linus Torvalds.
+d)It helps in coordinating work on those files among multiple people.
+e)It is primarily used for software development.
+
+2.GITHUB:
+a)GitHub is a web-based GIT.
+b)The site was launched in April 2008 by Tom Preston-Werner.
+c)GitHub is mostly usded for code.
+d)It offers all of the distributed version control and source code management(SCM) functionality
+ of Git as well as adding its won features.
+
+3.Others features of GitHub:
+a)Documentation,including automatically rendered README files.
+b)Issues tracking(including feature requests) with labels,milestones,assignees and a search engine.
+c)Wikkis.
+d)Commits history.
+
+4.a)Git by default via eclipse/b)Git from official site c)git cmd
+Click on prospective button>select git
+
+Step to follow to create GitHub:
+Step 1:First of all central or github repository
+github.com/framework.git
+/Kalyanashisroy/KRFramework.git
+C:\Users\KALYANASHIS\git\KRFramework
+2.Push:Need to create account>then need to verification(optional if you create private need have to pay 
+money)>Click new repository>verify email address(if you already exit user it will not ask you to verify)>
+Repository name need to give>description>Click on create repository>under Clone with HTTPS copy url>
+then go to eclipse click on clone a Git repository>after that need have to give user and password ,
+select check box of store in secure store and click on next button ,again click on next button -then
+ it will creating or cloning (C:\Users\KALYANASHIS\git\Framework) in this particular workspace,then 
+click on finish button>right click on project go to team>share project>select repository>click on finish
+ button>then go to Git repositories select the git which you want to push>click on git staging>select all >
+drag and drop to staged changes location>then need to write commit messages this is optional>
+author and committer email address need to give>then click on commit and push>then click ok button.
+
+Pull:to create pull click on create new file>need to create any type file like txt or config file then click on
+ commit new file button>then go to particular project right click on project>team>click on pull>then select
+ the changes whatever you have made changes in central repository>click on close
+
+To add team member on my existing project:click on settings>click on collaborators(Manage access)>
+https://github.com/MukeshOtwani/Framework
+
+=====================================================================================
+How To Create Maven build For Selenium Framework:
+-----------------------------------------------------------------------
+
+Maven surefire plugin: The surefire plugin is used during the test phase of the build 
+lifecycle to execute the unit tests of an application.It generates reports in two different file
+formats :
+ -->Plain test files(*.txt) 
+-->XML files(*.xml)
+
+1.Copy suite xml files>inside POM.xml add build tag >paste suite xml files>Create one folder(XMLFiles>testngmaven.xml)>
+save the pom.xml
+2.Right click on pom.xml run as maven clean(Maven clean what exact it does it will go to your project and 
+ your project folder target will delete Maven clean will clean target folder)>then right click on pom.xml 
+run as maven install(Maven install will do things firts it will check any dependency there or not if yes it
+will skip if not it will download 2nd part it will build complete project ,it will generate jar and it will 
+run your test as well.)
+
+[If get no compliler is provided please consider adding JDK-window>preferences>search for jre hit enter>
+install jres>click add>select standard vm>next>click directory button>then navigate to jdk>
+select jdk>click apply>apply and close]
+
+3.Go to POM.xml inside configuration under suiteXmlFiles add <systemPropertyVariables> then add <
+ variable browser and url close the>then go to base class add @parameters tag and inside setup method pass the 
+parameter browser and url. To run maven need to add parameter inside maven build>right click on pom.xml then
+run as maven build>under m2 Maven build>click on particular project >under main tag>you can give any 
+name to run the particular  project> in place of Goals write mvn clean install >click on add button>on pop up 
+will come >in place of name write parameter name in this case parameter name is browser> in place of 
+value write parameter value is Chrome>then we can add for your necessary parameter >click ok button>
+click apply button and press run button> 
+
+4.To install apache maven: download maven>apache-maven-3.6.3-bin.zip>apache-maven-3.6.3-bin>go to advanced system settinngs>
+environmental variables>under user variables for Kalyanashis click new button >variable name=MAVEN_HOME>
+variable value=apache maven path need have to give where exact maven is located>then click on ok button>
+then under system variables go path variable  click on  edit button>press end button append semi-colon and 
+paste the path of apache maven till bin append semi-colon>then click on ok button>then again click on ok 
+button>Then go to cmd prompt>type mvn it will show build failure>to check mvn version type mvn --version>
+Then go to project location in cmd prompt>
+type mvn clean>then type mvn install(in that case build will failed ,you have to pass the parameter)>
+mvn install -Dbrowser=Chrome -DUrlToBeTested=https://classic.crmpro.com/index.html -DCRMxmlFiles=
+testng.xml then hit enter
+
+===========================================================================================
+Selenium Integration with Jenkins and Github:
+--------------------------------------------------------------
+1.download jenkins>generic java package(.war)>open cmd prompt>java -jar war file location --httpPort=
+8084(instead of 8080)>
+localhost:8080>if you get unlock jenkins copy path and paste .jenkins location>[if you get offline>
+go to jenkins home direrctory>hudson.model.UpdateCenter open with nodepad++ >then change https to 
+http after save it>]then copy initial admin password paste it >continue>to stop jenkins press control c>
+install suggested plugins>then it will take 10 to 15 minutes to install plugins>then you will get admin 
+user page>then need  to fill the admin user page >then save and continue[after if I want to change 
+configuration Jenkins URL then need to provide URL ]>save and finish>start using 
+jenkins>manage jenkins>click global tool configuration>jdk installations> jdk name>java_home path>
+uncheck install automatically>maven installations>maven name>maven_home>uncheck install 
+automatically >save >To set email notification>configure system>
+
+To create new job click on New Item>need to give item name(any suitable name you can give)>click on 
+freestyle project>click on ok>Then click on project name>general(need to give description this is optional)>
+click on build>click on execute windows batch command(in place of command section type java -version) 
+I can add n number of batch command>again click on execute windows batch command(in place of 
+command section type mvn -version)>click on save>click on build now>
+
+2.To check Green ball plugins>Manage Jenkins>Manage plugins>available>green balls>To restart 
+jenkins press ctrl+c
+
+3.To categories job click on + button>view name>list view>click on which job you want to select>click ok>
+click on save.
+
+4.To trigger selenium project via Jenkins>click on New Item>Give any meaning full name(RegressionTest)>
+Select Maven project>click on ok>Description(This job will run all regression test)>to run local>
+click on Build>in place of Root POM need to give project path
+(C:\Users\KALYANASHIS\git\KRFramework\KRFramework\pom.xml)>in place of Goals and options need
+to write clean install -Dbrowser=Chrome -DUrlToBeTested=https://classic.crmpro.com/index.html 
+-DCRMxmlFiles=testng.xml>click on save>
+
+5.To download code from github:Click on configure>click on source code management>click on git radio 
+button>then go to github central repository>copy project url(Particular project)>then come to jenkins git
+location(and paste repository url(https://github.com/Kalyanashisroy/KRFramework.git)>click on add>
+click jenkins>need to give username and password>click add button>then go to build>give project folder
+name which is under pom.xml is existing.>click on save>then click on build now>user name(uptodate.kr@
+gmail.com>password>use ssl> SMTP port(465)>charset(UTF-8)>
+
+6.To change different browser user need to come again again and need to change browser.To parameter 
+pass in Jenkins>To pass parameterized go to general>select This project is parameterized>click on add
+parameter>select string parameter>in place of name need to give meaningfull name(Application)>
+Defaul value(https://classic.crmpro.com/index.html)>Description(any thing which you want)>If you want
+to add multiple parameter >select choice parameter>Name(Browser)>Choices(Chrome/Firefox/Opera/IE)>
+Description(Any thing you can add)>If you not give default value it will take by default value but user can 
+change it>Again click string parameter>Name(XMLSuite)>Default value(testng.xml)>despcription()>
+Then go to build>in place of Goals and options need to pass parameter
+(clean install -Dbrowser=$Browser-DUrlToBeTested=$Application -DCRMxmlFiles=$XMLSuite)>
+click on save>then click on build with parameters>it will ask which browser you want to run>If I want to 
+change I can change the url and browser as well>click on build>
+
+7.Post build actions:to publish testng report>after complete step no 8. again go to post build actions>
+select editable email notification>triggers>always>send to recipient list>
+
+8.To send email:click manage jenkins>configure system>go to extended e-mail notification>SMTP server(
+smtp.gmail.com)>Default user e-mail suffix(@gmail.com)>
+
+===========================================================================================
+How To Publish Report in Jenkins and Schedule Selenium Build in Jenkins:
+-----------------------------------------------------------------------------------------------------
+
+1.Cron pattern:The software utility cron is a time-based job scheduler in Unix-like computer operating 
+systems.Users that set up and maintain software environments use cron to schedule jobs (commands or 
+shell scripts) to run periodically at fixed times, dates, or intervals.
+Go to created job>click on configure>go to build triggers>select build periodically>in place of schedule need
+to write 36 19 * * * that means 7 36 it should starts>click on save>
+
+To select poll scm:go to created job>click on configure>go to triggers>select Poll SCM>in place of schedule
+need to write that means it will try to poll after every minute.>click on save>go to github central repository>
+go to project location click on create new file>write SCMFiles>click on commit new file>
+
+How to identify who is running the build and to cross verify who is running the build:
+-->Started by timer it means it has been triggered automatically by the cron pattern which you set.
+-->If some body triggered manually it should started my Kalyan or some other user's.
+-->If started by SCM changes means it has been triggered by poll SCM which you set.
+
+2.How to publish HTML report:(In order to do that in google type for html publisher plugin jenkins)>
+click manage jenkins>click on manage plugins>click on available>search for html publisher and hit enter>
+Then it will ask (install without restart or download now and install after restart) for your convenient you 
+do whatever you want>click on configure>go to post-build actions click on add post-build action>click
+on publish html reports>click on add button>in place of index page[s] need to write like that
+(KRFramework\Reports\FreeCRM.html)>in place of report title need to write like that 
+(LearnAutomationReport)>click on save>
+
+Groovy script in order to display report properly:Click on Jenkins>click on manage jenkins>
+click on script console>write System.setProperty("hudson.model.DirectoryBrowserSupport.CSP","")>
+click on run button
+
+=========================================================================================
+How to Clone Github repository using SSHKey:
+--------------------------------------------------------------
+1.What is SSH key:An SSH key is an access credential in the SSH protocol.Its function is similar to that of
+username and password,but the keys are primarily used for automated processes and for implementing
+single sign-on by system administrators and power users.
+
+https://www.youtube.com/watch?v=y2SWzw9D4RA(How SSH works)
+
+2.How to generate SSH key:go to eclipse>click on window>click on preferences>click on general>click on
+network connections>click on SSH2>click on key management>click on generate RSA key>copy content of
+generate RSA key (ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQCc0gqcSoxE/2qKgcUZLcy7Fo0PpoUkc
+H7e8IXEIJdGL8h8CkUgBjkTCksQsZjoscYIiwtB2Q6R5mJoeFY6JhGmXQ5Y/YgsbRaUfzDTas5qTnT+x9wGY
+YdTR9fihGLn6UOjDJB8kUnbhusxSpi3PO9sMAmbFLNTnHHE74TEGhrVWQ== RSA-1024)>click on save
+private key>it will ask you want to save it without password>click on yes>
+
+3.How to add SSH key in your github:Then go to github account>
+click on signed in as (Kalyanashisroy) then click on settings>click on SSH and GPG keys>then click on 
+new SSH key button>then need to give title(KRSystem) and need to paste generated eclipse key 
+which I paste in notepad in key section>then click on add SSH key button>
+
+4.How to clone github repo in Jenkins using SSH:to create duplicate new job click on new item>give name 
+>then copy from type same previous name >click on ok button>go to source code management>credentials
+make it none>in place of repository url (git@github.com:Kalyanashisroy/KRFramework.git)>click on save>
+go to created job>click on configure>
+
+https://github.com/Kalyanashisroy/KRFramework.git
+git@github.com:Kalyanashisroy/KRFramework.git
+
+====================================================================================
+Syntax for different kind of report:
+--------------------------------------------
+plugin={"html:target/cucumber-html-report",
+"json:target/cucumber.json","pretty:target/cucumber-pretty.txt",
+"usage:target/cucumber-usage.json","junit:target/cucumber-result.xml"}
+====================================================================================
+Maven Integration With Jenkins:
+-------------------------------------------
+1.Manage Jenkins>Global tool configuration>go to maven installations>name>MAVEN_HOME>
+MAVEN-HOME=D:\Software\apache-maven-3.6.3-bin\apache-maven-3.6.3>click on add maven button>
+click on apply>click on save button
+2.Click on new item>select maven project >build(root pom=C:\Users\KALYANASHIS\eclipse-workspace\Learn-Automation\pom.xml)
+ and goals and options=clean install>apply>save>click on build now
+
+======================================================================================
+KRFramework Maven Dependency:
+----------------------------------------------
+<dependencies>
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.14.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.10</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>4.0.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.17</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.17</version>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M4</version>
+				<configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>XMLFiles/${CRMxmlFiles}</suiteXmlFile>
+					</suiteXmlFiles>
+					
+					<systemPropertyVariables>
+					<executionBrowser>${browser}</executionBrowser>
+					<crmURL>${UrlToBeTested}</crmURL>
+					
+					</systemPropertyVariables>
+					
+					
+				</configuration>
+			</plugin>
+		</plugins>
+
+	</build>
+=============================================================================================================
+Different version: 
+About eclipse-version oxygen release (4.7.0)/ Current version (4.10)
+
+1.Apache Maven: Previous:3.3.1    /   Current:3.6.3
+2.Selenium-java :Previous:3.12.0  /Current :4.0.0.alpha-6
+3.Extentreports :Previous :3.1.5     /Current :4
+4.TestNG : Previous :6.10    /Current :7.1.0
+5.Log 4j 2: log4j-core : Previous :2.13.1    /Current :2.13.2
+6.Log 4j 2 : log4j-api : Previous :2.13.1    /Current :2.13.2
+7.Jenkins : Previous : 2.60.2        /Current :2.222.3
+8.maven-surefire-plugin: Previous :2.19.1 /Current :3.0.0-M4
+9.poi :Previous :3.16 /Current : 4.1.2
+10.poi-ooxml: Previous :3.16 /Current :4.1.2
+11.Firefox : Previous :    46 (0.19.1)    /Current :0.26.0
+12.Chrome : Previous :      70      /Current : 83
+13.Safari : Previous :         9   /Current : 13
+14.Opera : Previous :     68       /Current : 81
+15.IE : Previous :     9       /Current : 11
+16.Edge : Previous :      75      /Current : 81
+17.Cucumber -junit: Previous 1.2.2   /Current : 1.2.6
+18.Cucumber-java   : Previous 1.2.2   /Current :1.2.6
+19.Junit    :Previous :4.11    /Current :4.13
+20.maven-compiler-plugin :Previous: 3.0/ Current: 3.8.1
+21.Apache JMeter5.3 :Previous 3.0/Current :5.3
+22.Appium   : Previous :1.10.0 /Current :1.17.1
+23.Appium doctor : Previous :    /Current :1.15.3
+===========================================================================================================
+
+
+
+
+
+
+
+
+===========================================================================================================
+Cucumber Naveen:
+1.Create maven project>copy maven dependency and save it>under sr/main/java create a package CRMFeature
+>under CRMFeature create a file Login.feature>Go to eclipse market place install natural or if it is not 
+available go to this url (https://marketplace.eclipse.org/content/natural) drag and drop into eclipse>Then 
+inside Login.feature need to write 
+Feature: Free CRM Login Feature
+Scenario: Free CRM Login Test Scenario
+Given user is already on login page
+When title of login page is free CRM
+Then user enter username and password
+Then user click on login button
+And user is on home page
+Why feature file showing yellow mark : If you not written step definition then only feature file will show
+yellow mark.If you write step definition yellow mark automatically will remove.
+
+2.CucumberOptions:
+dryRun:It means every thing is fine or not.Whatever the mapping you have done it is correct or not.It will 
+check the mapping of feature and step definition file correct or not.If dryRun=true inside TestRunner if any
+step is missing or not it will check for example inside step definition 100 step is there if by forget any steps 
+is missing if you run the test runner on the console it will show which steps has been missed.First time 
+you have to do dryRun=true if every steps working fine means you can change it to dryRun=false.
+
+dryRun:To check the mapping is proper between feature file and step definition file. 
+Features:The path of the features files or packages.
+glue:The path of the step definition.
+tags:
+Monochrome:Display the console output in a proper readable format.
+Format:To generate different type of reporting.
+Strict:It will check if any step is not defined in step definition file.
+
+3.Data driven testing using cucumber:
+
+1.Simple data driven-without examples keyword:
+
+In feature file you have to write like this 
+Feature: Free CRM Login Feature
+Scenario: Free CRM Login Test Scenario
+Given user is already on login page
+When title of login page is free CRM
+Then user enter "kgec.kr@gmail.com" and "Kcrm$123456"
+Then user click on login button
+And user is on home page
+
+Step definition file you have to write like this
+//Reg exp
+//1. \"([^\"]*)\"
+//2.\"(.*?)\"
+@Then("^user enter \"(.*?)\" and \"(.*?)\"$")
+public void user_enter_username_and_password(String uname,String pass) throws Throwable {
+		driver.findElement(By.name("email")).sendKeys(uname);
+		driver.findElement(By.name("password")).sendKeys(pass);
+}
+2.with examples +scenario outline:
+
+Scenario Outline: Free CRM Login Test Scenario
+
+Given user is already on login page
+When title of login page is free CRM
+Then user enter "<username>" and "<password>"
+Then user click on login button
+And user is on home page
+
+Examples:
+	|username          | password   |
+	|kgec.kr@gmail.com | Kcrm$123456|
+	|  John            | test456    |
+If you have three row of data using scenario outline and examples keyword entire test case will execute 
+three time if you have fifty row of data using scenario outline and examples keyword entire test case will 
+execute fifty times.That's bigest advantage of scenario outline with examples keyword in cucumber.
+
+3.Using Datatables:
+
+To fetch data in cucumber using data tables 
+Feature: Deal data creation
+
+Scenario: Free CRM Create a new deal scenario
+
+Given user is already on Login Page
+When title of login page is Free CRM
+Then user enters username and password
+| kgec.kr@gmail.com | Kcrm$123456 |
+Then user click on login button
+Then user is on home page
+Then user moves to new deal page
+Then user enters deal details
+|test deal | 1000 | 50 | 10 |
+Then close the browser
+
+@Then("^user enters username and password$")
+	public void user_enters_username_and_password(DataTable credentials) throws Throwable {
+		List<List<String>> data=credentials.raw();
+		driver.findElement(By.name("email")).sendKeys(data.get(0).get(0));
+		
+
+DataTable is the class available in cucumber.In datatable raw method is available.Raw method will return
+List<List<String>> and all the value are string.In datatable index starts from zero.
+ Then user enters deal details
+|test deal | 1000 | 50 | 10 | that means it is applicable for above line data 
+
+4.To fetch data in cucumber using data tables 
+Feature: Deal data creation
+
+Scenario: Free CRM Create a new deal scenario
+
+Given user is already on Login Page
+When title of login page is Free CRM
+Then user enters username and password
+| kgec.kr@gmail.com | Kcrm$123456 |
+Then user click on login button
+Then user is on home page
+Then user moves to new deal page
+Then user enters deal details
+|test deal | 1000 | 50 | 10 |
+Then close the browser
+
+@Then("^user enters username and password$")
+	public void user_enters_username_and_password(DataTable credentials) throws Throwable {
+		List<List<String>> data=credentials.raw();
+		driver.findElement(By.name("email")).sendKeys(data.get(0).get(0));
+		
+
+DataTable is the class available in cucumber.In datatable raw method is available.Raw method will return
+List<List<String>> and all the value are string.In datatable index starts from zero.
+ Then user enters deal details
+|test deal | 1000 | 50 | 10 | that means it is applicable for above line data 
+
+5.How we can parameterized test cases with help of maps:
+@Then("^user enters username and password$")
+	public void user_enters_username_and_password(DataTable credentials) throws Throwable {
+		for(Map<String,String> data : credentials.asMaps()){
+		driver.findElement(By.name("email")).sendKeys(data.get("username"));
+		driver.findElement(By.name("password")).sendKeys(data.get("password"));
+		}
+	}
+With the help of map of object we can parameterized n number of object.
+
+6.@RunWith(Cucumber.class)
+@CucumberOptions(
+		features="C:\\Users\\KALYANASHIS\\git\\FreeCRMBDDFramework\\FreeCRMBDDFramework\\CRMFeatures\\Tagging.feature",
+		//features="C:\\Users\\KALYANASHIS\\git\\FreeCRMBDDFramework\\FreeCRMBDDFramework\\CRMFeatures\\Dealsmap.feature",
+		//The path of the features files or packages
+        glue={"CRMStepDefinition"},//The path of the step definition
+        //glue= {"CRMStepDefinitionContacts"},
+        
+        format= {"pretty","html:test-output","json:json_output/cucumber.json",
+        "junit:junit_xml/cucumber.xml"},//To generate different type of reporting
+        monochrome=true,//Display the console output in a proper readable format
+        strict=true,//It will check if any step is not defined in step definition file.
+        dryRun=false,//To check the mapping is proper between feature file and step definition file.
+		tags= {"@SmokeTest , @RegressionTest"}
+		)
+public class CRMTestRunner {
+
+}
+
+In tagging concept tags equals to need have to write tage name whatever tag name we have assign over feature file.
+
+In that case ,(comma) means or operator
+//ORed:tags={"@SmokeTest,@RegressionTest"}--execute all tests as @SmokeTest OR @RegressionTest
+//ANDed:tags={"@SmokeTest","@RegressionTest"}--execute all tests as @SmokeTest AND @RegressionTest
+To ignoring tags you have to use special character(~) 
+
+7.Hooks:Hooks are use in cucumber to define the pre-condition and post-condition.
+Tagged Hooks:Tagged hooks means if you want to execute any pre-condition for the specific scenario 
+
+8.
+
+----------------------------------------------------------------------------
+Xpath:
+XPath in Selenium WebDriver: Complete Tutorial:
+Syntax for XPath:
+
+XPath contains the path of the element situated at the web page. Standard syntax for creating XPath is.
+
+Xpath=//tagname[@attribute='value']
+// : Select current node.
+Tagname: Tagname of the particular node.
+@: Select attribute.
+Attribute: Attribute name of the node.
+Value: Value of the attribute.
+
+Types of X-path
+There are two types of XPath:
+
+1) Absolute XPath
+
+2) Relative XPath
+
+Absolute XPath:
+It is the direct way to find the element, but the disadvantage of the absolute XPath is that if there are any changes made in the path of the 
+element then that XPath gets failed.
+
+The key characteristic of XPath is that it begins with the single forward slash(/) ,which means you can select the element from the root node.
+
+Absolute XPath:
+
+/html/body/div[2]/div[1]/div/h4[1]/b/html[1]/body[1]/div[2]/div[1]/div[1]/h4[1]/b[1]
+
+Relative Xpath:
+Relative Xpath starts from the middle of HTML DOM structure. It starts with double forward slash (//). It can search elements anywhere on the webpage, 
+means no need to write a long xpath and you can start from the middle of HTML DOM structure. Relative Xpath is always preferred as it is not a complete
+ path from the root element.
+
+Relative XPath: //div[@class='featured-box cloumnsize1']//h4[1]//b[1]
+
+Using XPath Handling complex & Dynamic elements in Selenium:
+
+1) Basic XPath:
+XPath expression select nodes or list of nodes on the basis of attributes like ID , Name, Classname, etc. from the XML document as illustrated below.
+
+Xpath=//input[@name='uid']
+
+Some more basic xpath expressions:
+
+Xpath=//input[@type='text']				
+Xpath=	//label[@id='message23']
+Xpath=	//input[@value='RESET']
+Xpath=//*[@class='barone']
+Xpath=//a[@href='http://demo.guru99.com/']
+Xpath= //img[@src='//cdn.guru99.com/images/home/java.png']
+
+2) Contains():
+Contains() is a method used in XPath expression. It is used when the value of any attribute changes dynamically, for example, login information.
+
+Xpath=//*[contains(@type,'sub')]
+
+Xpath=//*[contains(@name,'btn')]
+
+Xpath=//*[contains(text(),'here')]
+Xpath=//*[contains(@href,'guru99.com')]
+
+3) Using OR & AND:
+In OR expression, two conditions are used, whether 1st condition OR 2nd condition should be true. It is also applicable if any 
+one condition is true or maybe both. Means any one condition should be true to find the element.
+
+Xpath=//*[@type='submit' or @name='btnReset']
+
+In AND expression, two conditions are used, both conditions should be true to find the element. It fails to find element if any one condition is false.
+
+Xpath=//input[@type='submit' and @name='btnLogin']
+
+4) Xpath Starts-with
+XPath starts-with() is a function used for finding the web element whose attribute value gets changed on refresh or by other 
+dynamic operations on the webpage. In this method, the starting text of the attribute is matched to find the element whose attribute
+ value changes dynamically. You can also find elements whose attribute value is static (not changes).
+
+Xpath=//label[starts-with(@id,'message')]
+
+5) XPath Text() Function
+The XPath text() function is a built-in function of selenium webdriver which is used to locate elements based on text of a web element. 
+It helps to find the exact text elements and it locates the elements within the set of text nodes. The elements to be located should be in string form.
+
+Xpath=//td[text()='UserID']
+
+6) XPath axes methods:
+These XPath axes methods are used to find the complex or dynamic elements. Below we will see some of these methods.
+
+a) Following:
+Selects all elements in the document of the current node( ) [ UserID input box is the current node] as shown in the below screen.
+
+Xpath=//*[@type='text']//following::input
+
+b) Ancestor:
+The ancestor axis selects all ancestors element (grandparent, parent, etc.) of the current node as shown in the below screen.
+
+In the below expression, we are finding ancestors element of the current node("ENTERPRISE TESTING" node).
+
+Xpath=//*[text()='Enterprise Testing']//ancestor::div
+
+c) Child:
+Selects all children elements of the current node (Java) as shown in the below screen.
+
+Xpath=//*[@id='java_technologies']//child::li
+
+d) Preceding:
+Select all nodes that come before the current node as shown in the below screen.
+
+In the below expression, it identifies all the input elements before "LOGIN" button that is Userid and password input element.
+
+Xpath=//*[@type='submit']//preceding::input
+
+
+e) Following-sibling:
+Select the following siblings of the context node. Siblings are at the same level of the current node as shown in the below screen. 
+It will find the element after the current node.
+
+ xpath=//*[@type='submit']//following-sibling::input
+
+f) Parent:
+Selects the parent of the current node as shown in the below screen.
+
+Xpath=//*[@id='rt-feature']//parent::div
+
+g) Self:
+Selects the current node or 'self' means it indicates the node itself as shown in the below screen.
+
+One node matching by using "self " axis. It always finds only one node as it represents self-element.
+
+Xpath =//*[@type='password']//self::input
+
+
+h) Descendant:
+Selects the descendants of the current node as shown in the below screen.
+In the below expression, it identifies all the element descendants to current element ( 'Main body surround' frame element) which means down 
+under the node (child node , grandchild node, etc.).
+
+Xpath=//*[@id='rt-feature']//descendant::a
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+How to Write Effective XPath Selenium Selectors – All Tactics Explained:
+
+Table Of Contents
+
+Dynamic Web Elements
+XPath Selenium Selectors
+Absolute and Relative XPath
+Absolute XPath
+Relative XPath
+Writing Smart XPaths for Dynamic Elements
+Tag – Attribute – Value Trio
+Contains
+Starts-with
+Chained XPaths Declarations
+XPath with “or” Statement
+XPath with “and” Statement
+XPath Text
+Ancestor
+Following
+Child
+Preceding
+Following-sibling
+Descendant
+Parent
+Locate an Element inside Array of Elements
+Next Article: Selenium CSS Selectors (Complete Reference)
+Selenium Webdriver Tutorial Series
+
+Dynamic Web Elements
+In our test automation codes, we generally prefer to use id, name, class, etc. these kinds of locators. However, sometimes we could not find any 
+of them in the DOM and also sometimes locators of some elements change dynamically in the DOM. In these kinds of situations, we need to use
+ smart locators. These locators must be capable to locate complex and dynamically changing web elements. In below sections, I will share with you 
+15 tactics to write effective XPath locators.
+
+XPath Selenium Selectors
+We can find the location of any element on a web page using XML path expressions. The basic syntax for XPath is shown below:
+
+Syntax = //tagname[@attribute=’Value‘]
+
+Example = //input[@id=’user-message‘]
+
+Absolute and Relative XPath
+Generally, in some test automation engineer interviews, I asked the difference between absolute and relative XPath. Actually, it is the answer is very easy.
+
+Absolute XPath
+It is a direct way to locate an element.
+It is very brittle.
+Starts with single slash “/” that means starting to search from the root.
+Example: /html/body/div[2]/div/div[2]/div[1]/div[2]/form/div/input
+
+Relative XPath
+Starts from the middle of the HTML DOM.
+Starts with a double slash “//” that means it can start to search anywhere in the DOM structure.
+Shorter than Absolute XPath.
+Less fragile.
+Example: //div[@class=’form-group’]//input[@id=’user-message’]
+
+Example: //*[@class=’panel-body’]//li[contains(text(),’entered in input field’)]
+
+Writing Smart XPaths for Complex and Dynamic Elements
+Tag – Attribute – Value Trio
+Syntax: //tag[@attribute=’value‘]
+
+Example: //input[@id, ‘user-message’]
+
+Examples:
+
+//input[@type='send text']
+ 
+//label[@id='clkBtn']
+ 
+//input[@value='SEND']
+ 
+//*[@class='swtestacademy']
+--> "*" means, search "swtestacademy" class for all tags.
+ 
+//a[@href='http://www.swtestacademy.com/']
+ 
+//img[@src='cdn.medianova.com/images/img_59c4334feaa6d.png']
+
+Contains
+It is very handy XPath Selenium locator and sometimes it saves the life of a test automation engineer. When an attribute of an element is dynamic,
+ then you can use contains() for the constant part of the web element but also you can use contains() in any condition when you need.
+
+Syntax: //tag[contains(@attribute, ‘value‘)]
+
+Example: //input[contains(@id, ‘er-messa’)]
+
+Examples:
+
+//*[contains(@name,'btnClk')]
+--> It searches "btnClk" for all name attributes in the DOM.
+ 
+//*[contains(text(),'here')]
+--> It searches the text "here" in the DOM.
+ 
+//*[contains(@href,'swtestacademy.com')]
+--> It searches "swtestacademy.com" link in the DOM.
+
+Starts-with
+This method checks the starting text of an attribute. It is very handy to use when the attribute value changes dynamically but also you can use this 
+method for non-changing attribute values.
+
+Syntax: //tag[starts-with(@attribute, ‘value‘)]
+
+Example: //input[starts-with(@id, ‘user’)]
+
+Chained Declarations
+We can chain multiple relative XPath declarations with “//” double slash to find an element location as shown below.
+
+Example: //div[@class=’form-group’]//input[@id=’user-message’]
+
+Operator “or”
+In this method, we use two interrogation conditions such as A and B and return a result-set as shown below:
+
+A	B	Result
+False	False	No Element
+True	False	Returns A
+False	True	Returns B
+True	True	Returns Both
+“or” is case-sensitive, you should not use capital “OR”.
+
+Syntax: //tag[XPath Statement-1 or XPath Statement-2]
+
+Example: //*[@id=’user-message’ or @class=’form-control’]
+
+Operator “and” 
+In this method, we use two interrogation conditions such as A and B and return a result-set as shown below:
+
+A	B	Result
+False	False	No Element
+True	False	No Element
+False	True	No Element
+True	True	Returns Both
+“and” is case-sensitive, you should not use capital “AND”.
+
+Syntax: //tag[XPath Statement-1 and XPath Statement-2]
+
+Example: //*[@id=’user-message’ and @class=’form-control’]
+
+Text
+We can find an element with its exact text.
+
+Syntax: //tag[text()=’text value‘]
+
+Example: .//label[text()=’Enter message’]
+
+Ancestor
+It finds the element before the ancestor statement and set it as a top node and then starts to find the elements in that node. In below example,
+
+1- First, it finds the class which id is “container-fluid”
+
+2- Then, starts to find div elements in that node.
+
+Example: //*[@class=’container-fluid’]//ancestor::div
+
+Following
+Starts to locate elements after the given parent node. It finds the element before the following statement and set as the top node and then starts to find all elements after that node. In below example,
+
+1- First, it finds the form which id is “gettotal”
+
+2- Then, starts to find all input elements after that node.
+
+Example: .//form[@id=’gettotal’]//following::input 
+
+Child
+Selects all children elements of the current node.
+
+Example: //nav[@class=’fusion-main-menu’]//ul[@id=’menu-main’]/child::li
+
+Preceding
+Select all nodes that come before the current node. I give an example on swtestacademy. We will find all “li” elements in the homepage. First, we will locate the bottom element, then use preceding with “li” to find all “li” elements as shown below.
+
+Example: //img[contains(@src,’cs.mailmunch.co’)]//preceding::li
+
+Following-sibling
+Select the following siblings of the context node.
+
+Example: //*[@class=’col-md-6 text-left’]/child::div[2]//*[@class=’panel-body’]//following-sibling::li
+
+Descendant
+Identifies and returns all the element descendants to current element which means traverse down under the current element’s node. 
+Below, the XPath returns all “li” elements under the “menu-main”.
+
+Example: //nav[@class=’fusion-main-menu’]//*[@id=’menu-main’]//descendant::li
+
+Parent
+
+Returns the parent of the current node as shown in the below example.
+
+Example: .//*[@id=’get-input’]/button//parent::form
+
+Locate an Element inside Array of Elements
+In Trivago website, lets search “Antalya” keyword. Then, find the first Odamax hotel with XPath.
+
+First, we can find all Odamax hotels by using its text with below XPath:
+
+//span[contains(text(),’odamax’)]
+
+Above XPath returns many Odamax hotel’s, we can select the first one with below XPath expression:
+
+(//span[contains(text(),’odamax’)])[1]
+
+You can also continue to search and find the related hotel’s price element with below XPath:
+
+(//span[contains(text(),’odamax’)])[1]/following-sibling::strong[@class=’deals__price’]
+
+---------------------------------------------------------------------------------------------------
+DemoJenkins:
+
+http://localhost:8080
+cmd prompt:
+>set classpath=C:\Users\KALYANASHIS\eclipse-workspace\JenkinsDemo\bin;
+  set classpath=C:\Users\KALYANASHIS\eclipse-workspace\JenkinsDemo\lib\*;
+
+>java org.testng.TestNG testng.xml
+
+batch cmd:
+java -cp bin;lib/* org.testng.TestNG testng.xml
+
+How to change password in jenkins:
+1.First click on people>then click on admin>click on configure>then go to password and confirm password 
+and change the password and confirm password whatever you want to give.
+How to change username in jenkins:
+1.Go to manage jenkins>click on configure global security>select Jenkins own user database>check allow users to sign up>
+select matrix-based security>enter user/group to add (any name you want ) after enter click on add button>then go to 
+right side select check box>then hit save button>one message will display admin loose the permission>then login to the
+user name whatever you have created>then click on create an account link >you have to create new username and password 
+then you can login with your specific username and password.
+
+
+Step to work on Jenkins:Download jenkins/Install jenkins/Configure jenkins/Create Selenium script/
+Create Batch file/Execute jenkins job
+1.download Jenkins
+2.open cmd prompt>java -jar jenkins.war file path
+3.create project name>add external jar>
+4.http://localhost:8080
+5.Manage jenkins>configure system>jdk installation>JAVA_HOME(java path)
+6.right click >TestNG>convert to TestNG>no need to change any thing>click finish button
+7.right click on project folder>go to property>copy location>open run>paste copy location path
+8.create a folder with the name Lib.Then put all the jar file inside the Lib folder
+9.open project path in cmd prompt>set classpath=C:\Users\KALYANASHIS\eclipse-workspace\JenkinsDemo\bin;
+C:\Users\KALYANASHIS\eclipse-workspace\JenkinsDemo\lib\*;(that's what ever jar file is there it will take the path)
+10.To run the project type :java org.testng.TestNG testng.xml
+11.To create batch file:Go to project folder create new text file type java -cp bin;lib/* (that's means 
+ It's means our binary file is available inside our project home directory) org.testng.TestNG testng.xml
+give file name "run.bat" then click save button.Automatically run file will create inside project folder.
+12.Then double click on run file it will run.
+13.To run eclipse project inside jenkins:Go to jenkins click on New Item>Item name (any meaning full name need have to give)>
+select below any project such as (Freestyle project)>click ok button.
+14.Item name(Project name-Test)>any description>use custom workspace(C:\Users\KALYANASHIS\eclipse-workspace\JenkinsDemo)>
+Build>Execute Windows batch command>command(run.bat)>click on apply>click on save button
+15.Right click on testng.xml file >run as TestNG.Suite>To do that same thing Then go to jenkins click on build now
+
+How to install testng in eclipse:1.Click http://dl.bintray.com/testng-team/testng-eclipse-release/
+2.work with: http://beust.com/eclipse/ 3.Add :In Add repository  dialog>1) Enter "TestNG" in name text field>2 Click on add button.
+
+------------------------------------------------------------------------------------------------------------------------------------
+Selframe:
+D:\Bivas\SelFrame>mvn test -D suiteXmlFile=testng.xml
+D:\Bivas\SelFrame>mvn test -D suiteXmlFile=testng.xml -D executionbrowser=hello
+D:\Bivas\SelFrame>mvn test -D suiteXmlFile=testng.xml -D executionbrowser=chrome
+
+--------------------------------------------------------------------------------------------------------------------------------------
+List in Java:
+Why arraylist not array
+->Type-fixed type
+->Size-fixed size
+
+What is collection:
+->It is dynamic data structure
+->It added after Java1.5
+->Collections in java is a framework that provides an architecture to store and manipulate
+the group of objects.
+->All the operations that you perform on a data such as searching,sorting,insertion,
+manipulation,deletion etc. can be performed by java collections.
+->Java collection simply means a single unit of objects.
+->Java collection framework provides many interfaces(Set,List,Queue,Deque etc.) and classes
+(Arraylist,Vector,LinkedList,PriorityQueue,Hashset,LinkedHashSet,TreeSet etc).
+
+What is List and ArrayList:
+List->List is an interface
+ArrayList->Is a class and implements List 
+
+What is arraylist:
+->Java arraylist class uses a dynamic array for storing the value.
+->Java arraylist class can contain duplicate elements.
+->Java arraylist class maintains insertion order.
+->Java arraylist allows random access because array works at the index basis.
+->In java arraylist class,manipulation is slow because a lot of shifting needs to be occured
+if any element is removed from the array list.
+
+---------------------------------------------------------------------------------------------------
+Maps in Java:
+
+What is Map in Java:
+-->Map is a Interface in Java.
+-->Map contains key and value pair.
+-->Each key and value called as entry.
+-->Map contains only unique keys.
+-->Map is easy to use if you have to search,update or delete elements 
+    on the basis of key.
+-->Example-search students based on their roll number.
+-->Fetch customer details from DB based on their customer id and so on.
+
+What is HashMap:
+-->Java HashMap a class which implements the map interface.
+-->A HashMap also contains values based on the key and only unique elements.
+-->It may have one null key and multiple null values.
+-->Main point it does not store value in order.
+
+-------------------------------------------------------------------------------------
+Set in Java:
+What is set:
+-->Set in interface in java which extends collection interface.
+-->Set does not allow duplicate values.
+-->Set in unordered collection.
+-->Can't be accessed using index.
+
+HashSet:
+-->Hashset stores the elements by using a mechanism called hashing.It means we can not access using index.
+-->Hashset contains unique elements only.
+
+Linked hashset:
+-->It is similar to hashset but it maintains insertion order.
+
+Treeset:
+-->Maintains ascending order.
+
+Convert set into list:
+
+-->List<String> list=new ArrayList<String>(set);
+------------------------------------------------------------------------
+Maven Dependency(Naveen):
+
+<dependencies>
+    <dependency>
+                   <groupId>info.cukes</groupId>
+                   <artifactId>cucumber-java</artifactId>
+                   <version>1.1.5</version>
+    </dependency> 
+    <dependency>
+                   <groupId>info.cukes</groupId>
+                   <artifactId>cucumber-jvm</artifactId>
+                   <version>1.1.5</version>
+	   <type>pom</type>
+    </dependency> 
+    <dependency>
+	    <groupId>info.cukes</groupId>
+	    <artifactId>cucumber-junit</artifactId>
+    	    <version>1.1.5</version>
+	    <scope>test</scope>
+    </dependency>
+    <dependency>
+	    <groupId>info.cukes</groupId>
+	    <artifactId>cucumber-jvm-deps</artifactId>
+    	    <version>1.0.5</version>
+    </dependency>
+    <dependency>
+	    <groupId>net.masterthought</groupId>
+	    <artifactId>cucumber-reporting</artifactId>
+    	    <version>1.0.0</version>
+    </dependency>
+    <dependency>
+	    <groupId>info.cukes</groupId>
+	    <artifactId>gherkin</artifactId>
+    	    <version>2.12.2</version>
+    </dependency>
+    <dependency>
+	    <groupId>junit</groupId>
+	    <artifactId>junit</artifactId>
+    	    <version>3.8.1</version>
+	    <scope>test</scope>	
+    </dependency> 	
+    <dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-java</artifactId>
+    	    <version>3.5.3</version>
+    </dependency>
+  </dependencies>
+
+-------------------------------------------------------------------------------
+Cucumber maven dependency:
+
+<dependencies>
+  
+  	<dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>2.53.0</version>
+    </dependency> 
+    <dependency>
+	    <groupId>junit</groupId>
+	    <artifactId>junit</artifactId>
+    	<version>4.11</version>
+    </dependency>
+    <dependency>
+	    <groupId>info.cukes</groupId>
+	    <artifactId>cucumber-java</artifactId>
+    	<version>1.2.2</version>
+    </dependency>
+    <dependency>
+	    <groupId>info.cukes</groupId>
+	    <artifactId>cucumber-junit</artifactId>
+    	<version>1.2.2</version>
+    </dependency>
+  </dependencies>
+  <build>
+  	<plugins>
+  		<plugin>
+  			<groupId>org.apache.maven.plugins</groupId>
+  			<artifactId>maven-compiler-plugin</artifactId>
+  			<version>3.0</version>
+  			<configuration>
+				<source>1.8</source>
+  				<target>1.8</target>
+  			</configuration>
+  		</plugin>
+	<plugin>
+  			<groupId>org.apache.maven.plugins</groupId>
+  			<artifactId>maven-surefire-plugin</artifactId>
+  			<version>2.18.1</version>
+  			<configuration>
+  				<includes>
+  					<exclude>**/*RunnerNew.java</exclude>
+				</includes>
+  			</configuration>
+  		</plugin>  	
+  	</plugins>
+  
+  
+  </build>
+  
+  ------------------------------------------------------------------------------
+  CSS selector:
+  Following are some of the mainly used formats of CSS Selectors:
+
+1)Tag and ID
+2)Tag and Class
+3)Tag and Attribute
+4)Tag, Class, and Attribute
+5)Sub-String Matches:
+     5.1  Starts With (^)
+     5.2  Ends With ($)
+     5.3  Contains (*)
+6)Child Elements
+      6.1  Direct Child
+      6.2  Sub-child
+      6.3  nth-child
+
+1)Tag and ID: 
+<div> <label class=”hidden-label” for=”Email”> Enter your email</label> 
+<input id=”Email” type=”email” autofocus=”” placeholder=”Enter your email” name=”Email” 
+spellcheck=”false” value=””> <input id=”Passwd-hidden” class=”hidden” type=”password” spellcheck=”false”> 
+</div>
+
+css=input#Email
+driver.findElement(By.cssSelector("input#Email")).sendKeys("Software Testing Material");
+
+2)Tag and Class:
+<td>
+<input id=”email“ class=”inputtext“ type=”email“ tabindex=”1“ value=”” name=”email“>
+</td>
+
+css=input.inputtext
+driver.findElement(By.cssSelector("input.inputtext")).sendKeys("Software Testing Material");
+
+3)Tag and Attribute:
+<div> 
+<label class=”hidden-label“ for=”Email“> Enter your email</label>
+<input id=”Email“ type=”email“ autofocus=”” placeholder=”Enter your email“ name=”Email“ 
+spellcheck=”false“ value=””> <input id=”Passwd-hidden“ class=”hidden“ type=”password“ spellcheck=”false“> 
+</div>
+
+css=input[name=Email]
+driver.findElement(By.cssSelector("input[name=Email]")).sendKeys("Software Testing Material"); 
+
+4)Tag, Class, and Attribute:
+<td>
+<input id="email" class="inputtext" type="email" tabindex="1" value="" name="email">
+</td>
+
+css=input.inputtext[name=email]
+driver.findElement(By.cssSelector("input.inputtext[name=email]")).sendKeys("Software Testing Material");
+
+5)Sub-String Matches:
+5.1  Starts With (^):
+<input="Employee_ID_001">
+css=<HTML tag><[attribute^=prefix of the string]>
+css=input[id^='Em']
+driver.findElement(By.cssSelector("input[id^='Em']")).sendKeys("hi");
+5.2  Ends With ($):
+<input="Employee_ID_001">
+css=<HTML tag><[attribute$=suffix of the string]>
+css=input[id$='001']
+driver.findElement(By.cssSelector("input[id$='001']")).sendKeys("hi");
+5.3  Contains (*):
+css=<HTML tag><[attribute*=sub string]>
+css=input[id*='id']
+driver.findElement(By.cssSelector("input[id*='id']")).sendKeys("hi");
+Also we can use ‘contains()’:
+driver.findElement(By.cssSelector("input:contains('id')")).sendKeys("hi");
+
+6)Child Elements
+      6.1  Direct Child:
+<div id="buttonDiv" class="small">
+<button id="submitButton" type="button" class="btn">Submit</button>
+</div>
+Syntax: parentLocator>childLocator
+CSS Locator: div#buttonDiv>button
+
+6)Child Elements
+     6.2  Sub-child:
+Syntax: parentLocator>locator1 locator2
+CSS Locator: div#buttonDiv button
+
+6)Child Elements
+     6.3  nth-child:
+<ul id="automation">
+   <li>Selenium</li>
+   <li>QTP</li>
+   <li>Sikuli</li>
+</ul>
+To locate the element with text ‘QTP’, we have to use “nth-of-type”
+css="ul#automation li:nth-of-type(2)"
+Similarly, To select the last child element, i.e. ‘Sikuli’, we can use
+css="ul#automation li:last-child"
+
+
+  ----------------------------------------------------------------------------
+  Learn AutomationPOM:
+  
+  <dependencies>
+		<!-- <dependency> <groupId>junit</groupId> <artifactId>junit</artifactId> 
+			<version>3.8.1</version> <scope>test</scope> </dependency> -->
+		<!-- <dependency> <groupId>org.seleniumhq.selenium</groupId> <artifactId>selenium-java</artifactId> 
+			<version>3.3.0</version> </dependency> -->
+
+
+		<!-- <dependency> <groupId>org.seleniumhq.selenium</groupId> <artifactId>selenium-java</artifactId> 
+			<version>3.14.0</version> </dependency> -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.12.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>3.1.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.10</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.13.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>2.13.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.16</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.16</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml-schemas</artifactId>
+			<version>3.16</version>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M4</version>
+				<configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>XMLFiles/testngmaven.xml</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+		</plugins>
+
+	</build>
+  ----------------------------------------------------------------------------------------
+  RunMavenBuild:
+  1.make a simple java project then create a simple java file .then convert to maven .
+then run pom.xml as maven install.
+then see if the project is created in  .m2  repository 
+as snapshot0.0.1.jar .
+this jar file is the build.
+run the snapshot0.0.1.jar in the command 
+prompt as
+
+To run the build :java -cp DemoTest-0.0.2-SNAPSHOT.jar DemoTest.Test
+[Java -cp (projectname folder. jar) packagename.class name]
+
+-----------------------------------------------------------------------------------------------------
+Log4j2Dependency:
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.13.1</version>
+</dependency>
+
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-api</artifactId>
+    <version>2.13.1</version>
+</dependency>
+
+Log4j2 properties:
+https://springframework.guru/log4j-2-configuration-using-properties-file/
+----------------------------------------------------------------------------------------------
+name=PropertiesConfig
+property.filename = logs
+appenders = console, file
+------------------------------------------------------------------------------------------------------------------------
+appender.console.type = Console
+appender.console.name = STDOUT
+appender.console.layout.type = PatternLayout
+appender.console.layout.pattern = [%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+----------------------------------------------------------------------------------------------------------------------------------
+appender.file.type = File
+appender.file.name = LOGFILE
+appender.file.fileName=${filename}/propertieslogs.log[Instead of propertieslogs need to write folder name MyLogs]
+appender.file.layout.type=PatternLayout
+appender.file.layout.pattern=[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+------------------------------------------------------------------------------------------------------------------------------
+loggers=file
+logger.file.name=guru.springframework.blog.log4j2properties[Need to write package name com.Log4j2.Demo]
+logger.file.level = debug
+logger.file.appenderRefs = file
+logger.file.appenderRef.file.ref = LOGFILE
+
+------------------------------------------------------------------------------------------------------------------------------
+rootLogger.level = debug
+rootLogger.appenderRefs = stdout
+rootLogger.appenderRef.stdout.ref = STDOUT
+------------------------------------------------------------------------------------------------------------------------------
+
+
+
+Step to create log4j2:
+1.First copy two dependecy log4j-core and log4j-api
+2.Create a folder resources src>main>
+3.Under resources folder create a file log4j2.properties
+3.
+
+name=PropertiesConfig
+property.filename = logs
+appenders = console, file
+
+appender.console.type = Console
+appender.console.name = STDOUT
+appender.console.layout.type = PatternLayout
+appender.console.layout.pattern = [%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+
+appender.file.type = File
+appender.file.name = LOGFILE
+appender.file.fileName=${filename}/MyLogs.log
+appender.file.layout.type=PatternLayout
+appender.file.layout.pattern=[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n
+
+loggers=file
+logger.file.name=com.Log4j2.Demo
+logger.file.level = debug[trace]
+logger.file.appenderRefs = file
+logger.file.appenderRef.file.ref = LOGFILE
+
+rootLogger.level = debug[trace]
+rootLogger.appenderRefs = stdout
+rootLogger.appenderRef.stdout.ref = STDOUT
+
+-----------------------------------------------------------------------------------------------------------
+Syntax for different kind of report in cucumber:
+plugin={"html:target/cucumber-html-report",
+"json:target/cucumber.json","pretty:target/cucumber-pretty.txt",
+"usage:target/cucumber-usage.json","junit:target/cucumber-result.xml"}
+
+--------------------------------------------------------------------------------------------------
+Cucumber feature:
+
+#Author: your.email@your.domain.com
+#Keywords Summary :
+#Feature: List of scenarios.
+#Scenario: Business rule through list of steps with arguments.
+#Given: Some precondition step
+#When: Some key actions
+#Then: To observe outcomes or validation
+#And,But: To enumerate more Given,When,Then steps
+#Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
+#Examples: Container for s table
+#Background: List of steps run before each of the scenarios
+#""" (Doc Strings)
+#| (Data Tables)
+#@ (Tags/Labels):To group Scenarios
+#<> (placeholder)
+#""
+## (Comments)
+#Sample Feature Definition Template
+@tag
+Feature: Title of your feature
+  I want to use this template for my feature file
+
+  @tag1
+  Scenario: Title of your scenario
+    Given I want to write a step with precondition
+    And some other precondition
+    When I complete action
+    And some other action
+    And yet another action
+    Then I validate the outcomes
+    And check more outcomes
+
+  @tag2
+  Scenario Outline: Title of your scenario outline
+    Given I want to write a step with <name>
+    When I check for the <value> in step
+    Then I verify the <status> in step
+
+    Examples: 
+      | name  | value | status  |
+      | name1 |     5 | success |
+      | name2 |     7 | Fail    |
+----------------------------------------------------------------------------------------
+Postman:
+Dummy API Url:i)https://reqres.in/ii)http://dummy.restapiexample.com/
+
+
+1.How To Download and Install Postman In Windows- Postman Tutorial For Beginner:
+https://www.postman.com/downloads/>click winndows 64-bit>email>username>password>
+How do you plan to use Postman>check all check box>continue>Give your team a name (Optional)>
+continue>after all things complete click head to your profile>then enter email and password>sign in.
+2.Must Watch-Features and Quick Tour of Postman- Postman Tutorial For Beginner:
+3.How To Send Get Request In Postman- Postman Tutorial For Beginner:
+Click new>Request>Request name(SearchGoogle)>click create collection>name your collection(GoogleAPI)>
+click on save button>Request(GET)>https://www/google.com/>click send button>
+click param>key(q)>value (Mukesh Otwani)>click send button>click on preview
+4.How To Send Post Request In Postman- Postman Tutorial For Beginner:
+Click on +tab or new button>Request name(Createuser)>select UserAPI's or create folder>click save to UserAPI's>
+Select request(POST)>then enter base URL and endpoint >then click body>click raw paste payload select JSON>
+click Beautify it will format proper way>in place of name and job you can change value>then click on send button>
+after click send button you will get the response>
+5.How To Send DELETE Request In Postman- Postman Tutorial For Beginner:
+Click on new button>Request name(DeleteUser)>select UserAPI's or create folder>click save to UserAPI's>
+Select request(DELETE)>then enter base URL and endpoint>then click send send button>204 no content means
+particular resource has been deleted
+---------------------------------------------------------------------------------------
+RestAssured:
+
+What is Web Service:
+-->Service available over the web
+-->Enables communication between application over the web
+-->Provides a standard protocol/format for communication
+-->Platform independent communication
+-->Using web services two different application 
+
+
+
+
+
+
+
+
+
+_______________________________________________________________________
+1.REST Assured API testing Beginner Tutorial  Part 1 - Getting Started:
+
+-->Java lib(API) for testing RESTful web services 
+-->To test XML & JSON based web services
+-->Supports POST,GET,PUT,DELETE,OPTIONS PATCH,HEAD..
+-->Can be integrated with testing frameworks like Unit,TestNG..
+-->Rest Assured is implemented in Groovy
+
+Prerequisites:Java/IDE(Eclipse,IntelliJ/Maven/TestNG 
+Create 1st project for API Testing
+
+<dependencies>
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>4.3.0</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.1.0</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+2.Part 2 - How to test GET POST PUT PATCH and DELETE:
+public class TestPOST {
+	//@Test
+	public void test_post() {
+		/*Map<String, Object> map=new HashMap<String, Object>();
+		map.put("name", "KR");
+		map.put("job", "SW");
+		System.out.println(map);*/
+		JSONObject request=new JSONObject();
+		request.put("name", "KR");
+		request.put("job", "SW");
+		
+		System.out.println(request);
+		System.out.println(request.toJSONString());
+		
+		given().
+			header("Content-Type","application/json").
+			contentType(io.restassured.http.ContentType.JSON).
+			accept(io.restassured.http.ContentType.JSON).
+			body(request.toJSONString()).
+		when().
+			post("https://reqres.in/api/users").
+		then().
+			statusCode(201);
+			
+	}
+	//@Test
+	public void test_put() {
+		/*Map<String, Object> map=new HashMap<String, Object>();
+		map.put("name", "KR");
+		map.put("job", "SW");
+		System.out.println(map);*/
+		JSONObject request=new JSONObject();
+		request.put("name", "KR");
+		request.put("job", "SW");
+		
+		System.out.println(request);
+		System.out.println(request.toJSONString());
+		
+		given().
+			header("Content-Type","application/json").
+			contentType(io.restassured.http.ContentType.JSON).
+			accept(io.restassured.http.ContentType.JSON).
+			body(request.toJSONString()).
+		when().
+			put("https://reqres.in/api/users/2").
+		then().
+			statusCode(200).
+			log().all();
+			
+	}
+	//@Test
+	public void test_patch() {
+		/*Map<String, Object> map=new HashMap<String, Object>();
+		map.put("name", "KR");
+		map.put("job", "SW");
+		System.out.println(map);*/
+		JSONObject request=new JSONObject();
+		request.put("name", "KR");
+		request.put("job", "SW");
+		
+		System.out.println(request);
+		System.out.println(request.toJSONString());
+		
+		given().
+			header("Content-Type","application/json").
+			contentType(io.restassured.http.ContentType.JSON).
+			accept(io.restassured.http.ContentType.JSON).
+			body(request.toJSONString()).
+		when().
+			patch("https://reqres.in/api/users/2").
+		then().
+			statusCode(200).
+			log().all();
+			
+	}
+	
+	@Test
+	public void test_delete() {
+		
+		when().
+			delete("https://reqres.in/api/users/2").
+		then().
+			statusCode(204).
+			log().all();
+			
+	}
+
+
+}
+
+3.Part 3 - How to create fake REST API for testing:
+How to create a local API server
+Create REST API for testing
+
+https://github.com/typicode/json-server
+
+npm install -g json-server
+
+npm install json-server
+
+json-server --watch db.json
+json-server --watch db.json --port8084
+
+npx json-server --watch db.json
+npx json-server --watch db.json --port8084
+
+http://localhost:3000
+
+4.Part 4 - Parameterization and Data-Driven Testing:
+How to run a test multiple times with different set of data
+How to provide data from the same class
+How to provide data from different class
+How to provide TestNG parameters
+
+What is TestNG DataProvider
+-->Helps to write data driven tests
+-->Same test can be run multiple times with different sets of data
+-->Annotation @DataProvider
+-->The annotated method is used to return object containing test data
+-->This test data can be used in actual tests
+
+@Parameters for simple and limited data you can use @Parameter
+
+5.Part 5 - How to read data from Excel:
+----------------------------------------------------------------------------------
+Load Testing(Jmeter):
+1.How to install Jmeter:
+go to google>type for download jmeter>click on first link>go to
+binaries>click on apache-jmeter-5.3.zip>Unzip and keep Jmeter folder at any location>
+to start Jmeter go to jmeter/bin folder double click on jmeter.bat>Jmeter window will 
+launch.
+
+2.Scope of Performance Testing in 2020 and beyond:
+
+3.How to create first Jmeter Test:
+Test Plan:It is like a container which will contains all your test element  of the test.
+i)Start Jmeter
+ii)Create a TestPlan
+iii)Create a Thread group (Users)
+iv)Add a sampler(Http request)
+iv)Add Listeners
+v)To Run the Test
+
+4.How to use Assertions:
+Assertion=check on the response
+
+-----------------------------------------------------------------------------------------------
+CucumberMukesh:
+1.Selenium Integration with Cucumber BDD Tool:
+What is BDD:
+-->BDD behavior-driven development is a extension to TDD.
+-->BDD focus on what to test not how to test.
+-->It uses plain english to explain what is exact requirement.
+-->It use Gherkin language
+https://cucumber.io/docs/reference
+
+Example of feature file:
+-->Feature:Test Smoke scenaraio of Facebook
+-->Scenario:Test Facebook with valid credentials
+Given Open Firefox and start application
+When I provide valid username and password
+Then user should be able to login
+
+http://cucumber.github.com/cucumber-eclipse/update-site
+go to eclipse >click help>click on install new software>click next>click finish>
+
+Right click on project folder create a feature folder any name(BDDFeature).Then click on help,click on
+install new software provide (http://cucumber.github.com/cucumber-eclipse/update-site) this url then 
+click next and finish.this plugin is optional.Using this plugin you will get specific way to find feature file.
+After install this plugin if you create feature file it will look very handy color.If you not install it will not give
+any specific color it will show simple color.inside this folder create on file one name of Application.feature 
+file name extension should be .feature.Then go to src folder create on package runner1
+inside runner1 create one java file TestRunner1.java inside java file need to write @RunWith(Cucumber.class)
+@CucumberOptions(features="BDDFeature").Then right click on TestRunner1 and run as JUnit test after 
+one skeleton will generate on console.On console copy skeleton on console and create one folder BDDTest
+inside BDDTest folder create one class RegressionTest.java inside paste it.Inside dummy code remove.
+Inside need to be write code .
+
+2.How to pass parameters in Cucumber script:
+-->What is parameters in Cucumber
+-->What is the usage of Parameter passing
+-->How to pass parameter in Cucumber without Example
+
+
+To pass parameter in cucumber go to feature file and in place of "username" and "password".And put the
+value "kgec.kr@gmail.com" and "Kalyan@654321".
+First run the TestRunner one skeleton will generate on console it will ask please pass the parameter in 
+console copy the [@When("^I enter valid \"([^\"]*)\" and valid \"([^\"]*)\"$")] go to smoke test and paste it to
+username and password section internally it will handle the username and password.Again go to console
+copy two argument [(String arg1, String arg2)] and paste it to username and password section.
+Then go to feature file and pass the username("kgec.kr@gmail.com" and "Kalyan@654321").Now run the 
+TestRunner now it will run the parameter which you have passed.This is without Example.Good thing about
+cucumber is that when it run the step it will show green mark
+
+3.Setup Maven project for Cucumber and Selenium:
+-->Create Maven project
+-->Dependency which is required for Cucumber and Selenium
+Create Maven Project>inside pom.xml add Cucumber Maven Dependency(BDD)>
+
+4.Perform Data Driven Testing in Cucumber- Selenium:
+To perform data driven testing in cucumber use Scenario Outline and Examples keyword.Username and
+password should be "<username>" and "<password>".Below format need have to be write feature file 
+Scenario Outline: Test login with valid credentials 
+	Given Open firefox and start application 
+	When I enter valid "<username>" and valid "<password>" 
+	Then User should be able to login successfully 
+	Then application should be closed 
+	
+	Examples: 
+		| username           | password  |
+		| kgec.kr@gmail.com  | password  |
+		| kgec.kr1@gmail.com | password1 |
+		| kgec.kr2@gmail.com | password2 |
+To generate report inside runner class need to be write 
+@CucumberOptions(features="features",glue={"stepDefination"},plugin="html:target/cucumber-html-report")
+Right click on project run as maven clean it clear the target directory
+
+5.How to generate reports in Cucumber:
+Generate report in Cucumber
+Different type of reports 
+
+To generate different type of reports go to inside TestRunner class add plugin 
+plugin={"html:target/cucumber-html-report",
+"json:target/cucumber.json","pretty:target/cucumber-pretty.txt",
+"usage:target/cucumber-usage.json","junit:target/cucumber-result.xml"}
+
+6.How to Run Cucumber Test as Maven Test:
+Configure Maven pom.xml
+Run Maven  Test
+To run Cucumber test as maven test go to pom.xml inside pom.xml need to be add after dependencies
+inside build to build two dependencies one maven-compiler-plugin and maven-surefire-plugin.
+Maven-surefire-plugin will execute a java file in that case [**/*RunnerNew.java] ** means it(In the project 
+directory) will find the complete project and any file which contains RunnerNew.java it will execute.
+** (It is wild card) will check the complete project and any project or package if it is finding any class which 
+is ending with java it will execute.Now we can run the project as pom.xml.First right click on pom.xml click 
+on maven clean it will clean target directory.Then right click on pom.xml run as maven install you can run 
+as maven test as well.After click on maven install it will do it will check any file are missing it will install the 
+necessary file then it will start regular test.
+
+7.How to integrate Cucumber with Jenkins:
+To integrate cucumber with Jenkins login into jenkins>click on new item give item name 
+CucumberFramework click on maven project ,click on ok button>Go to build>copy project location path and
+paste it into in place of root pom>in place of goals and options write clean install>click on save>click on 
+build now>To get email notification click on configure>under post steps> build settings click on e-mail 
+notification>in place of recipients write email address which addres you want to notification 
+(uptodate.kr@gmail.com)>click on save>To generate advanced report in jenkins type for cucumber reports
+plugin
+
+
+
+-----------------------------------------------------------------------------------------------------------
+CucumberNaveen:
+1.Cucumber - jvm (BDD Framework) with Selenium WebDriver - Part 1:
+Create maven project>copy maven dependency and save it>under sr/main/java create a package CRMFeature
+>under CRMFeature create a file Login.feature>Go to eclipse market place install natural or if it is not 
+available go to this url (https://marketplace.eclipse.org/content/natural) drag and drop into eclipse>Then 
+inside Login.feature need to write 
+Feature: Free CRM Login Feature
+Scenario: Free CRM Login Test Scenario
+Given user is already on login page
+When title of login page is free CRM
+Then user enter username and password
+Then user click on login button
+And user is on home page
+Why feature file showing yellow mark : If you not written step definition then only feature file will show
+yellow mark.If you write step definition yellow mark automatically will remove.
+
+2.Cucumber - jvm (Cucumber Options) with Selenium WebDriver - Part 2:
+CucumberOptions:
+dryRun:It means every thing is fine or not.Whatever the mapping you have done it is correct or not.It will 
+check the mapping of feature and step definition file correct or not.If dryRun=true inside TestRunner if any
+step is missing or not it will check for example inside step definition 100 step is there if by forget any steps 
+is missing if you run the test runner on the console it will show which steps has been missed.First time 
+you have to do dryRun=true if every steps working fine means you can change it to dryRun=false.
+
+dryRun:To check the mapping is proper between feature file and step definition file. 
+Features:The path of the features files or packages.
+glue:The path of the step definition.
+tags:
+Monochrome:Display the console output in a proper readable format.
+Format:To generate different type of reporting.
+Strict:It will check if any step is not defined in step definition file.
+
+3.Data Driven Testing in Cucumber BDD Framework In Selenium - Part 3:
+Data driven testing using cucumber:
+
+1.Simple data driven-without examples keyword:
+
+In feature file you have to write like this 
+Feature: Free CRM Login Feature
+Scenario: Free CRM Login Test Scenario
+Given user is already on login page
+When title of login page is free CRM
+Then user enter "kgec.kr@gmail.com" and "Kcrm$123456"
+Then user click on login button
+And user is on home page
+
+Step definition file you have to write like this
+//Reg exp
+//1. \"([^\"]*)\"
+//2.\"(.*?)\"
+@Then("^user enter \"(.*?)\" and \"(.*?)\"$")
+public void user_enter_username_and_password(String uname,String pass) throws Throwable {
+		driver.findElement(By.name("email")).sendKeys(uname);
+		driver.findElement(By.name("password")).sendKeys(pass);
+}
+2.with examples +scenario outline:
+
+Scenario Outline: Free CRM Login Test Scenario
+
+Given user is already on login page
+When title of login page is free CRM
+Then user enter "<username>" and "<password>"
+Then user click on login button
+And user is on home page
+
+Examples:
+	|username          | password   |
+	|kgec.kr@gmail.com | Kcrm$123456|
+	|  John            | test456    |
+If you have three row of data using scenario outline and examples keyword entire test case will execute 
+three time if you have fifty row of data using scenario outline and examples keyword entire test case will 
+execute fifty times.That's bigest advantage of scenario outline with examples keyword in cucumber.
+
+3.Using Datatables:
+
+To fetch data in cucumber using data tables 
+Feature: Deal data creation
+
+Scenario: Free CRM Create a new deal scenario
+
+Given user is already on Login Page
+When title of login page is Free CRM
+Then user enters username and password
+| kgec.kr@gmail.com | Kcrm$123456 |
+Then user click on login button
+Then user is on home page
+Then user moves to new deal page
+Then user enters deal details
+|test deal | 1000 | 50 | 10 |
+Then close the browser
+
+@Then("^user enters username and password$")
+	public void user_enters_username_and_password(DataTable credentials) throws Throwable {
+		List<List<String>> data=credentials.raw();
+		driver.findElement(By.name("email")).sendKeys(data.get(0).get(0));
+		
+
+DataTable is the class available in cucumber.In datatable raw method is available.Raw method will return
+List<List<String>> and all the value are string.In datatable index starts from zero.
+ Then user enters deal details
+|test deal | 1000 | 50 | 10 | that means it is applicable for above line data 
+
+4.Data Tables in Cucumber - BDD Framework with Selenium - Part 4:
+
+To fetch data in cucumber using data tables 
+Feature: Deal data creation
+
+Scenario: Free CRM Create a new deal scenario
+
+Given user is already on Login Page
+When title of login page is Free CRM
+Then user enters username and password
+| kgec.kr@gmail.com | Kcrm$123456 |
+Then user click on login button
+Then user is on home page
+Then user moves to new deal page
+Then user enters deal details
+|test deal | 1000 | 50 | 10 |
+Then close the browser
+
+@Then("^user enters username and password$")
+	public void user_enters_username_and_password(DataTable credentials) throws Throwable {
+		List<List<String>> data=credentials.raw();
+		driver.findElement(By.name("email")).sendKeys(data.get(0).get(0));
+		
+
+DataTable is the class available in cucumber.In datatable raw method is available.Raw method will return
+List<List<String>> and all the value are string.In datatable index starts from zero.
+ Then user enters deal details
+|test deal | 1000 | 50 | 10 | that means it is applicable for above line data 
+
+5.Cucumber DataDriven with Maps in Selenium - Part 5:
+
+How we can parameterized test cases with help of maps:
+@Then("^user enters username and password$")
+	public void user_enters_username_and_password(DataTable credentials) throws Throwable {
+		for(Map<String,String> data : credentials.asMaps()){
+		driver.findElement(By.name("email")).sendKeys(data.get("username"));
+		driver.findElement(By.name("password")).sendKeys(data.get("password"));
+		}
+	}
+With the help of map of object we can parameterized n number of object.
+
+6.What are Cucumber Tags - Part 6:
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		features="C:\\Users\\KALYANASHIS\\git\\FreeCRMBDDFramework\\FreeCRMBDDFramework\\CRMFeatures\\Tagging.feature",
+		//features="C:\\Users\\KALYANASHIS\\git\\FreeCRMBDDFramework\\FreeCRMBDDFramework\\CRMFeatures\\Dealsmap.feature",
+		//The path of the features files or packages
+        glue={"CRMStepDefinition"},//The path of the step definition
+        //glue= {"CRMStepDefinitionContacts"},
+        
+        format= {"pretty","html:test-output","json:json_output/cucumber.json",
+        "junit:junit_xml/cucumber.xml"},//To generate different type of reporting
+        monochrome=true,//Display the console output in a proper readable format
+        strict=true,//It will check if any step is not defined in step definition file.
+        dryRun=false,//To check the mapping is proper between feature file and step definition file.
+		tags= {"@SmokeTest , @RegressionTest"}
+		)
+public class CRMTestRunner {
+
+}
+
+In tagging concept tags equals to need have to write tage name whatever tag name we have assign over feature file.
+
+In that case ,(comma) means or operator
+//ORed:tags={"@SmokeTest,@RegressionTest"}--execute all tests as @SmokeTest OR @RegressionTest
+//ANDed:tags={"@SmokeTest","@RegressionTest"}--execute all tests as @SmokeTest AND @RegressionTest
+To ignoring tags you have to use special character(~) 
+
+7.What are Hooks in Cucumber  Implement Hooks in Cucumber Test - Part 7:
+
+Hooks:Hooks are use in cucumber to define the pre-condition and post-condition.
+Tagged Hooks:Tagged hooks means if you want to execute any pre-condition for the specific scenario 
+
+8.Page object Model with Cucumber BDD Framework - Part 8:
+
+9.Cucumber BDD with TestNG Framework - Part 9:
+
+----------------------------------------------------------------------------
+Selenium:
+
+A.How to Clone Github repository using SSH Key:
+1.What is SSH key:An SSH key is an access credential in the SSH protocol.Its function is similar to that of
+username and password,but the keys are primarily used for automated processes and for implementing
+single sign-on by system administrators and power users.
+
+https://www.youtube.com/watch?v=y2SWzw9D4RA(How SSH works)
+
+2.How to generate SSH key:go to eclipse>click on window>click on preferences>click on general>click on
+network connections>click on SSH2>click on key management>click on generate RSA key>copy content of
+generate RSA key (ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQCc0gqcSoxE/2qKgcUZLcy7Fo0PpoUkc
+H7e8IXEIJdGL8h8CkUgBjkTCksQsZjoscYIiwtB2Q6R5mJoeFY6JhGmXQ5Y/YgsbRaUfzDTas5qTnT+x9wGY
+YdTR9fihGLn6UOjDJB8kUnbhusxSpi3PO9sMAmbFLNTnHHE74TEGhrVWQ== RSA-1024)>click on save
+private key>it will ask you want to save it without password>click on yes>
+
+3.How to add SSH key in your github:Then go to github account>
+click on signed in as (Kalyanashisroy) then click on settings>click on SSH and GPG keys>then click on 
+new SSH key button>then need to give title(KRSystem) and need to paste generated eclipse key 
+which I paste in notepad in key section>then click on add SSH key button>
+
+4.How to clone github repo in Jenkins using SSH:to create duplicate new job click on new item>give name 
+>then copy from type same previous name >click on ok button>go to source code management>credentials
+make it none>in place of repository url (git@github.com:Kalyanashisroy/KRFramework.git)>click on save>
+go to created job>click on configure>
+
+https://github.com/Kalyanashisroy/KRFramework.git
+git@github.com:Kalyanashisroy/KRFramework.git
+
+B:How To Create Maven build For Selenium Framework:
+How to create maven build for selenium framework:
+
+Maven surefire plugin: The surefire plugin is used during the test phase of the build 
+lifecycle to execute the unit tests of an application.It generates reports in two different file
+formats :
+ -->Plain test files(*.txt) 
+-->XML files(*.xml)
+
+1.Copy suite xml files>inside POM.xml add build tag >paste suite xml files>Create one folder(XMLFiles>testngmaven.xml)>
+save the pom.xml
+2.Right click on pom.xml run as maven clean(Maven clean what exact it does it will go to your project and 
+ your project folder target will delete Maven clean will clean target folder)>then right click on pom.xml 
+run as maven install(Maven install will do things firts it will check any dependency there or not if yes it
+will skip if not it will download 2nd part it will build complete project ,it will generate jar and it will 
+run your test as well.)
+
+[If get no compliler is provided please consider adding JDK-window>preferences>search for jre hit enter>
+install jres>click add>select standard vm>next>click directory button>then navigate to jdk>
+select jdk>click apply>apply and close]
+
+3.Go to POM.xml inside configuration under suiteXmlFiles add <systemPropertyVariables> then add <
+ variable browser and url close the>then go to base class add @parameters tag and inside setup method pass the 
+parameter browser and url. To run maven need to add parameter inside maven build>right click on pom.xml then
+run as maven build>under m2 Maven build>click on particular project >under main tag>you can give any 
+name to run the particular  project> in place of Goals write mvn clean install >click on add button>on pop up 
+will come >in place of name write parameter name in this case parameter name is browser> in place of 
+value write parameter value is Chrome>then we can add for your necessary parameter >click ok button>
+click apply button and press run button> 
+
+4.To install apache maven: download maven>apache-maven-3.6.3-bin.zip>apache-maven-3.6.3-bin>go to advanced system settinngs>
+environmental variables>under user variables for Kalyanashis click new button >variable name=MAVEN_HOME>
+variable value=apache maven path need have to give where exact maven is located>then click on ok button>
+then under system variables go path variable  click on  edit button>press end button append semi-colon and 
+paste the path of apache maven till bin append semi-colon>then click on ok button>then again click on ok 
+button>Then go to cmd prompt>type mvn it will show build failure>to check mvn version type mvn --version>
+Then go to project location in cmd prompt>
+type mvn clean>then type mvn install(in that case build will failed ,you have to pass the parameter)>
+mvn install -Dbrowser=Chrome -DUrlToBeTested=https://classic.crmpro.com/index.html -DCRMxmlFiles=
+testng.xml then hit enter
+
+C.How To Integrate Framework With Git and Github:
+
+Push-Submit the code to central repository
+Pull-Pull or download the code from central library
+
+1.GIT:
+a)GIT is version control system for tracking changes in computer files.
+b)SCM-Source code management.
+c)Git is a mature,actively maintained open source project originally developed in 2005 by Linus Torvalds.
+d)It helps in coordinating work on those files among multiple people.
+e)It is primarily used for software development.
+
+2.GITHUB:
+a)GitHub is a web-based GIT.
+b)The site was launched in April 2008 by Tom Preston-Werner.
+c)GitHub is mostly usded for code.
+d)It offers all of the distributed version control and source code management(SCM) functionality
+ of Git as well as adding its won features.
+
+3.Others features of GitHub:
+a)Documentation,including automatically rendered README files.
+b)Issues tracking(including feature requests) with labels,milestones,assignees and a search engine.
+c)Wikkis.
+d)Commits history.
+
+4.a)Git by default via eclipse/b)Git from official site c)git cmd
+Click on prospective button>select git
+
+Step to follow to create GitHub:
+Step 1:First of all central or github repository
+github.com/framework.git
+/Kalyanashisroy/KRFramework.git
+C:\Users\KALYANASHIS\git\KRFramework
+2.Push:Need to create account>then need to verification(optional if you create private need have to pay 
+money)>Click new repository>verify email address(if you already exit user it will not ask you to verify)>
+Repository name need to give>description>Click on create repository>under Clone with HTTPS copy url>
+then go to eclipse click on clone a Git repository>after that need have to give user and password ,
+select check box of store in secure store and click on next button ,again click on next button -then
+ it will creating or cloning (C:\Users\KALYANASHIS\git\Framework) in this particular workspace,then 
+click on finish button>right click on project go to team>share project>select repository>click on finish
+ button>then go to Git repositories select the git which you want to push>click on git staging>select all >
+drag and drop to staged changes location>then need to write commit messages this is optional>
+author and committer email address need to give>then click on commit and push>then click ok button.
+
+Pull:to create pull click on create new file>need to create any type file like txt or config file then click on
+ commit new file button>then go to particular project right click on project>team>click on pull>then select
+ the changes whatever you have made changes in central repository>click on close
+
+To add team member on my existing project:click on settings>click on collaborators(Manage access)>
+https://github.com/MukeshOtwani/Framework
+
+D.How To Publish Report in Jenkins and Schedule Selenium Build in Jenkins:
+
+1.Cron pattern:The software utility cron is a time-based job scheduler in Unix-like computer operating 
+systems.Users that set up and maintain software environments use cron to schedule jobs (commands or 
+shell scripts) to run periodically at fixed times, dates, or intervals.
+Go to created job>click on configure>go to build triggers>select build periodically>in place of schedule need
+to write 36 19 * * * that means 7 36 it should starts>click on save>
+
+To select poll scm:go to created job>click on configure>go to triggers>select Poll SCM>in place of schedule
+need to write that means it will try to poll after every minute.>click on save>go to github central repository>
+go to project location click on create new file>write SCMFiles>click on commit new file>
+
+How to identify who is running the build and to cross verify who is running the build:
+-->Started by timer it means it has been triggered automatically by the cron pattern which you set.
+-->If some body triggered manually it should started my Kalyan or some other user's.
+-->If started by SCM changes means it has been triggered by poll SCM which you set.
+
+2.How to publish HTML report:(In order to do that in google type for html publisher plugin jenkins)>
+click manage jenkins>click on manage plugins>click on available>search for html publisher and hit enter>
+Then it will ask (install without restart or download now and install after restart) for your convenient you 
+do whatever you want>click on configure>go to post-build actions click on add post-build action>click
+on publish html reports>click on add button>in place of index page[s] need to write like that
+(KRFramework\Reports\FreeCRM.html)>in place of report title need to write like that 
+(LearnAutomationReport)>click on save>
+
+Groovy script in order to display report properly:Click on Jenkins>click on manage jenkins>
+click on script console>write System.setProperty("hudson.model.DirectoryBrowserSupport.CSP","")>
+click on run button
+
+E.KRFramework Maven Dependency:
+
+<dependencies>
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.14.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.10</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>4.0.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>3.17</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>3.17</version>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M4</version>
+				<configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>XMLFiles/${CRMxmlFiles}</suiteXmlFile>
+					</suiteXmlFiles>
+					
+					<systemPropertyVariables>
+					<executionBrowser>${browser}</executionBrowser>
+					<crmURL>${UrlToBeTested}</crmURL>
+					
+					</systemPropertyVariables>
+					
+					
+				</configuration>
+			</plugin>
+		</plugins>
+
+	</build>
+F.Maven Integration With Jenkins:
+1.Manage Jenkins>Global tool configuration>go to maven installations>name>MAVEN_HOME>
+MAVEN-HOME=D:\Software\apache-maven-3.6.3-bin\apache-maven-3.6.3>click on add maven button>
+click on apply>click on save button
+2.Click on new item>select maven project >build(root pom=C:\Users\KALYANASHIS\eclipse-workspace\Learn-Automation\pom.xml)
+ and goals and options=clean install>apply>save>click on build now
+ 
+ G.Page Object Model in Selenium Webdriver Step by Step Guide:
+ POM:Page object model
+1.Page object model is just a design pattern not a framework.
+2.As the name says we will be working as pages(pages will be pure java classes)
+3.Based on application behavior we will be creating separate pages and will store all the
+ locator and respective method to use them.
+Advantage:1)Script will be more readable format.
+2)Using POM you will be able to achieve below three features easy to maintain,readable format,
+reusable scripts.
+
+>There are 2 ways to implement
+1)Using normal approach
+2)Using PageFactory and @findBy
+
+Page factory:1)In order to support the PageObject pattern,WebDriver's support library contains a factory class.
+2)We have separate method to initialize web elemet of page object is initelemet.
+3)Important feature of page factory is cache feature that will store all frequently used webelement in cache.
+
+H.Selenium Integration with Jenkins and Github:
+1.download jenkins>generic java package(.war)>open cmd prompt>java -jar war file location --httpPort=
+8084(instead of 8080)>
+localhost:8080>if you get unlock jenkins copy path and paste .jenkins location>[if you get offline>
+go to jenkins home direrctory>hudson.model.UpdateCenter open with nodepad++ >then change https to 
+http after save it>]then copy initial admin password paste it >continue>to stop jenkins press control c>
+install suggested plugins>then it will take 10 to 15 minutes to install plugins>then you will get admin 
+user page>then need  to fill the admin user page >then save and continue[after if I want to change 
+configuration Jenkins URL then need to provide URL ]>save and finish>start using 
+jenkins>manage jenkins>click global tool configuration>jdk installations> jdk name>java_home path>
+uncheck install automatically>maven installations>maven name>maven_home>uncheck install 
+automatically >save >To set email notification>configure system>
+
+To create new job click on New Item>need to give item name(any suitable name you can give)>click on 
+freestyle project>click on ok>Then click on project name>general(need to give description this is optional)>
+click on build>click on execute windows batch command(in place of command section type java -version) 
+I can add n number of batch command>again click on execute windows batch command(in place of 
+command section type mvn -version)>click on save>click on build now>
+
+2.To check Green ball plugins>Manage Jenkins>Manage plugins>available>green balls>To restart 
+jenkins press ctrl+c
+
+3.To categories job click on + button>view name>list view>click on which job you want to select>click ok>
+click on save.
+
+4.To trigger selenium project via Jenkins>click on New Item>Give any meaning full name(RegressionTest)>
+Select Maven project>click on ok>Description(This job will run all regression test)>to run local>
+click on Build>in place of Root POM need to give project path
+(C:\Users\KALYANASHIS\git\KRFramework\KRFramework\pom.xml)>in place of Goals and options need
+to write clean install -Dbrowser=Chrome -DUrlToBeTested=https://classic.crmpro.com/index.html 
+-DCRMxmlFiles=testng.xml>click on save>
+
+5.To download code from github:Click on configure>click on source code management>click on git radio 
+button>then go to github central repository>copy project url(Particular project)>then come to jenkins git
+location(and paste repository url(https://github.com/Kalyanashisroy/KRFramework.git)>click on add>
+click jenkins>need to give username and password>click add button>then go to build>give project folder
+name which is under pom.xml is existing.>click on save>then click on build now>user name(uptodate.kr@
+gmail.com>password>use ssl> SMTP port(465)>charset(UTF-8)>
+
+6.To change different browser user need to come again again and need to change browser.To parameter 
+pass in Jenkins>To pass parameterized go to general>select This project is parameterized>click on add
+parameter>select string parameter>in place of name need to give meaningfull name(Application)>
+Defaul value(https://classic.crmpro.com/index.html)>Description(any thing which you want)>If you want
+to add multiple parameter >select choice parameter>Name(Browser)>Choices(Chrome/Firefox/Opera/IE)>
+Description(Any thing you can add)>If you not give default value it will take by default value but user can 
+change it>Again click string parameter>Name(XMLSuite)>Default value(testng.xml)>despcription()>
+Then go to build>in place of Goals and options need to pass parameter
+(clean install -Dbrowser=$Browser-DUrlToBeTested=$Application -DCRMxmlFiles=$XMLSuite)>
+click on save>then click on build with parameters>it will ask which browser you want to run>If I want to 
+change I can change the url and browser as well>click on build>
+
+7.Post build actions:to publish testng report>after complete step no 8. again go to post build actions>
+select editable email notification>triggers>always>send to recipient list>
+
+8.To send email:click manage jenkins>configure system>go to extended e-mail notification>SMTP server(
+smtp.gmail.com)>Default user e-mail suffix(@gmail.com)>
+
+I.Syntax for different kind of report:
+plugin={"html:target/cucumber-html-report",
+"json:target/cucumber.json","pretty:target/cucumber-pretty.txt",
+"usage:target/cucumber-usage.json","junit:target/cucumber-result.xml"}
+
+J.What is Framework in Selenium Webdriver:
+A)What is framwork in selenium webdriver:
+------------------------------------------------------------------------------------------------------------------------------
+Intro to Framework:
+1)Let us talk about a simple situation where I ask a few team members to write different tests on 
+same application.The starting point would be a set of requirements that I want everybody to adhere.
+2)Automate some piece of functionality.
+3)Implement logging.
+4)Implement reporting.
+5)All the members will go back to their seats,will read the requirements assigned to them and will 
+write the tests in a way that they are most comfortable with.
+What's the problem here?
+-->All the tests will be written in different ways.That will cause a problem in running them together.
+-->All the tests will have custom ways of loggin,that will bring in problem in collecting logs at the end 
+    of test run.
+-->All the testa will have different ways to fetch test data,some will be hardcoded and some will pick 
+    from XML or excel sheets.
+-->As the test are on some application,there is a high probability that all test will pass through common
+    areas of application.It will cause duplication of code every where.
+-->All test will report pass of fail in  their own way.Causing report collection a nightmare.
+-->Now all tests are different,so running them would also be different.A custom runner for every test is just
+    an insane thought.
+-----------------------------------------------------------------------------------------------------------------------------------------
+Why we need Framework:
+-->The initial requirement of having a standard way of writing tests is what will evolve into a framework.
+-->Every company or team can have different frameworks but the whole idea will be to have a common 
+   set of rules.
+-->Note-Framework development takes time
+
+What is a Framework:
+-->A framework is set of assumptions,concepts and practices that need to be followed.
+-->Something similar to the syntax of a programming language.Syntax sets the rules.In a testing framework
+    it could be the standard with which a test class needs to be designed or a standard which should always
+    be followed to perform test logging.
+
+Components of framewoorks:
+-->The first problem that we came across we found the need of having a test writing a standard,where test 
+    will be written in a specific format that will enable us to have a uniformity around all the tests.
+
+Req 1)Test case standardization.
+Req 2)Loggin standardization.
+Req 3)Test data and configuration utility.
+Req 4)Helper/Utililty library.
+Fourth problem that we saw was in terms of having function/procedures that help us perform fuctions in 
+      the overlapping area of functionality without knowing the details of that functionality.
+      Eg. Lets say you want to test the payment gateway but to reach there you have to go through by login.
+      So login can be a function/procedure or a module to abstract out logging complexity.
+Req 5)Test execution engine
+      As all the tests were different we were not able to run them in a consistent way.This gives a need to 
+      have a consistent test running calls defined by
+Req 6)Reporting utility
+     Reporting was big concern as all the test for not conforming to a fixed reporting pattern.
+     This gives a rise to
+
+Basic framework design:
+
+         Test Runner       DataProvider
+         Reporter             Helper/Reusable
+         Logger                Tests 		
+
+--------------------------------------------------------------------------------------------------------------------------------------
+B)How to setup Maven project for hybrid framework:
+Tools & concepts you should know
+
+Maven-Build tool
+TestNG-Unit testing framework
+Jenkins-CI tool
+Git-SCM tools
+Github-Web based code repository
+Page object model-Design pattern
+Reading external files(Excel and config)
+Selenium concepts-Dealing with webelements and so on
+
+Flow
+Jenkins----->Github------->Local system (Framework)------->
+
+About eclipse-version oxygen release (4.7.0)
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

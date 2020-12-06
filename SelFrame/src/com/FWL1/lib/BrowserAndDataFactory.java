@@ -1,7 +1,8 @@
 package com.FWL1.lib;
 
 import java.io.BufferedWriter;
-
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -22,8 +23,10 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Reporter;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -37,7 +40,8 @@ public class BrowserAndDataFactory {
 	String firefoxdriverpath;
 	String iedriverpath;
 	Helper help;
-
+	String RchromeIPport;
+	String reportfilenamepath;
 	public BrowserAndDataFactory() {
 		help = new Helper();
 		String projectPath = System.getProperty("user.dir");
@@ -46,7 +50,8 @@ public class BrowserAndDataFactory {
 		chromedriverpath = help.getValueFrom("chromedriverpath");
 		firefoxdriverpath = help.getValueFrom("firefoxdriverpath");
 		iedriverpath = help.getValueFrom("iedriverpath");
-
+		RchromeIPport = help.getValueFrom("RchromeIPport");
+		reportfilenamepath=help.getValueFrom("reportfilenamepath");
 	}
 
 
@@ -54,7 +59,7 @@ public class BrowserAndDataFactory {
 		if(browserType.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver",chromedriverpath );
 			driver = new ChromeDriver();
-			log.info("browserFactory>initiateBrowser> chrome opened. ");
+			log.info("Chrome browser is launched successfully. ");
 			Reporter.log("Chrome browser is launched. ");
 		}
 
@@ -68,6 +73,25 @@ public class BrowserAndDataFactory {
 			driver = new InternetExplorerDriver();
 			log.info("browserFactory>initiateBrowser> ie opened");
 			Reporter.log("IE browser is launched. ");
+		}else if(browserType.equalsIgnoreCase("rchrome")) {
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("start-maximized");
+			//driver = new RemoteWebDriver(new URL("http://127.0.0.1:9515"),
+			//	new ChromeOptions());
+			try {
+				//driver = new RemoteWebDriver(new URL("http://127.0.0.1:9099"),options);
+				driver = new RemoteWebDriver(new URL(RchromeIPport),options);
+				//then run the following from command prompt.
+				//D:\selenium\chromeDriver\chromeDriver_85\chromedriver.exe -port=9099
+			} catch (MalformedURLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			log.info("browserFactory>initiateBrowser> rchrome is opened. ");
+			Reporter.log("Remote chromebrowser is launched. ");
+
+			driver.get(url);
+			return driver;
 		}
 
 		driver.get(url);
@@ -300,8 +324,8 @@ public class BrowserAndDataFactory {
 		if(locator.contains("By.id")) {
 			loc = By.id(locator.substring(locator.indexOf("By.id") +7, locator.length() -2) );
 			//loc = By.id(locator.replaceFirst("By.id", ""));
-			System.out.println("---"+locator.replaceFirst("By.id",""));
-			System.out.println("huy@ "+loc);
+			//System.out.println("---"+locator.replaceFirst("By.id",""));
+			//System.out.println("huy@ "+loc);
 		}else	
 			if(locator.contains("By.name")) {
 				//loc = By.name(locator.substring(locator.indexOf("\"") +1, locator.length() -2) );
@@ -310,12 +334,29 @@ public class BrowserAndDataFactory {
 				if(locator.contains("By.xpath")) {
 					loc = By.xpath(locator.substring(locator.indexOf("By.xpath") +10, locator.length() -2) );
 				}
+				else	
+					if(locator.contains("By.cssSelector")) {
+						loc = By.cssSelector(locator.substring(locator.indexOf("By.cssSelector") +16, locator.length() -2) );
+					}
 
 
 		return loc;
 
 	}
 
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(" im factory");
+		//new BrowserAndDataFactory().jWriter();
+		System.out.println("maakali::"+new BrowserAndDataFactory().jSONReader("loginPage","userName").toString());
+		System.out.println("maiu::"+new BrowserAndDataFactory().jSONReader("testNode","name").toString());
+		//new BrowserAndDataFactory().callmethod();
+
+	}
+
+	
+	
 	public String jData(String nodeName, String key) {
 		JsonNode parser=null;
 		try {
@@ -351,17 +392,19 @@ public class BrowserAndDataFactory {
 	}	
 
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println(" im factory");
-		//new BrowserAndDataFactory().jWriter();
-		//System.out.println("maakali::"+new BrowserAndDataFactory().jSONReader("loginPage","userName").toString());
-		//System.out.println("maakali::"+new BrowserAndDataFactory().jData("addUserPage","userName").toString());
-		//new BrowserAndDataFactory().callmethod();
-
-	}
+	/*
+	 * public static void main(String[] args) { // TODO Auto-generated method stub
+	 * System.out.println(" im factory"); //new BrowserAndDataFactory().jWriter();
+	 * System.out.println("maakali::"+new
+	 * BrowserAndDataFactory().jSONReader("loginPage","userName").toString());
+	 * //System.out.println("maakali::"+new
+	 * BrowserAndDataFactory().jData("addUserPage","userName").toString()); //new
+	 * BrowserAndDataFactory().callmethod();
+	 * 
+	 * }
+	 */
 	public void callmethod() {
-//		jsonNodeArrayReader(System.getProperty("user.dir")+help.getValueFrom("JsonDataRep"));
+		//		jsonNodeArrayReader(System.getProperty("user.dir")+help.getValueFrom("JsonDataRep"));
 		jsonNodeArrayReader("ha");
 	}
 
@@ -396,8 +439,8 @@ public class BrowserAndDataFactory {
 	}
 
 
-//////////////////
-	
+	//////////////////
+
 	@Test(dataProvider="datP2b")
 	public void testlo(Object node) {
 		testlog(node);

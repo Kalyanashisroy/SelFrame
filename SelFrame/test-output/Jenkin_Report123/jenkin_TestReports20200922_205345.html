@@ -1,0 +1,246 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG Report</title>
+<style type="text/css">
+table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}
+td,th {border:1px solid #009;padding:.25em .5em}
+.result th {vertical-align:bottom}
+.param th {padding-left:1em;padding-right:1em}
+.param td {padding-left:.5em;padding-right:2em}
+.stripe td,.stripe th {background-color: #E6EBF9}
+.numi,.numi_attn {text-align:right}
+.total td {font-weight:bold}
+.passedodd td {background-color: #0A0}
+.passedeven td {background-color: #3F3}
+.skippedodd td {background-color: #CCC}
+.skippedodd td {background-color: #DDD}
+.failedodd td,.numi_attn {background-color: #F33}
+.failedeven td,.stripe .numi_attn {background-color: #D00}
+.stacktrace {white-space:pre;font-family:monospace}
+.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}
+</style>
+</head>
+<body>
+<center><h1>Customized Report for JENKIN - 2020/09/22 20:53:45</h1></center><tr><th colspan="" + cq + "">All Scenarios</th></tr>
+<div id="piechart"></div>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="loader.js"></script>
+<script type="text/javascript">
+<!--Load google charts-->
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+<!--Draw the chart and set the chart values-->
+function drawChart() {
+var data = google.visualization.arrayToDataTable([
+['Task', 'Total Testcases'],
+['PASS', 5],
+['FAIL', 18],
+['SKIPPED',2],
+]);
+<!--Optional; add a title and set the width and height of the chart-->
+var options = {'title':'Test Status', 'width':550, 'height':550};
+<!--Display the chart inside the <div> element with id="piechart"-->
+var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+chart.draw(data, options);
+}
+</script>
+<table cellspacing="0" cellpadding="0" class="testOverview">
+<tr><th>Test</th><th>Methods<br/>Passed</th><th># skipped</th><th># failed</th><th>Browser</th><th>Start<br/>Time</th><th>End<br/>Time</th><th>Total<br/>Time(hh:mm:ss)</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
+<tr><th colspan="" + cq + "">All Scenarios</th></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1"><b>All_scenarios</b></a></td><td class="numi">5</td><td class="numi_attn">2</td><td class="numi_attn">18</td><td class="numi">null</td></td>
+<td class="numi">08:52:38</td></td>
+<td class="numi">08:53:42</td></td>
+<td class="numi">00:01:04</td><td class="numi">test Group_22_BB Create_new_project </td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="methodOverview" id="" + id + "">
+<tr><th>Class</th><th>Method</th><th>Exception Info</th><th>Start Time </th><th>Execution Time<br/>(hh:mm:ss)</th></tr>
+<tr><th colspan="" + cq + "">All Scenarios</th></tr>
+<tr id="" + id + ""><th colspan="" + cq + "">All_scenarios &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="18">com.FWL1.runner.Runner_One</td><td><a href="#m1"><b>ClickOnNewItem</b> (Create_new_project) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">08:53:11</td><td class="numi">00:00:03</td></tr><tr class="failedodd"><td><a href="#m2"><b>Click_Advanced_Button_Of_BUILD</b> (Create_new_project) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">08:53:23</td><td class="numi">00:00:00</td></tr><tr class="failedodd"><td><a href="#m3"><b>Click_Custom_workspace_Checkbox</b> (Create_new_project) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">08:53:24</td><td class="numi">00:00:02</td></tr><tr class="failedodd"><td><a href="#m4"><b>Click_OK_after_Select_maven_project_byclick</b> (Create_new_project) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">08:53:15</td><td class="numi">00:00:00</td></tr><tr class="failedodd"><td><a href="#m5"><b>Click_the_checkbox_This_project_is_parameterized</b> (Create_new_project) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">08:53:17</td><td class="numi">00:00:00</td></tr><tr class="failedodd"><td><a href="#m6"><b>Click_the_floating_Apply_Button</b> (Create_new_project) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">08:53:27</td><td class="numi">00:00:02</td></tr><tr class="failedodd"><td><a href="#m7"><b>Click_the_floating_SAVE_Button</b> (Create_new_project) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">08:53:29</td><td class="numi">00:00:00</td></tr><tr class="failedodd"><td><a href="#m8"><b>Delete_Existing_Projects_with_DP</b> (DELETE_project, test) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">08:53:36</td><td class="numi">00:00:03</td></tr><tr class="failedodd"><td><a href="#m9"><b>Enter_The_name_of_the_new_Project_in_theinput_Box_from_xlsx</b> (Create_new_project) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">08:53:14</td><td class="numi">00:00:00</td></tr><tr class="failedodd"><td><a href="#m10"><b>Enter_text_to_Directory_Custom_workspace</b> (Create_new_project) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">08:53:26</td><td class="numi">00:00:00</td></tr><tr class="failedodd"><td><a href="#m11"><b>Select_Choice_parameter_from_Add_Parameter_of_This_project_is_parameterized</b> (Create_new_project) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">08:53:18</td><td class="numi">00:00:00</td></tr><tr class="failedodd"><td><a href="#m12"><b>Select_maven_project_byclick</b> (Create_new_project) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">08:53:15</td><td class="numi">00:00:00</td></tr><tr class="failedodd"><td><a href="#m13"><b>TestListen_3c</b> (test) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">08:53:39</td><td class="numi">00:00:00</td></tr><tr class="failedodd"><td><a href="#m14"><b>Type_Choices_for_Choice_Parameter</b> (Create_new_project) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">08:53:22</td><td class="numi">00:00:00</td></tr><tr class="failedodd"><td><a href="#m15"><b>Type_Goals_and_Options_in_BUILD</b> (Create_new_project) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">08:53:22</td><td class="numi">00:00:00</td></tr><tr class="failedodd"><td><a href="#m16"><b>Type_Name_for_Choice_Parameter</b> (Create_new_project) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">08:53:19</td><td class="numi">00:00:02</td></tr><tr class="failedodd"><td><a href="#m17"><b>Verify_that_project_is_created_successfully</b> (Create_new_project) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">08:53:30</td><td class="numi">00:00:05</td></tr><tr class="failedodd"><td><a href="#m18"><b>click_the_check_box_for_Discard_old_builds</b> (Create_new_project) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">08:53:18</td><td class="numi">00:00:00</td></tr>
+<tr><th colspan="" + cq + "">All_scenarios &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="2">com.FWL1.runner.Runner_One</td><td><a href="#m19"><b>TestListen_3c1</b> (test) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">08:53:40</td><td class="numi">00:00:00</td></tr><tr class="skippedodd"><td><a href="#m20"><b>TestListen_3c2</b> (test) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">08:53:40</td><td class="numi">00:00:00</td></tr>
+<tr><th colspan="" + cq + "">All_scenarios &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="5">com.FWL1.runner.Runner_One</td><td><a href="#m21"><b>AB_Add_user_in_Jenkin_by_admin_jsondata2</b> (Group_22_BB) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">08:52:58</td><td class="numi">00:00:12</td></tr><tr class="passedodd"><td><a href="#m22"><b>LoginPage_jsondata</b> (DELETE_project, Group_22_BB, Run_the_Build, Create_new_project, Group_33_CC) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">08:52:53</td><td class="numi">00:00:05</td></tr><tr class="passedodd"><td><a href="#m23"><b>OpenBrowserForJenkin_jsondata</b> (DELETE_project, Group_22_BB, Run_the_Build, Create_new_project, Group_33_CC) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">08:52:39</td><td class="numi">00:00:13</td></tr><tr class="passedodd"><td><a href="#m24"><b>get_the_url_of_the_current_page</b> (Create_new_project) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">08:53:16</td><td class="numi">00:00:01</td></tr><tr class="passedodd"><td><a href="#m25"><b>test234</b> (test) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">08:52:52</td><td class="numi">00:00:01</td></tr>
+</table>
+<h1>All_scenarios</h1>
+<h2 id="m1">com.FWL1.runner.Runner_One:ClickOnNewItem</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th></tr>
+<tr class="param stripe"><td>{&quot;projectNameToBeCreated&quot;:&quot;test_5&quot;,&quot;parameterName&quot;:&quot;testngxmlfile&quot;,&quot;parameterChoices&quot;:&quot;testng_Jenkin.xml&quot;,&quot;goalsAndOptions&quot;:&quot;test -D suiteXmlFile=$testngxmlfile&quot;,&quot;projDirectoryName&quot;:&quot;c:/workspace/SelFrame&quot;}</td>
+</tr>
+<tr><td>
+<div class="stacktrace"></div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.FWL1.runner.Runner_One:Click_Advanced_Button_Of_BUILD</h2>
+<div>
+<div class="stacktrace"></div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.FWL1.runner.Runner_One:Click_Custom_workspace_Checkbox</h2>
+<div>
+<div class="stacktrace"></div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.FWL1.runner.Runner_One:Click_OK_after_Select_maven_project_byclick</h2>
+<div>
+<div class="stacktrace"></div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.FWL1.runner.Runner_One:Click_the_checkbox_This_project_is_parameterized</h2>
+<div>
+<div class="stacktrace"></div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.FWL1.runner.Runner_One:Click_the_floating_Apply_Button</h2>
+<div>
+<div class="stacktrace"></div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.FWL1.runner.Runner_One:Click_the_floating_SAVE_Button</h2>
+<div>
+<div class="stacktrace"></div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.FWL1.runner.Runner_One:Delete_Existing_Projects_with_DP</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th></tr>
+<tr class="param stripe"><td>{&quot;projectName&quot;:&quot;test_4&quot;}</td>
+</tr>
+<tr><td>
+<div class="stacktrace"></div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.FWL1.runner.Runner_One:Enter_The_name_of_the_new_Project_in_theinput_Box_from_xlsx</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th></tr>
+<tr class="param stripe"><td>{&quot;projectNameToBeCreated&quot;:&quot;test_5&quot;,&quot;parameterName&quot;:&quot;testngxmlfile&quot;,&quot;parameterChoices&quot;:&quot;testng_Jenkin.xml&quot;,&quot;goalsAndOptions&quot;:&quot;test -D suiteXmlFile=$testngxmlfile&quot;,&quot;projDirectoryName&quot;:&quot;c:/workspace/SelFrame&quot;}</td>
+</tr>
+<tr><td>
+<div class="stacktrace"></div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.FWL1.runner.Runner_One:Enter_text_to_Directory_Custom_workspace</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th></tr>
+<tr class="param stripe"><td>{&quot;projectNameToBeCreated&quot;:&quot;test_5&quot;,&quot;parameterName&quot;:&quot;testngxmlfile&quot;,&quot;parameterChoices&quot;:&quot;testng_Jenkin.xml&quot;,&quot;goalsAndOptions&quot;:&quot;test -D suiteXmlFile=$testngxmlfile&quot;,&quot;projDirectoryName&quot;:&quot;c:/workspace/SelFrame&quot;}</td>
+</tr>
+<tr><td>
+<div class="stacktrace"></div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.FWL1.runner.Runner_One:Select_Choice_parameter_from_Add_Parameter_of_This_project_is_parameterized</h2>
+<div>
+<div class="stacktrace"></div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.FWL1.runner.Runner_One:Select_maven_project_byclick</h2>
+<div>
+<div class="stacktrace"></div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">com.FWL1.runner.Runner_One:TestListen_3c</h2>
+<div>
+<div class="stacktrace"></div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.FWL1.runner.Runner_One:Type_Choices_for_Choice_Parameter</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th></tr>
+<tr class="param stripe"><td>{&quot;projectNameToBeCreated&quot;:&quot;test_5&quot;,&quot;parameterName&quot;:&quot;testngxmlfile&quot;,&quot;parameterChoices&quot;:&quot;testng_Jenkin.xml&quot;,&quot;goalsAndOptions&quot;:&quot;test -D suiteXmlFile=$testngxmlfile&quot;,&quot;projDirectoryName&quot;:&quot;c:/workspace/SelFrame&quot;}</td>
+</tr>
+<tr><td>
+<div class="stacktrace"></div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">com.FWL1.runner.Runner_One:Type_Goals_and_Options_in_BUILD</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th></tr>
+<tr class="param stripe"><td>{&quot;projectNameToBeCreated&quot;:&quot;test_5&quot;,&quot;parameterName&quot;:&quot;testngxmlfile&quot;,&quot;parameterChoices&quot;:&quot;testng_Jenkin.xml&quot;,&quot;goalsAndOptions&quot;:&quot;test -D suiteXmlFile=$testngxmlfile&quot;,&quot;projDirectoryName&quot;:&quot;c:/workspace/SelFrame&quot;}</td>
+</tr>
+<tr><td>
+<div class="stacktrace"></div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">com.FWL1.runner.Runner_One:Type_Name_for_Choice_Parameter</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th></tr>
+<tr class="param stripe"><td>{&quot;projectNameToBeCreated&quot;:&quot;test_5&quot;,&quot;parameterName&quot;:&quot;testngxmlfile&quot;,&quot;parameterChoices&quot;:&quot;testng_Jenkin.xml&quot;,&quot;goalsAndOptions&quot;:&quot;test -D suiteXmlFile=$testngxmlfile&quot;,&quot;projDirectoryName&quot;:&quot;c:/workspace/SelFrame&quot;}</td>
+</tr>
+<tr><td>
+<div class="stacktrace"></div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">com.FWL1.runner.Runner_One:Verify_that_project_is_created_successfully</h2>
+<div>
+<div class="stacktrace"></div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">com.FWL1.runner.Runner_One:click_the_check_box_for_Discard_old_builds</h2>
+<div>
+<div class="stacktrace"></div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">com.FWL1.runner.Runner_One:TestListen_3c1</h2>
+<div>
+<div class="stacktrace"></div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">com.FWL1.runner.Runner_One:TestListen_3c2</h2>
+<div>
+<div class="stacktrace"></div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">com.FWL1.runner.Runner_One:AB_Add_user_in_Jenkin_by_admin_jsondata2</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th></tr>
+<tr class="param stripe"><td>{&quot;userName&quot;:&quot;kamal&quot;,&quot;passWord&quot;:&quot;123456&quot;,&quot;confpassWord&quot;:&quot;123456&quot;,&quot;fullname&quot;:&quot;kamal nath sarkar&quot;,&quot;email&quot;:&quot;haloINdia@llfkj.com&quot;}</td>
+</tr>
+<tr><td>
+The user to be deleted if exist is : kamal . <br/>
+The user to be deleted is present in the table. <br/>
+The user is able to see explicit wait<br/>
+The user is deleted successfully. <br/>
+Navigated to add user page. <br/>
+The user is able to see explicit wait<br/>
+The create user button is clicked. Json data used of Node -addUserPage <br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">com.FWL1.runner.Runner_One:LoginPage_jsondata</h2>
+<div>
+username is entered. <br/>
+password is entered. <br/>
+ Submit done. <br/>
+The title of the page is: Dashboard [Jenkins]. <br/>
+The login is done successfully- jsondata<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">com.FWL1.runner.Runner_One:OpenBrowserForJenkin_jsondata</h2>
+<div>
+Chrome browser is launched. <br/>
+The browser is opened successfully - jsondata. <br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">com.FWL1.runner.Runner_One:get_the_url_of_the_current_page</h2>
+<div>
+The current url of the page is http://localhost:8080/. <br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">com.FWL1.runner.Runner_One:test234</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th></tr>
+<tr class="param stripe"><td>{&quot;projectNameToBeCreated&quot;:&quot;test_5&quot;,&quot;parameterName&quot;:&quot;testngxmlfile&quot;,&quot;parameterChoices&quot;:&quot;testng_Jenkin.xml&quot;,&quot;goalsAndOptions&quot;:&quot;test -D suiteXmlFile=$testngxmlfile&quot;,&quot;projDirectoryName&quot;:&quot;c:/workspace/SelFrame&quot;}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<center> TestNG Report </center>
+</body></html>

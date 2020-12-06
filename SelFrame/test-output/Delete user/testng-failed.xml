@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Delete user]">
+  <listeners>
+    <listener class-name="com.FWL1.lib.Listener"/>
+  </listeners>
+  <test name="Delete_User(failed)">
+    <groups>
+      <run>
+        <include name="Group_33_CC"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.FWL1.runner.Runner_One">
+        <methods>
+          <include name="AA_Delete_existing_Jenkin_user" invocation-numbers="0"/>
+          <include name="takeScreen_Shot_On_Failure_or_Success2"/>
+          <include name="To_create_objects_of_the_imported_class"/>
+          <include name="OpenBrowserForJenkin_jsondata"/>
+          <include name="LoginPage_jsondata"/>
+        </methods>
+      </class> <!-- com.FWL1.runner.Runner_One -->
+    </classes>
+  </test> <!-- Delete_User(failed) -->
+</suite> <!-- Failed suite [Delete user] -->

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Scenarios">
+	<!-- group-by-instances="true " -->
+	<!--factory does not run the BeforeSuite second time. -->
+	<groups>
+		<run>
+			<!--The below are for create user and Delete user. -->
+			 <include name="Group_22_BB" />
+			 <!-- <include name="Group_33_CC" />
+			 <include name="DELETE_project" />-->
+ 			 <include name="Create_new_project" />
+			 <!--<include name="Run_the_Build" />-->
+			 <include name="test"/>
+		</run>
+	</groups>
+	<listeners>
+		<!--<listener class-name="com.FWL1.lib.Listener" />-->
+		<listener class-name="com.FWL1.lib.CustomReporter" />
+	</listeners>
+	<!-- preserve true is very important, it help to repeat the whole group -->
+	<test thread-count="1" preserve-order="true" name="All_scenarios">
+		<classes>
+			<class name="com.FWL1.runner.Factory_Two_BB" />
+		</classes>
+	</test>
+</suite> 

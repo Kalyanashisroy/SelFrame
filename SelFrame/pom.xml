@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>SeleniumFramework</groupId>
@@ -14,34 +13,33 @@
 	<dependencies>
 		<!-- <dependency> <groupId>junit</groupId> <artifactId>junit</artifactId> 
 			<version>3.8.1</version> <scope>test</scope> </dependency> -->
-		
-		
-		<!-- <dependency> 
-			<groupId>org.seleniumhq.selenium</groupId> 
-			<artifactId>selenium-java</artifactId> 
-			<version>3.3.0</version> 
-		</dependency> -->
 
 
-		<!-- <dependency> 
-			<groupId>org.seleniumhq.selenium</groupId> 
-			<artifactId>selenium-java</artifactId> 
-			<version>3.14.0</version> 
-		</dependency> -->
-		
-		
+		<!-- <dependency> <groupId>org.seleniumhq.selenium</groupId> <artifactId>selenium-java</artifactId> 
+			<version>3.3.0</version> </dependency> -->
+
+
+		<!-- <dependency> <groupId>org.seleniumhq.selenium</groupId> <artifactId>selenium-java</artifactId> 
+			<version>3.14.0</version> </dependency> -->
+
+
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
 			<version>3.12.0</version>
 		</dependency>
-		
-		<!-- <dependency>
-			<groupId>org.seleniumhq.selenium</groupId>
-			<artifactId>selenium-java</artifactId>
-			<version>3.5.3</version>
-		</dependency> -->
-				
+
+		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>4.0.0</version>
+		</dependency>
+
+
+		<!-- <dependency> <groupId>org.seleniumhq.selenium</groupId> <artifactId>selenium-java</artifactId> 
+			<version>3.5.3</version> </dependency> -->
+
 		<dependency>
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
@@ -106,9 +104,9 @@
 			<artifactId>extentreports</artifactId>
 			<version>3.1.5</version>
 		</dependency>
-		
+
 		<!-- Cucumber dependencies -->
-		
+
 		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-java</artifactId>
@@ -152,10 +150,10 @@
 			<artifactId>jackson-databind</artifactId>
 			<version>2.10.0</version>
 		</dependency>
-		
-		
+
+
 		<!-- Cucumber dependencies -->
-		
+
 	</dependencies>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
@@ -168,27 +166,24 @@
 			</resource>
 		</resources>
 		<plugins>
-			<!-- <plugin>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.0</version>
-				<configuration>
-					<release>12</release>
-				</configuration>
-			</plugin> -->
+			<!-- <plugin> <artifactId>maven-compiler-plugin</artifactId> <version>3.8.0</version> 
+				<configuration> <release>12</release> </configuration> </plugin> -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M4</version>
 				<configuration>
+					<!-- <suiteXmlFiles> <suiteXmlFile>${suiteXmlFile}</suiteXmlFile> </suiteXmlFiles> -->
 					<systemPropertyVariables>
-					<!-- <executionbrowser>${executionbrowser}</executionbrowser> -->
-					<!-- <browser_pom>${browser_pom}</browser_pom> -->
-					<!-- <pomurl>${pomurl}</pomurl> -->
+						<!-- <executionbrowser>${executionbrowser}</executionbrowser> -->
+						<!-- <browser_pom>${browser_pom}</browser_pom> -->
+						<!-- <pomurl>${pomurl}</pomurl> -->
 					</systemPropertyVariables>
 					<suiteXmlFiles>
 						<!-- <suiteXmlFile>multibrowser.xml</suiteXmlFile> -->
 						<!-- <suiteXmlFile>screeNcap.xml</suiteXmlFile> -->
-						<!-- <suiteXmlFile>${suiteXmlFile}</suiteXmlFile> take the 'suitefile' name from 'Jenkins' -->
+						<!-- <suiteXmlFile>${suiteXmlFile}</suiteXmlFile> take the 'suitefile' 
+							name from 'Jenkins' -->
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>

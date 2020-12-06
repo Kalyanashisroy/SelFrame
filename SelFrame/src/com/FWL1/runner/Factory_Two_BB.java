@@ -33,6 +33,10 @@ public class Factory_Two_BB {
 		return objecttoStorenodeArray;
 	}
 
-	
+
+@Test
+public void test234() {
+	System.out.println("helllo sier ");
+}
 	}
 

@@ -28,6 +28,8 @@ public class Runner {
 		//jl.ClickMyViews(driver);
 		jl.ClickCredentials(driver);
 		jl.LogoutPage(driver);
+		
+	
 	}
 	@AfterTest
 	public void closeBrowser() {

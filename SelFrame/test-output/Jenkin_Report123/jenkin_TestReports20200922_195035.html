@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG Report</title>
+<style type="text/css">
+table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}
+td,th {border:1px solid #009;padding:.25em .5em}
+.result th {vertical-align:bottom}
+.param th {padding-left:1em;padding-right:1em}
+.param td {padding-left:.5em;padding-right:2em}
+.stripe td,.stripe th {background-color: #E6EBF9}
+.numi,.numi_attn {text-align:right}
+.total td {font-weight:bold}
+.passedodd td {background-color: #0A0}
+.passedeven td {background-color: #3F3}
+.skippedodd td {background-color: #CCC}
+.skippedodd td {background-color: #DDD}
+.failedodd td,.numi_attn {background-color: #F33}
+.failedeven td,.stripe .numi_attn {background-color: #D00}
+.stacktrace {white-space:pre;font-family:monospace}
+.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}
+</style>
+</head>
+<body>
+<center><h1>Customized Report for JENKIN - 2020/09/22 19:50:35</h1></center><tr><th colspan="" + cq + "">All Scenarios</th></tr>
+<div id="piechart"></div>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript" src="loader.js"></script>
+<script type="text/javascript">
+<!--Load google charts-->
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+<!--Draw the chart and set the chart values-->
+function drawChart() {
+var data = google.visualization.arrayToDataTable([
+['Task', 'Total Testcases'],
+['PASS', 4],
+['FAIL', 2],
+['SKIPPED',2],
+]);
+<!--Optional; add a title and set the width and height of the chart-->
+var options = {'title':'Test Status', 'width':550, 'height':550};
+<!--Display the chart inside the <div> element with id="piechart"-->
+var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+chart.draw(data, options);
+}
+</script>
+<table cellspacing="0" cellpadding="0" class="testOverview">
+<tr><th>Test</th><th>Methods<br/>Passed</th><th># skipped</th><th># failed</th><th>Browser</th><th>Start<br/>Time</th><th>End<br/>Time</th><th>Total<br/>Time(hh:mm:ss)</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
+<tr><th colspan="" + cq + "">All Scenarios</th></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1"><b>All_scenarios</b></a></td><td class="numi">4</td><td class="numi_attn">2</td><td class="numi_attn">2</td><td class="numi">null</td></td>
+<td class="numi">07:49:37</td></td>
+<td class="numi">07:50:32</td></td>
+<td class="numi">00:00:55</td><td class="numi">test Group_22_BB </td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="methodOverview" id="" + id + "">
+<tr><th>Class</th><th>Method</th><th>Exception Info</th><th>Start Time </th><th>Execution Time<br/>(hh:mm:ss)</th></tr>
+<tr><th colspan="" + cq + "">All Scenarios</th></tr>
+<tr id="" + id + ""><th colspan="" + cq + "">All_scenarios &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="2">com.FWL1.runner.Runner_One</td><td><a href="#m1"><b>Delete_Existing_Projects_with_DP</b> (DELETE_project, test) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">07:50:21</td><td class="numi">00:00:04</td></tr><tr class="failedodd"><td><a href="#m2"><b>TestListen_3c</b> (test) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">07:50:26</td><td class="numi">00:00:00</td></tr>
+<tr><th colspan="" + cq + "">All_scenarios &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="2">com.FWL1.runner.Runner_One</td><td><a href="#m3"><b>TestListen_3c1</b> (test) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">07:50:26</td><td class="numi">00:00:00</td></tr><tr class="skippedodd"><td><a href="#m4"><b>TestListen_3c2</b> (test) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">07:50:26</td><td class="numi">00:00:01</td></tr>
+<tr><th colspan="" + cq + "">All_scenarios &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="4">com.FWL1.runner.Runner_One</td><td><a href="#m5"><b>AB_Add_user_in_Jenkin_by_admin_jsondata2</b> (Group_22_BB) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">07:50:09</td><td class="numi">00:00:11</td></tr><tr class="passedodd"><td><a href="#m6"><b>LoginPage_jsondata</b> (DELETE_project, Group_22_BB, Run_the_Build, Create_new_project, Group_33_CC) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">07:49:52</td><td class="numi">00:00:16</td></tr><tr class="passedodd"><td><a href="#m7"><b>OpenBrowserForJenkin_jsondata</b> (DELETE_project, Group_22_BB, Run_the_Build, Create_new_project, Group_33_CC) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">07:49:39</td><td class="numi">00:00:12</td></tr><tr class="passedodd"><td><a href="#m8"><b>test234</b> (test) </a></td><td class="numi" style="text-align:left;padding-right:2em"><br/></td><td style="text-align:right">07:49:52</td><td class="numi">00:00:00</td></tr>
+</table>
+<h1>All_scenarios</h1>
+<h2 id="m1">com.FWL1.runner.Runner_One:Delete_Existing_Projects_with_DP</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th></tr>
+<tr class="param stripe"><td>{&quot;projectName&quot;:&quot;test_4&quot;}</td>
+</tr>
+<tr><td>
+<div class="stacktrace"></div>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.FWL1.runner.Runner_One:TestListen_3c</h2>
+<div>
+<div class="stacktrace"></div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.FWL1.runner.Runner_One:TestListen_3c1</h2>
+<div>
+<div class="stacktrace"></div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.FWL1.runner.Runner_One:TestListen_3c2</h2>
+<div>
+<div class="stacktrace"></div>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.FWL1.runner.Runner_One:AB_Add_user_in_Jenkin_by_admin_jsondata2</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th></tr>
+<tr class="param stripe"><td>{&quot;userName&quot;:&quot;kamal&quot;,&quot;passWord&quot;:&quot;123456&quot;,&quot;confpassWord&quot;:&quot;123456&quot;,&quot;fullname&quot;:&quot;kamal nath sarkar&quot;,&quot;email&quot;:&quot;haloINdia@llfkj.com&quot;}</td>
+</tr>
+<tr><td>
+The user to be deleted if exist is : kamal . <br/>
+The user to be deleted is present in the table. <br/>
+The user is able to see explicit wait<br/>
+The user is deleted successfully. <br/>
+Navigated to add user page. <br/>
+The user is able to see explicit wait<br/>
+The create user button is clicked. Json data used of Node -addUserPage <br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.FWL1.runner.Runner_One:LoginPage_jsondata</h2>
+<div>
+username is entered. <br/>
+password is entered. <br/>
+ Submit done. <br/>
+The title of the page is: Dashboard [Jenkins]. <br/>
+The login is done successfully- jsondata<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.FWL1.runner.Runner_One:OpenBrowserForJenkin_jsondata</h2>
+<div>
+Chrome browser is launched. <br/>
+The browser is opened successfully - jsondata. <br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.FWL1.runner.Runner_One:test234</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Param.1</th></tr>
+<tr class="param stripe"><td>{&quot;projectNameToBeCreated&quot;:&quot;test_5&quot;,&quot;parameterName&quot;:&quot;testngxmlfile&quot;,&quot;parameterChoices&quot;:&quot;testng_Jenkin.xml&quot;,&quot;goalsAndOptions&quot;:&quot;test -D suiteXmlFile=$testngxmlfile&quot;,&quot;projDirectoryName&quot;:&quot;c:/workspace/SelFrame&quot;}</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<center> TestNG Report </center>
+</body></html>

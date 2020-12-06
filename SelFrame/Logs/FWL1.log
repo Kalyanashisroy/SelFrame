@@ -267,3 +267,1212 @@
 13-09-2020 16:34:12 INFO [Listener]: L:: onFinish : Create_user
 14-09-2020 15:39:47 INFO [PO_LoginPage]: Page object login page is called. 
 14-09-2020 15:39:47 INFO [Runner_One]: Objects of the imported class created. 
+14-09-2020 23:13:58 INFO [PO_LoginPage]: Page object login page is called. 
+14-09-2020 23:13:58 INFO [Runner_One]: Objects of the imported class created. 
+14-09-2020 23:15:01 INFO [PO_LoginPage]: Page object login page is called. 
+14-09-2020 23:15:02 INFO [Runner_One]: Objects of the imported class created. 
+16-09-2020 19:58:02 INFO [Listener]: L:: The name of the testcase from testng xml: All_scenarios
+16-09-2020 19:58:04 INFO [PO_LoginPage]: Page object login page is called. 
+16-09-2020 19:58:04 INFO [Runner_One]: Objects of the imported class created. 
+16-09-2020 19:58:04 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin_jsondata
+16-09-2020 19:58:12 INFO [BrowserAndDataFactory]: browserFactory>initiateBrowser> chrome opened. 
+16-09-2020 19:58:19 INFO [TestCases_for_Jenkins]: openBrowser done
+16-09-2020 19:58:21 INFO [Listener]: L:: onTestSuccess : OpenBrowserForJenkin_jsondata
+16-09-2020 19:58:21 INFO [PO_LoginPage]: Page object login page is called. 
+16-09-2020 19:58:21 INFO [Runner_One]: Objects of the imported class created. 
+16-09-2020 19:58:21 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin_jsondata
+16-09-2020 19:58:24 INFO [BrowserAndDataFactory]: browserFactory>initiateBrowser> chrome opened. 
+16-09-2020 19:58:25 INFO [TestCases_for_Jenkins]: openBrowser done
+16-09-2020 19:58:26 INFO [Listener]: L:: onTestSuccess : OpenBrowserForJenkin_jsondata
+16-09-2020 19:58:26 INFO [Listener]: L:: The name of the method: LoginPage_jsondata
+16-09-2020 19:58:51 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+16-09-2020 19:58:51 INFO [Listener]: L:: onTestSuccess : LoginPage_jsondata
+16-09-2020 19:58:51 INFO [Listener]: L:: The name of the method: LoginPage_jsondata
+16-09-2020 19:58:55 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+16-09-2020 19:58:55 INFO [Listener]: L:: onTestSuccess : LoginPage_jsondata
+16-09-2020 19:58:55 INFO [Listener]: L:: The name of the method: AA_Delete_existing_Jenkin_user
+16-09-2020 19:58:59 INFO [Listener]: L:: onTestSuccess : AA_Delete_existing_Jenkin_user
+16-09-2020 19:58:59 INFO [Listener]: L:: The name of the method: AA_Delete_existing_Jenkin_user
+16-09-2020 19:59:03 INFO [Listener]: L:: onTestSuccess : AA_Delete_existing_Jenkin_user
+16-09-2020 19:59:03 INFO [Listener]: L:: The name of the method: AB_Add_user_in_Jenkin_by_admin_jsondata2
+16-09-2020 19:59:07 INFO [Listener]: L:: onTestSuccess : AB_Add_user_in_Jenkin_by_admin_jsondata2
+16-09-2020 19:59:07 INFO [Listener]: L:: The name of the method: AB_Add_user_in_Jenkin_by_admin_jsondata2
+16-09-2020 19:59:13 INFO [Listener]: L:: onTestSuccess : AB_Add_user_in_Jenkin_by_admin_jsondata2
+16-09-2020 19:59:13 INFO [Listener]: L:: onFinish : All_scenarios
+16-09-2020 21:45:19 INFO [Listener]: L:: The name of the testcase from testng xml: All_scenarios
+16-09-2020 21:45:20 INFO [PO_LoginPage]: Page object login page is called. 
+16-09-2020 21:45:20 INFO [Runner_One]: Objects of the imported class created. 
+16-09-2020 21:45:20 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin_jsondata
+16-09-2020 21:45:27 INFO [BrowserAndDataFactory]: browserFactory>initiateBrowser> chrome opened. 
+16-09-2020 21:45:28 INFO [TestCases_for_Jenkins]: openBrowser done
+16-09-2020 21:45:29 INFO [Listener]: L:: onTestSuccess : OpenBrowserForJenkin_jsondata
+16-09-2020 21:45:30 INFO [PO_LoginPage]: Page object login page is called. 
+16-09-2020 21:45:30 INFO [Runner_One]: Objects of the imported class created. 
+16-09-2020 21:45:30 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin_jsondata
+16-09-2020 21:45:34 INFO [BrowserAndDataFactory]: browserFactory>initiateBrowser> chrome opened. 
+16-09-2020 21:45:40 INFO [TestCases_for_Jenkins]: openBrowser done
+16-09-2020 21:45:41 INFO [Listener]: L:: onTestSuccess : OpenBrowserForJenkin_jsondata
+16-09-2020 21:45:41 INFO [Listener]: L:: The name of the method: LoginPage_jsondata
+16-09-2020 21:46:02 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+16-09-2020 21:46:02 INFO [Listener]: L:: onTestSuccess : LoginPage_jsondata
+16-09-2020 21:46:02 INFO [Listener]: L:: The name of the method: LoginPage_jsondata
+16-09-2020 21:46:06 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+16-09-2020 21:46:06 INFO [Listener]: L:: onTestSuccess : LoginPage_jsondata
+16-09-2020 21:46:06 INFO [Listener]: L:: The name of the method: AA_Delete_existing_Jenkin_user
+16-09-2020 21:46:10 INFO [Listener]: L:: onTestSuccess : AA_Delete_existing_Jenkin_user
+16-09-2020 21:46:10 INFO [Listener]: L:: The name of the method: AA_Delete_existing_Jenkin_user
+16-09-2020 21:46:14 INFO [Listener]: L:: onTestSuccess : AA_Delete_existing_Jenkin_user
+16-09-2020 21:46:14 INFO [Listener]: L:: The name of the method: AB_Add_user_in_Jenkin_by_admin_jsondata2
+16-09-2020 21:46:18 INFO [Listener]: L:: onTestSuccess : AB_Add_user_in_Jenkin_by_admin_jsondata2
+16-09-2020 21:46:19 INFO [Listener]: L:: The name of the method: AB_Add_user_in_Jenkin_by_admin_jsondata2
+16-09-2020 21:46:23 INFO [Listener]: L:: onTestSuccess : AB_Add_user_in_Jenkin_by_admin_jsondata2
+16-09-2020 21:46:27 INFO [Listener]: L:: onFinish : All_scenarios
+16-09-2020 23:47:03 INFO [Listener]: L:: The name of the testcase from testng xml: All_scenarios
+16-09-2020 23:47:04 INFO [PO_LoginPage]: Page object login page is called. 
+16-09-2020 23:47:04 INFO [Runner_One]: Objects of the imported class created. 
+16-09-2020 23:47:04 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin_jsondata
+16-09-2020 23:47:09 INFO [Listener]: L:: onTestFailure : OpenBrowserForJenkin_jsondata
+16-09-2020 23:47:09 INFO [Listener]: L:: The name of the method: LoginPage_jsondata
+16-09-2020 23:47:09 INFO [Listener]: L:: onTestSkipped : LoginPage_jsondata
+16-09-2020 23:47:09 INFO [Listener]: L:: The name of the method: AA_Delete_existing_Jenkin_user
+16-09-2020 23:47:09 INFO [Listener]: L:: onTestSkipped : AA_Delete_existing_Jenkin_user
+16-09-2020 23:47:09 INFO [Listener]: L:: The name of the method: AB_Add_user_in_Jenkin_by_admin_jsondata2
+16-09-2020 23:47:09 INFO [Listener]: L:: onTestSkipped : AB_Add_user_in_Jenkin_by_admin_jsondata2
+16-09-2020 23:47:09 INFO [Listener]: L:: The name of the method: ClickOnNewItem
+16-09-2020 23:47:09 INFO [Listener]: L:: onTestSkipped : ClickOnNewItem
+16-09-2020 23:47:09 INFO [Listener]: L:: The name of the method: Enter_The_name_of_the_new_Project_in_theinput_Box_from_xlsx
+16-09-2020 23:47:09 INFO [Listener]: L:: onTestSkipped : Enter_The_name_of_the_new_Project_in_theinput_Box_from_xlsx
+16-09-2020 23:47:09 INFO [Listener]: L:: The name of the method: Select_maven_project_byclick
+16-09-2020 23:47:09 INFO [Listener]: L:: onTestSkipped : Select_maven_project_byclick
+16-09-2020 23:47:09 INFO [Listener]: L:: The name of the method: Click_OK_after_Select_maven_project_byclick
+16-09-2020 23:47:09 INFO [Listener]: L:: onTestSkipped : Click_OK_after_Select_maven_project_byclick
+16-09-2020 23:47:09 INFO [Listener]: L:: The name of the method: get_the_url_of_the_current_page
+16-09-2020 23:47:09 INFO [Listener]: L:: onTestSkipped : get_the_url_of_the_current_page
+16-09-2020 23:47:09 INFO [Listener]: L:: The name of the method: Click_the_checkbox_This_project_is_parameterized
+16-09-2020 23:47:09 INFO [Listener]: L:: onTestSkipped : Click_the_checkbox_This_project_is_parameterized
+16-09-2020 23:47:09 INFO [Listener]: L:: The name of the method: click_the_check_box_for_Discard_old_builds
+16-09-2020 23:47:09 INFO [Listener]: L:: onTestSkipped : click_the_check_box_for_Discard_old_builds
+16-09-2020 23:47:09 INFO [Listener]: L:: The name of the method: Select_Choice_parameter_from_Add_Parameter_of_This_project_is_parameterized
+16-09-2020 23:47:09 INFO [Listener]: L:: onTestSkipped : Select_Choice_parameter_from_Add_Parameter_of_This_project_is_parameterized
+16-09-2020 23:47:10 INFO [Listener]: L:: The name of the method: Type_Name_for_Choice_Parameter
+16-09-2020 23:47:10 INFO [Listener]: L:: onTestSkipped : Type_Name_for_Choice_Parameter
+16-09-2020 23:47:10 INFO [Listener]: L:: The name of the method: Type_Choices_for_Choice_Parameter
+16-09-2020 23:47:10 INFO [Listener]: L:: onTestSkipped : Type_Choices_for_Choice_Parameter
+16-09-2020 23:47:10 INFO [Listener]: L:: The name of the method: Type_Goals_and_Options_in_BUILD
+16-09-2020 23:47:10 INFO [Listener]: L:: onTestSkipped : Type_Goals_and_Options_in_BUILD
+16-09-2020 23:47:10 INFO [Listener]: L:: The name of the method: Click_Advanced_Button_Of_BUILD
+16-09-2020 23:47:10 INFO [Listener]: L:: onTestSkipped : Click_Advanced_Button_Of_BUILD
+16-09-2020 23:47:10 INFO [Listener]: L:: The name of the method: Click_Custom_workspace_Checkbox
+16-09-2020 23:47:10 INFO [Listener]: L:: onTestSkipped : Click_Custom_workspace_Checkbox
+16-09-2020 23:47:10 INFO [Listener]: L:: The name of the method: Enter_text_to_Directory_Custom_workspace
+16-09-2020 23:47:10 INFO [Listener]: L:: onTestSkipped : Enter_text_to_Directory_Custom_workspace
+16-09-2020 23:47:10 INFO [Listener]: L:: The name of the method: Click_the_floating_Apply_Button
+16-09-2020 23:47:10 INFO [Listener]: L:: onTestSkipped : Click_the_floating_Apply_Button
+16-09-2020 23:47:10 INFO [Listener]: L:: The name of the method: Click_the_floating_SAVE_Button
+16-09-2020 23:47:10 INFO [Listener]: L:: onTestSkipped : Click_the_floating_SAVE_Button
+16-09-2020 23:47:10 INFO [Listener]: L:: The name of the method: Verify_that_project_is_created_successfully
+16-09-2020 23:47:10 INFO [Listener]: L:: onTestSkipped : Verify_that_project_is_created_successfully
+16-09-2020 23:47:10 INFO [Listener]: L:: The name of the method: Delete_Existing_Projects_with_DP
+16-09-2020 23:47:10 INFO [Listener]: L:: onTestSkipped : Delete_Existing_Projects_with_DP
+16-09-2020 23:47:10 INFO [Listener]: L:: The name of the method: SelframeBuildWith_jsondata
+16-09-2020 23:47:10 INFO [Listener]: L:: onTestSkipped : SelframeBuildWith_jsondata
+16-09-2020 23:47:10 INFO [Listener]: L:: The name of the method: GoTheRunningBuildConsole
+16-09-2020 23:47:10 INFO [Listener]: L:: onTestSkipped : GoTheRunningBuildConsole
+16-09-2020 23:47:10 INFO [Listener]: L:: The name of the method: ToVerifyThatBuildIsFinishedFromConsoleAndFindStatus
+16-09-2020 23:47:10 INFO [Listener]: L:: onTestSkipped : ToVerifyThatBuildIsFinishedFromConsoleAndFindStatus
+16-09-2020 23:47:11 INFO [Listener]: L:: onFinish : All_scenarios
+16-09-2020 23:48:56 INFO [Listener]: L:: The name of the testcase from testng xml: All_scenarios
+16-09-2020 23:48:56 INFO [PO_LoginPage]: Page object login page is called. 
+16-09-2020 23:48:56 INFO [Runner_One]: Objects of the imported class created. 
+16-09-2020 23:48:56 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin_jsondata
+16-09-2020 23:48:59 INFO [Listener]: L:: onTestFailure : OpenBrowserForJenkin_jsondata
+16-09-2020 23:48:59 INFO [Listener]: L:: The name of the method: LoginPage_jsondata
+16-09-2020 23:48:59 INFO [Listener]: L:: onTestSkipped : LoginPage_jsondata
+16-09-2020 23:48:59 INFO [Listener]: L:: The name of the method: AA_Delete_existing_Jenkin_user
+16-09-2020 23:48:59 INFO [Listener]: L:: onTestSkipped : AA_Delete_existing_Jenkin_user
+16-09-2020 23:49:00 INFO [Listener]: L:: The name of the method: AB_Add_user_in_Jenkin_by_admin_jsondata2
+16-09-2020 23:49:00 INFO [Listener]: L:: onTestSkipped : AB_Add_user_in_Jenkin_by_admin_jsondata2
+16-09-2020 23:49:00 INFO [Listener]: L:: The name of the method: ClickOnNewItem
+16-09-2020 23:49:00 INFO [Listener]: L:: onTestSkipped : ClickOnNewItem
+16-09-2020 23:49:00 INFO [Listener]: L:: The name of the method: Enter_The_name_of_the_new_Project_in_theinput_Box_from_xlsx
+16-09-2020 23:49:00 INFO [Listener]: L:: onTestSkipped : Enter_The_name_of_the_new_Project_in_theinput_Box_from_xlsx
+16-09-2020 23:49:00 INFO [Listener]: L:: The name of the method: Select_maven_project_byclick
+16-09-2020 23:49:00 INFO [Listener]: L:: onTestSkipped : Select_maven_project_byclick
+16-09-2020 23:49:00 INFO [Listener]: L:: The name of the method: Click_OK_after_Select_maven_project_byclick
+16-09-2020 23:49:00 INFO [Listener]: L:: onTestSkipped : Click_OK_after_Select_maven_project_byclick
+16-09-2020 23:49:00 INFO [Listener]: L:: The name of the method: get_the_url_of_the_current_page
+16-09-2020 23:49:00 INFO [Listener]: L:: onTestSkipped : get_the_url_of_the_current_page
+16-09-2020 23:49:00 INFO [Listener]: L:: The name of the method: Click_the_checkbox_This_project_is_parameterized
+16-09-2020 23:49:00 INFO [Listener]: L:: onTestSkipped : Click_the_checkbox_This_project_is_parameterized
+16-09-2020 23:49:00 INFO [Listener]: L:: The name of the method: click_the_check_box_for_Discard_old_builds
+16-09-2020 23:49:00 INFO [Listener]: L:: onTestSkipped : click_the_check_box_for_Discard_old_builds
+16-09-2020 23:49:00 INFO [Listener]: L:: The name of the method: Select_Choice_parameter_from_Add_Parameter_of_This_project_is_parameterized
+16-09-2020 23:49:01 INFO [Listener]: L:: onTestSkipped : Select_Choice_parameter_from_Add_Parameter_of_This_project_is_parameterized
+16-09-2020 23:49:01 INFO [Listener]: L:: The name of the method: Type_Name_for_Choice_Parameter
+16-09-2020 23:49:01 INFO [Listener]: L:: onTestSkipped : Type_Name_for_Choice_Parameter
+16-09-2020 23:49:01 INFO [Listener]: L:: The name of the method: Type_Choices_for_Choice_Parameter
+16-09-2020 23:49:01 INFO [Listener]: L:: onTestSkipped : Type_Choices_for_Choice_Parameter
+16-09-2020 23:49:01 INFO [Listener]: L:: The name of the method: Type_Goals_and_Options_in_BUILD
+16-09-2020 23:49:01 INFO [Listener]: L:: onTestSkipped : Type_Goals_and_Options_in_BUILD
+16-09-2020 23:49:01 INFO [Listener]: L:: The name of the method: Click_Advanced_Button_Of_BUILD
+16-09-2020 23:49:01 INFO [Listener]: L:: onTestSkipped : Click_Advanced_Button_Of_BUILD
+16-09-2020 23:49:01 INFO [Listener]: L:: The name of the method: Click_Custom_workspace_Checkbox
+16-09-2020 23:49:01 INFO [Listener]: L:: onTestSkipped : Click_Custom_workspace_Checkbox
+16-09-2020 23:49:01 INFO [Listener]: L:: The name of the method: Enter_text_to_Directory_Custom_workspace
+16-09-2020 23:49:01 INFO [Listener]: L:: onTestSkipped : Enter_text_to_Directory_Custom_workspace
+16-09-2020 23:49:01 INFO [Listener]: L:: The name of the method: Click_the_floating_Apply_Button
+16-09-2020 23:49:01 INFO [Listener]: L:: onTestSkipped : Click_the_floating_Apply_Button
+16-09-2020 23:49:01 INFO [Listener]: L:: The name of the method: Click_the_floating_SAVE_Button
+16-09-2020 23:49:01 INFO [Listener]: L:: onTestSkipped : Click_the_floating_SAVE_Button
+16-09-2020 23:49:01 INFO [Listener]: L:: The name of the method: Verify_that_project_is_created_successfully
+16-09-2020 23:49:01 INFO [Listener]: L:: onTestSkipped : Verify_that_project_is_created_successfully
+16-09-2020 23:49:01 INFO [Listener]: L:: The name of the method: Delete_Existing_Projects_with_DP
+16-09-2020 23:49:01 INFO [Listener]: L:: onTestSkipped : Delete_Existing_Projects_with_DP
+16-09-2020 23:49:01 INFO [Listener]: L:: The name of the method: SelframeBuildWith_jsondata
+16-09-2020 23:49:01 INFO [Listener]: L:: onTestSkipped : SelframeBuildWith_jsondata
+16-09-2020 23:49:01 INFO [Listener]: L:: The name of the method: GoTheRunningBuildConsole
+16-09-2020 23:49:01 INFO [Listener]: L:: onTestSkipped : GoTheRunningBuildConsole
+16-09-2020 23:49:01 INFO [Listener]: L:: The name of the method: ToVerifyThatBuildIsFinishedFromConsoleAndFindStatus
+16-09-2020 23:49:01 INFO [Listener]: L:: onTestSkipped : ToVerifyThatBuildIsFinishedFromConsoleAndFindStatus
+16-09-2020 23:49:01 INFO [Listener]: L:: onFinish : All_scenarios
+16-09-2020 23:50:22 INFO [Listener]: L:: The name of the testcase from testng xml: All_scenarios
+16-09-2020 23:50:22 INFO [PO_LoginPage]: Page object login page is called. 
+16-09-2020 23:50:22 INFO [Runner_One]: Objects of the imported class created. 
+16-09-2020 23:50:23 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin_jsondata
+16-09-2020 23:50:25 INFO [Listener]: L:: onTestFailure : OpenBrowserForJenkin_jsondata
+16-09-2020 23:50:25 INFO [Listener]: L:: The name of the method: LoginPage_jsondata
+16-09-2020 23:50:25 INFO [Listener]: L:: onTestSkipped : LoginPage_jsondata
+16-09-2020 23:50:25 INFO [Listener]: L:: The name of the method: AA_Delete_existing_Jenkin_user
+16-09-2020 23:50:25 INFO [Listener]: L:: onTestSkipped : AA_Delete_existing_Jenkin_user
+16-09-2020 23:50:25 INFO [Listener]: L:: The name of the method: AB_Add_user_in_Jenkin_by_admin_jsondata2
+16-09-2020 23:50:25 INFO [Listener]: L:: onTestSkipped : AB_Add_user_in_Jenkin_by_admin_jsondata2
+16-09-2020 23:50:26 INFO [Listener]: L:: The name of the method: ClickOnNewItem
+16-09-2020 23:50:26 INFO [Listener]: L:: onTestSkipped : ClickOnNewItem
+16-09-2020 23:50:26 INFO [Listener]: L:: The name of the method: Enter_The_name_of_the_new_Project_in_theinput_Box_from_xlsx
+16-09-2020 23:50:26 INFO [Listener]: L:: onTestSkipped : Enter_The_name_of_the_new_Project_in_theinput_Box_from_xlsx
+16-09-2020 23:50:26 INFO [Listener]: L:: The name of the method: Select_maven_project_byclick
+16-09-2020 23:50:26 INFO [Listener]: L:: onTestSkipped : Select_maven_project_byclick
+16-09-2020 23:50:26 INFO [Listener]: L:: The name of the method: Click_OK_after_Select_maven_project_byclick
+16-09-2020 23:50:26 INFO [Listener]: L:: onTestSkipped : Click_OK_after_Select_maven_project_byclick
+16-09-2020 23:50:26 INFO [Listener]: L:: The name of the method: get_the_url_of_the_current_page
+16-09-2020 23:50:26 INFO [Listener]: L:: onTestSkipped : get_the_url_of_the_current_page
+16-09-2020 23:50:26 INFO [Listener]: L:: The name of the method: Click_the_checkbox_This_project_is_parameterized
+16-09-2020 23:50:26 INFO [Listener]: L:: onTestSkipped : Click_the_checkbox_This_project_is_parameterized
+16-09-2020 23:50:26 INFO [Listener]: L:: The name of the method: click_the_check_box_for_Discard_old_builds
+16-09-2020 23:50:26 INFO [Listener]: L:: onTestSkipped : click_the_check_box_for_Discard_old_builds
+16-09-2020 23:50:26 INFO [Listener]: L:: The name of the method: Select_Choice_parameter_from_Add_Parameter_of_This_project_is_parameterized
+16-09-2020 23:50:26 INFO [Listener]: L:: onTestSkipped : Select_Choice_parameter_from_Add_Parameter_of_This_project_is_parameterized
+16-09-2020 23:50:26 INFO [Listener]: L:: The name of the method: Type_Name_for_Choice_Parameter
+16-09-2020 23:50:26 INFO [Listener]: L:: onTestSkipped : Type_Name_for_Choice_Parameter
+16-09-2020 23:50:26 INFO [Listener]: L:: The name of the method: Type_Choices_for_Choice_Parameter
+16-09-2020 23:50:26 INFO [Listener]: L:: onTestSkipped : Type_Choices_for_Choice_Parameter
+16-09-2020 23:50:26 INFO [Listener]: L:: The name of the method: Type_Goals_and_Options_in_BUILD
+16-09-2020 23:50:26 INFO [Listener]: L:: onTestSkipped : Type_Goals_and_Options_in_BUILD
+16-09-2020 23:50:26 INFO [Listener]: L:: The name of the method: Click_Advanced_Button_Of_BUILD
+16-09-2020 23:50:26 INFO [Listener]: L:: onTestSkipped : Click_Advanced_Button_Of_BUILD
+16-09-2020 23:50:26 INFO [Listener]: L:: The name of the method: Click_Custom_workspace_Checkbox
+16-09-2020 23:50:26 INFO [Listener]: L:: onTestSkipped : Click_Custom_workspace_Checkbox
+16-09-2020 23:50:26 INFO [Listener]: L:: The name of the method: Enter_text_to_Directory_Custom_workspace
+16-09-2020 23:50:26 INFO [Listener]: L:: onTestSkipped : Enter_text_to_Directory_Custom_workspace
+16-09-2020 23:50:26 INFO [Listener]: L:: The name of the method: Click_the_floating_Apply_Button
+16-09-2020 23:50:26 INFO [Listener]: L:: onTestSkipped : Click_the_floating_Apply_Button
+16-09-2020 23:50:26 INFO [Listener]: L:: The name of the method: Click_the_floating_SAVE_Button
+16-09-2020 23:50:26 INFO [Listener]: L:: onTestSkipped : Click_the_floating_SAVE_Button
+16-09-2020 23:50:27 INFO [Listener]: L:: The name of the method: Verify_that_project_is_created_successfully
+16-09-2020 23:50:27 INFO [Listener]: L:: onTestSkipped : Verify_that_project_is_created_successfully
+16-09-2020 23:50:27 INFO [Listener]: L:: The name of the method: Delete_Existing_Projects_with_DP
+16-09-2020 23:50:27 INFO [Listener]: L:: onTestSkipped : Delete_Existing_Projects_with_DP
+16-09-2020 23:50:27 INFO [Listener]: L:: The name of the method: SelframeBuildWith_jsondata
+16-09-2020 23:50:27 INFO [Listener]: L:: onTestSkipped : SelframeBuildWith_jsondata
+16-09-2020 23:50:27 INFO [Listener]: L:: The name of the method: GoTheRunningBuildConsole
+16-09-2020 23:50:27 INFO [Listener]: L:: onTestSkipped : GoTheRunningBuildConsole
+16-09-2020 23:50:27 INFO [Listener]: L:: The name of the method: ToVerifyThatBuildIsFinishedFromConsoleAndFindStatus
+16-09-2020 23:50:27 INFO [Listener]: L:: onTestSkipped : ToVerifyThatBuildIsFinishedFromConsoleAndFindStatus
+16-09-2020 23:50:27 INFO [Listener]: L:: onFinish : All_scenarios
+16-09-2020 23:53:46 INFO [Listener]: L:: The name of the testcase from testng xml: All_scenarios
+16-09-2020 23:53:46 INFO [PO_LoginPage]: Page object login page is called. 
+16-09-2020 23:53:46 INFO [Runner_One]: Objects of the imported class created. 
+16-09-2020 23:53:46 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin_jsondata
+16-09-2020 23:53:47 INFO [Listener]: L:: onTestFailure : OpenBrowserForJenkin_jsondata
+16-09-2020 23:53:47 INFO [Listener]: L:: The name of the method: LoginPage_jsondata
+16-09-2020 23:53:47 INFO [Listener]: L:: onTestSkipped : LoginPage_jsondata
+16-09-2020 23:53:47 INFO [Listener]: L:: The name of the method: AA_Delete_existing_Jenkin_user
+16-09-2020 23:53:47 INFO [Listener]: L:: onTestSkipped : AA_Delete_existing_Jenkin_user
+16-09-2020 23:53:47 INFO [Listener]: L:: The name of the method: AB_Add_user_in_Jenkin_by_admin_jsondata2
+16-09-2020 23:53:47 INFO [Listener]: L:: onTestSkipped : AB_Add_user_in_Jenkin_by_admin_jsondata2
+16-09-2020 23:53:47 INFO [Listener]: L:: The name of the method: ClickOnNewItem
+16-09-2020 23:53:47 INFO [Listener]: L:: onTestSkipped : ClickOnNewItem
+16-09-2020 23:53:47 INFO [Listener]: L:: The name of the method: Enter_The_name_of_the_new_Project_in_theinput_Box_from_xlsx
+16-09-2020 23:53:47 INFO [Listener]: L:: onTestSkipped : Enter_The_name_of_the_new_Project_in_theinput_Box_from_xlsx
+16-09-2020 23:53:47 INFO [Listener]: L:: The name of the method: Select_maven_project_byclick
+16-09-2020 23:53:47 INFO [Listener]: L:: onTestSkipped : Select_maven_project_byclick
+16-09-2020 23:53:47 INFO [Listener]: L:: The name of the method: Click_OK_after_Select_maven_project_byclick
+16-09-2020 23:53:47 INFO [Listener]: L:: onTestSkipped : Click_OK_after_Select_maven_project_byclick
+16-09-2020 23:53:47 INFO [Listener]: L:: The name of the method: get_the_url_of_the_current_page
+16-09-2020 23:53:47 INFO [Listener]: L:: onTestSkipped : get_the_url_of_the_current_page
+16-09-2020 23:53:47 INFO [Listener]: L:: The name of the method: Click_the_checkbox_This_project_is_parameterized
+16-09-2020 23:53:47 INFO [Listener]: L:: onTestSkipped : Click_the_checkbox_This_project_is_parameterized
+16-09-2020 23:53:47 INFO [Listener]: L:: The name of the method: click_the_check_box_for_Discard_old_builds
+16-09-2020 23:53:47 INFO [Listener]: L:: onTestSkipped : click_the_check_box_for_Discard_old_builds
+16-09-2020 23:53:47 INFO [Listener]: L:: The name of the method: Select_Choice_parameter_from_Add_Parameter_of_This_project_is_parameterized
+16-09-2020 23:53:47 INFO [Listener]: L:: onTestSkipped : Select_Choice_parameter_from_Add_Parameter_of_This_project_is_parameterized
+16-09-2020 23:53:47 INFO [Listener]: L:: The name of the method: Type_Name_for_Choice_Parameter
+16-09-2020 23:53:47 INFO [Listener]: L:: onTestSkipped : Type_Name_for_Choice_Parameter
+16-09-2020 23:53:47 INFO [Listener]: L:: The name of the method: Type_Choices_for_Choice_Parameter
+16-09-2020 23:53:47 INFO [Listener]: L:: onTestSkipped : Type_Choices_for_Choice_Parameter
+16-09-2020 23:53:47 INFO [Listener]: L:: The name of the method: Type_Goals_and_Options_in_BUILD
+16-09-2020 23:53:47 INFO [Listener]: L:: onTestSkipped : Type_Goals_and_Options_in_BUILD
+16-09-2020 23:53:47 INFO [Listener]: L:: The name of the method: Click_Advanced_Button_Of_BUILD
+16-09-2020 23:53:47 INFO [Listener]: L:: onTestSkipped : Click_Advanced_Button_Of_BUILD
+16-09-2020 23:53:47 INFO [Listener]: L:: The name of the method: Click_Custom_workspace_Checkbox
+16-09-2020 23:53:47 INFO [Listener]: L:: onTestSkipped : Click_Custom_workspace_Checkbox
+16-09-2020 23:53:48 INFO [Listener]: L:: The name of the method: Enter_text_to_Directory_Custom_workspace
+16-09-2020 23:53:48 INFO [Listener]: L:: onTestSkipped : Enter_text_to_Directory_Custom_workspace
+16-09-2020 23:53:48 INFO [Listener]: L:: The name of the method: Click_the_floating_Apply_Button
+16-09-2020 23:53:48 INFO [Listener]: L:: onTestSkipped : Click_the_floating_Apply_Button
+16-09-2020 23:53:48 INFO [Listener]: L:: The name of the method: Click_the_floating_SAVE_Button
+16-09-2020 23:53:48 INFO [Listener]: L:: onTestSkipped : Click_the_floating_SAVE_Button
+16-09-2020 23:53:48 INFO [Listener]: L:: The name of the method: Verify_that_project_is_created_successfully
+16-09-2020 23:53:48 INFO [Listener]: L:: onTestSkipped : Verify_that_project_is_created_successfully
+16-09-2020 23:53:48 INFO [Listener]: L:: The name of the method: Delete_Existing_Projects_with_DP
+16-09-2020 23:53:48 INFO [Listener]: L:: onTestSkipped : Delete_Existing_Projects_with_DP
+16-09-2020 23:53:48 INFO [Listener]: L:: The name of the method: SelframeBuildWith_jsondata
+16-09-2020 23:53:48 INFO [Listener]: L:: onTestSkipped : SelframeBuildWith_jsondata
+16-09-2020 23:53:48 INFO [Listener]: L:: The name of the method: GoTheRunningBuildConsole
+16-09-2020 23:53:48 INFO [Listener]: L:: onTestSkipped : GoTheRunningBuildConsole
+16-09-2020 23:53:48 INFO [Listener]: L:: The name of the method: ToVerifyThatBuildIsFinishedFromConsoleAndFindStatus
+16-09-2020 23:53:48 INFO [Listener]: L:: onTestSkipped : ToVerifyThatBuildIsFinishedFromConsoleAndFindStatus
+16-09-2020 23:53:48 INFO [Listener]: L:: onFinish : All_scenarios
+16-09-2020 23:55:29 INFO [Listener]: L:: The name of the testcase from testng xml: All_scenarios
+16-09-2020 23:55:29 INFO [PO_LoginPage]: Page object login page is called. 
+16-09-2020 23:55:29 INFO [Runner_One]: Objects of the imported class created. 
+16-09-2020 23:55:30 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin_jsondata
+16-09-2020 23:55:30 INFO [Listener]: L:: onTestFailure : OpenBrowserForJenkin_jsondata
+16-09-2020 23:55:30 INFO [Listener]: L:: The name of the method: LoginPage_jsondata
+16-09-2020 23:55:30 INFO [Listener]: L:: onTestSkipped : LoginPage_jsondata
+16-09-2020 23:55:30 INFO [Listener]: L:: The name of the method: AA_Delete_existing_Jenkin_user
+16-09-2020 23:55:30 INFO [Listener]: L:: onTestSkipped : AA_Delete_existing_Jenkin_user
+16-09-2020 23:55:30 INFO [Listener]: L:: The name of the method: AB_Add_user_in_Jenkin_by_admin_jsondata2
+16-09-2020 23:55:30 INFO [Listener]: L:: onTestSkipped : AB_Add_user_in_Jenkin_by_admin_jsondata2
+16-09-2020 23:55:30 INFO [Listener]: L:: The name of the method: ClickOnNewItem
+16-09-2020 23:55:30 INFO [Listener]: L:: onTestSkipped : ClickOnNewItem
+16-09-2020 23:55:30 INFO [Listener]: L:: The name of the method: Enter_The_name_of_the_new_Project_in_theinput_Box_from_xlsx
+16-09-2020 23:55:30 INFO [Listener]: L:: onTestSkipped : Enter_The_name_of_the_new_Project_in_theinput_Box_from_xlsx
+16-09-2020 23:55:30 INFO [Listener]: L:: The name of the method: Select_maven_project_byclick
+16-09-2020 23:55:30 INFO [Listener]: L:: onTestSkipped : Select_maven_project_byclick
+16-09-2020 23:55:30 INFO [Listener]: L:: The name of the method: Click_OK_after_Select_maven_project_byclick
+16-09-2020 23:55:30 INFO [Listener]: L:: onTestSkipped : Click_OK_after_Select_maven_project_byclick
+16-09-2020 23:55:30 INFO [Listener]: L:: The name of the method: get_the_url_of_the_current_page
+16-09-2020 23:55:30 INFO [Listener]: L:: onTestSkipped : get_the_url_of_the_current_page
+16-09-2020 23:55:30 INFO [Listener]: L:: The name of the method: Click_the_checkbox_This_project_is_parameterized
+16-09-2020 23:55:30 INFO [Listener]: L:: onTestSkipped : Click_the_checkbox_This_project_is_parameterized
+16-09-2020 23:55:30 INFO [Listener]: L:: The name of the method: click_the_check_box_for_Discard_old_builds
+16-09-2020 23:55:30 INFO [Listener]: L:: onTestSkipped : click_the_check_box_for_Discard_old_builds
+16-09-2020 23:55:30 INFO [Listener]: L:: The name of the method: Select_Choice_parameter_from_Add_Parameter_of_This_project_is_parameterized
+16-09-2020 23:55:30 INFO [Listener]: L:: onTestSkipped : Select_Choice_parameter_from_Add_Parameter_of_This_project_is_parameterized
+16-09-2020 23:55:30 INFO [Listener]: L:: The name of the method: Type_Name_for_Choice_Parameter
+16-09-2020 23:55:30 INFO [Listener]: L:: onTestSkipped : Type_Name_for_Choice_Parameter
+16-09-2020 23:55:30 INFO [Listener]: L:: The name of the method: Type_Choices_for_Choice_Parameter
+16-09-2020 23:55:30 INFO [Listener]: L:: onTestSkipped : Type_Choices_for_Choice_Parameter
+16-09-2020 23:55:30 INFO [Listener]: L:: The name of the method: Type_Goals_and_Options_in_BUILD
+16-09-2020 23:55:30 INFO [Listener]: L:: onTestSkipped : Type_Goals_and_Options_in_BUILD
+16-09-2020 23:55:30 INFO [Listener]: L:: The name of the method: Click_Advanced_Button_Of_BUILD
+16-09-2020 23:55:30 INFO [Listener]: L:: onTestSkipped : Click_Advanced_Button_Of_BUILD
+16-09-2020 23:55:30 INFO [Listener]: L:: The name of the method: Click_Custom_workspace_Checkbox
+16-09-2020 23:55:30 INFO [Listener]: L:: onTestSkipped : Click_Custom_workspace_Checkbox
+16-09-2020 23:55:30 INFO [Listener]: L:: The name of the method: Enter_text_to_Directory_Custom_workspace
+16-09-2020 23:55:30 INFO [Listener]: L:: onTestSkipped : Enter_text_to_Directory_Custom_workspace
+16-09-2020 23:55:30 INFO [Listener]: L:: The name of the method: Click_the_floating_Apply_Button
+16-09-2020 23:55:30 INFO [Listener]: L:: onTestSkipped : Click_the_floating_Apply_Button
+16-09-2020 23:55:30 INFO [Listener]: L:: The name of the method: Click_the_floating_SAVE_Button
+16-09-2020 23:55:30 INFO [Listener]: L:: onTestSkipped : Click_the_floating_SAVE_Button
+16-09-2020 23:55:30 INFO [Listener]: L:: The name of the method: Verify_that_project_is_created_successfully
+16-09-2020 23:55:30 INFO [Listener]: L:: onTestSkipped : Verify_that_project_is_created_successfully
+16-09-2020 23:55:31 INFO [Listener]: L:: The name of the method: Delete_Existing_Projects_with_DP
+16-09-2020 23:55:31 INFO [Listener]: L:: onTestSkipped : Delete_Existing_Projects_with_DP
+16-09-2020 23:55:31 INFO [Listener]: L:: The name of the method: SelframeBuildWith_jsondata
+16-09-2020 23:55:31 INFO [Listener]: L:: onTestSkipped : SelframeBuildWith_jsondata
+16-09-2020 23:55:31 INFO [Listener]: L:: The name of the method: GoTheRunningBuildConsole
+16-09-2020 23:55:31 INFO [Listener]: L:: onTestSkipped : GoTheRunningBuildConsole
+16-09-2020 23:55:31 INFO [Listener]: L:: The name of the method: ToVerifyThatBuildIsFinishedFromConsoleAndFindStatus
+16-09-2020 23:55:31 INFO [Listener]: L:: onTestSkipped : ToVerifyThatBuildIsFinishedFromConsoleAndFindStatus
+16-09-2020 23:55:31 INFO [Listener]: L:: onFinish : All_scenarios
+16-09-2020 23:56:48 INFO [Listener]: L:: The name of the testcase from testng xml: Delete_User
+16-09-2020 23:56:48 INFO [PO_LoginPage]: Page object login page is called. 
+16-09-2020 23:56:48 INFO [Runner_One]: Objects of the imported class created. 
+16-09-2020 23:56:48 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin_jsondata
+16-09-2020 23:56:48 INFO [Listener]: L:: onTestFailure : OpenBrowserForJenkin_jsondata
+16-09-2020 23:56:48 INFO [Listener]: L:: The name of the method: LoginPage_jsondata
+16-09-2020 23:56:48 INFO [Listener]: L:: onTestSkipped : LoginPage_jsondata
+16-09-2020 23:56:48 INFO [Listener]: L:: The name of the method: AA_Delete_existing_Jenkin_user
+16-09-2020 23:56:48 INFO [Listener]: L:: onTestSkipped : AA_Delete_existing_Jenkin_user
+16-09-2020 23:56:48 INFO [Listener]: L:: onFinish : Delete_User
+17-09-2020 00:10:51 INFO [Listener]: L:: The name of the testcase from testng xml: All_scenarios
+17-09-2020 00:10:51 INFO [PO_LoginPage]: Page object login page is called. 
+17-09-2020 00:10:51 INFO [Runner_One]: Objects of the imported class created. 
+17-09-2020 00:10:52 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin_jsondata
+17-09-2020 00:10:52 INFO [Listener]: L:: onTestFailure : OpenBrowserForJenkin_jsondata
+17-09-2020 00:10:52 INFO [Listener]: L:: The name of the method: LoginPage_jsondata
+17-09-2020 00:10:52 INFO [Listener]: L:: onTestSkipped : LoginPage_jsondata
+17-09-2020 00:10:52 INFO [Listener]: L:: The name of the method: AA_Delete_existing_Jenkin_user
+17-09-2020 00:10:52 INFO [Listener]: L:: onTestSkipped : AA_Delete_existing_Jenkin_user
+17-09-2020 00:10:52 INFO [Listener]: L:: The name of the method: AB_Add_user_in_Jenkin_by_admin_jsondata2
+17-09-2020 00:10:52 INFO [Listener]: L:: onTestSkipped : AB_Add_user_in_Jenkin_by_admin_jsondata2
+17-09-2020 00:10:52 INFO [Listener]: L:: The name of the method: ClickOnNewItem
+17-09-2020 00:10:52 INFO [Listener]: L:: onTestSkipped : ClickOnNewItem
+17-09-2020 00:10:52 INFO [Listener]: L:: The name of the method: Enter_The_name_of_the_new_Project_in_theinput_Box_from_xlsx
+17-09-2020 00:10:52 INFO [Listener]: L:: onTestSkipped : Enter_The_name_of_the_new_Project_in_theinput_Box_from_xlsx
+17-09-2020 00:10:52 INFO [Listener]: L:: The name of the method: Select_maven_project_byclick
+17-09-2020 00:10:52 INFO [Listener]: L:: onTestSkipped : Select_maven_project_byclick
+17-09-2020 00:10:52 INFO [Listener]: L:: The name of the method: Click_OK_after_Select_maven_project_byclick
+17-09-2020 00:10:52 INFO [Listener]: L:: onTestSkipped : Click_OK_after_Select_maven_project_byclick
+17-09-2020 00:10:52 INFO [Listener]: L:: The name of the method: get_the_url_of_the_current_page
+17-09-2020 00:10:52 INFO [Listener]: L:: onTestSkipped : get_the_url_of_the_current_page
+17-09-2020 00:10:52 INFO [Listener]: L:: The name of the method: Click_the_checkbox_This_project_is_parameterized
+17-09-2020 00:10:52 INFO [Listener]: L:: onTestSkipped : Click_the_checkbox_This_project_is_parameterized
+17-09-2020 00:10:52 INFO [Listener]: L:: The name of the method: click_the_check_box_for_Discard_old_builds
+17-09-2020 00:10:52 INFO [Listener]: L:: onTestSkipped : click_the_check_box_for_Discard_old_builds
+17-09-2020 00:10:52 INFO [Listener]: L:: The name of the method: Select_Choice_parameter_from_Add_Parameter_of_This_project_is_parameterized
+17-09-2020 00:10:53 INFO [Listener]: L:: onTestSkipped : Select_Choice_parameter_from_Add_Parameter_of_This_project_is_parameterized
+17-09-2020 00:10:53 INFO [Listener]: L:: The name of the method: Type_Name_for_Choice_Parameter
+17-09-2020 00:10:53 INFO [Listener]: L:: onTestSkipped : Type_Name_for_Choice_Parameter
+17-09-2020 00:10:53 INFO [Listener]: L:: The name of the method: Type_Choices_for_Choice_Parameter
+17-09-2020 00:10:53 INFO [Listener]: L:: onTestSkipped : Type_Choices_for_Choice_Parameter
+17-09-2020 00:10:53 INFO [Listener]: L:: The name of the method: Type_Goals_and_Options_in_BUILD
+17-09-2020 00:10:53 INFO [Listener]: L:: onTestSkipped : Type_Goals_and_Options_in_BUILD
+17-09-2020 00:10:53 INFO [Listener]: L:: The name of the method: Click_Advanced_Button_Of_BUILD
+17-09-2020 00:10:53 INFO [Listener]: L:: onTestSkipped : Click_Advanced_Button_Of_BUILD
+17-09-2020 00:10:53 INFO [Listener]: L:: The name of the method: Click_Custom_workspace_Checkbox
+17-09-2020 00:10:53 INFO [Listener]: L:: onTestSkipped : Click_Custom_workspace_Checkbox
+17-09-2020 00:10:53 INFO [Listener]: L:: The name of the method: Enter_text_to_Directory_Custom_workspace
+17-09-2020 00:10:53 INFO [Listener]: L:: onTestSkipped : Enter_text_to_Directory_Custom_workspace
+17-09-2020 00:10:53 INFO [Listener]: L:: The name of the method: Click_the_floating_Apply_Button
+17-09-2020 00:10:53 INFO [Listener]: L:: onTestSkipped : Click_the_floating_Apply_Button
+17-09-2020 00:10:53 INFO [Listener]: L:: The name of the method: Click_the_floating_SAVE_Button
+17-09-2020 00:10:53 INFO [Listener]: L:: onTestSkipped : Click_the_floating_SAVE_Button
+17-09-2020 00:10:53 INFO [Listener]: L:: The name of the method: Verify_that_project_is_created_successfully
+17-09-2020 00:10:53 INFO [Listener]: L:: onTestSkipped : Verify_that_project_is_created_successfully
+17-09-2020 00:10:53 INFO [Listener]: L:: The name of the method: Delete_Existing_Projects_with_DP
+17-09-2020 00:10:53 INFO [Listener]: L:: onTestSkipped : Delete_Existing_Projects_with_DP
+17-09-2020 00:10:53 INFO [Listener]: L:: The name of the method: SelframeBuildWith_jsondata
+17-09-2020 00:10:53 INFO [Listener]: L:: onTestSkipped : SelframeBuildWith_jsondata
+17-09-2020 00:10:53 INFO [Listener]: L:: The name of the method: GoTheRunningBuildConsole
+17-09-2020 00:10:53 INFO [Listener]: L:: onTestSkipped : GoTheRunningBuildConsole
+17-09-2020 00:10:53 INFO [Listener]: L:: The name of the method: ToVerifyThatBuildIsFinishedFromConsoleAndFindStatus
+17-09-2020 00:10:53 INFO [Listener]: L:: onTestSkipped : ToVerifyThatBuildIsFinishedFromConsoleAndFindStatus
+17-09-2020 00:10:53 INFO [Listener]: L:: onFinish : All_scenarios
+19-09-2020 23:35:50 INFO [Listener]: L:: The name of the testcase from testng xml: All_scenarios
+19-09-2020 23:35:51 INFO [PO_LoginPage]: Page object login page is called. 
+19-09-2020 23:35:52 INFO [Runner_One]: Objects of the imported class created. 
+19-09-2020 23:35:52 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin_jsondata
+19-09-2020 23:35:52 INFO [Listener]: L:: onTestFailure : OpenBrowserForJenkin_jsondata
+19-09-2020 23:35:52 INFO [Listener]: L:: The name of the method: LoginPage_jsondata
+19-09-2020 23:35:52 INFO [Listener]: L:: onTestSkipped : LoginPage_jsondata
+19-09-2020 23:35:52 INFO [Listener]: L:: The name of the method: AA_Delete_existing_Jenkin_user
+19-09-2020 23:35:52 INFO [Listener]: L:: onTestSkipped : AA_Delete_existing_Jenkin_user
+19-09-2020 23:35:52 INFO [Listener]: L:: The name of the method: AB_Add_user_in_Jenkin_by_admin_jsondata2
+19-09-2020 23:35:52 INFO [Listener]: L:: onTestSkipped : AB_Add_user_in_Jenkin_by_admin_jsondata2
+19-09-2020 23:35:53 INFO [Listener]: L:: The name of the method: ClickOnNewItem
+19-09-2020 23:35:53 INFO [Listener]: L:: onTestSkipped : ClickOnNewItem
+19-09-2020 23:35:53 INFO [Listener]: L:: The name of the method: Enter_The_name_of_the_new_Project_in_theinput_Box_from_xlsx
+19-09-2020 23:35:53 INFO [Listener]: L:: onTestSkipped : Enter_The_name_of_the_new_Project_in_theinput_Box_from_xlsx
+19-09-2020 23:35:53 INFO [Listener]: L:: The name of the method: Select_maven_project_byclick
+19-09-2020 23:35:53 INFO [Listener]: L:: onTestSkipped : Select_maven_project_byclick
+19-09-2020 23:35:53 INFO [Listener]: L:: The name of the method: Click_OK_after_Select_maven_project_byclick
+19-09-2020 23:35:53 INFO [Listener]: L:: onTestSkipped : Click_OK_after_Select_maven_project_byclick
+19-09-2020 23:35:53 INFO [Listener]: L:: The name of the method: get_the_url_of_the_current_page
+19-09-2020 23:35:53 INFO [Listener]: L:: onTestSkipped : get_the_url_of_the_current_page
+19-09-2020 23:35:53 INFO [Listener]: L:: The name of the method: Click_the_checkbox_This_project_is_parameterized
+19-09-2020 23:35:53 INFO [Listener]: L:: onTestSkipped : Click_the_checkbox_This_project_is_parameterized
+19-09-2020 23:35:53 INFO [Listener]: L:: The name of the method: click_the_check_box_for_Discard_old_builds
+19-09-2020 23:35:53 INFO [Listener]: L:: onTestSkipped : click_the_check_box_for_Discard_old_builds
+19-09-2020 23:35:53 INFO [Listener]: L:: The name of the method: Select_Choice_parameter_from_Add_Parameter_of_This_project_is_parameterized
+19-09-2020 23:35:53 INFO [Listener]: L:: onTestSkipped : Select_Choice_parameter_from_Add_Parameter_of_This_project_is_parameterized
+19-09-2020 23:35:53 INFO [Listener]: L:: The name of the method: Type_Name_for_Choice_Parameter
+19-09-2020 23:35:53 INFO [Listener]: L:: onTestSkipped : Type_Name_for_Choice_Parameter
+19-09-2020 23:35:54 INFO [Listener]: L:: The name of the method: Type_Choices_for_Choice_Parameter
+19-09-2020 23:35:54 INFO [Listener]: L:: onTestSkipped : Type_Choices_for_Choice_Parameter
+19-09-2020 23:35:54 INFO [Listener]: L:: The name of the method: Type_Goals_and_Options_in_BUILD
+19-09-2020 23:35:54 INFO [Listener]: L:: onTestSkipped : Type_Goals_and_Options_in_BUILD
+19-09-2020 23:35:54 INFO [Listener]: L:: The name of the method: Click_Advanced_Button_Of_BUILD
+19-09-2020 23:35:54 INFO [Listener]: L:: onTestSkipped : Click_Advanced_Button_Of_BUILD
+19-09-2020 23:35:54 INFO [Listener]: L:: The name of the method: Click_Custom_workspace_Checkbox
+19-09-2020 23:35:54 INFO [Listener]: L:: onTestSkipped : Click_Custom_workspace_Checkbox
+19-09-2020 23:35:54 INFO [Listener]: L:: The name of the method: Enter_text_to_Directory_Custom_workspace
+19-09-2020 23:35:54 INFO [Listener]: L:: onTestSkipped : Enter_text_to_Directory_Custom_workspace
+19-09-2020 23:35:54 INFO [Listener]: L:: The name of the method: Click_the_floating_Apply_Button
+19-09-2020 23:35:54 INFO [Listener]: L:: onTestSkipped : Click_the_floating_Apply_Button
+19-09-2020 23:35:54 INFO [Listener]: L:: The name of the method: Click_the_floating_SAVE_Button
+19-09-2020 23:35:54 INFO [Listener]: L:: onTestSkipped : Click_the_floating_SAVE_Button
+19-09-2020 23:35:54 INFO [Listener]: L:: The name of the method: Verify_that_project_is_created_successfully
+19-09-2020 23:35:54 INFO [Listener]: L:: onTestSkipped : Verify_that_project_is_created_successfully
+19-09-2020 23:35:54 INFO [Listener]: L:: The name of the method: Delete_Existing_Projects_with_DP
+19-09-2020 23:35:54 INFO [Listener]: L:: onTestSkipped : Delete_Existing_Projects_with_DP
+19-09-2020 23:35:54 INFO [Listener]: L:: The name of the method: SelframeBuildWith_jsondata
+19-09-2020 23:35:54 INFO [Listener]: L:: onTestSkipped : SelframeBuildWith_jsondata
+19-09-2020 23:35:54 INFO [Listener]: L:: The name of the method: GoTheRunningBuildConsole
+19-09-2020 23:35:54 INFO [Listener]: L:: onTestSkipped : GoTheRunningBuildConsole
+19-09-2020 23:35:54 INFO [Listener]: L:: The name of the method: ToVerifyThatBuildIsFinishedFromConsoleAndFindStatus
+19-09-2020 23:35:54 INFO [Listener]: L:: onTestSkipped : ToVerifyThatBuildIsFinishedFromConsoleAndFindStatus
+19-09-2020 23:35:54 INFO [Listener]: L:: onFinish : All_scenarios
+20-09-2020 00:02:14 INFO [Listener]: L:: The name of the testcase from testng xml: All_scenarios
+20-09-2020 00:02:14 INFO [PO_LoginPage]: Page object login page is called. 
+20-09-2020 00:02:14 INFO [Runner_One]: Objects of the imported class created. 
+20-09-2020 00:02:14 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin_jsondata
+20-09-2020 00:02:21 INFO [BrowserAndDataFactory]: Chrome browser is launched successfully. 
+20-09-2020 00:02:33 INFO [TestCases_for_Jenkins]: openBrowser done.
+20-09-2020 00:02:34 INFO [Listener]: L:: onTestSuccess : OpenBrowserForJenkin_jsondata
+20-09-2020 00:02:35 INFO [Runner_One]: Screenshot taken on Success. 
+20-09-2020 00:02:35 INFO [Listener]: L:: The name of the method: LoginPage_jsondata
+20-09-2020 00:02:53 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+20-09-2020 00:02:53 INFO [Listener]: L:: onTestSuccess : LoginPage_jsondata
+20-09-2020 00:02:54 INFO [Runner_One]: Screenshot taken on Success. 
+20-09-2020 00:02:54 INFO [Listener]: L:: The name of the method: AB_Add_user_in_Jenkin_by_admin_jsondata2
+20-09-2020 00:02:57 INFO [Listener]: L:: onTestFailure : AB_Add_user_in_Jenkin_by_admin_jsondata2
+20-09-2020 00:02:57 INFO [Runner_One]: Screenshot taken on failure. 
+20-09-2020 00:02:59 INFO [Listener]: L:: onFinish : All_scenarios
+20-09-2020 00:08:53 INFO [Listener]: L:: The name of the testcase from testng xml: All_scenarios
+20-09-2020 00:08:53 INFO [PO_LoginPage]: Page object login page is called. 
+20-09-2020 00:08:53 INFO [Runner_One]: Objects of the imported class created. 
+20-09-2020 00:08:53 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin_jsondata
+20-09-2020 00:08:57 INFO [BrowserAndDataFactory]: browserFactory>initiateBrowser> rchrome is opened. 
+20-09-2020 00:08:58 INFO [TestCases_for_Jenkins]: openBrowser done.
+20-09-2020 00:08:59 INFO [Listener]: L:: onTestSuccess : OpenBrowserForJenkin_jsondata
+20-09-2020 00:08:59 INFO [Runner_One]: Screenshot taken on Success. 
+20-09-2020 00:08:59 INFO [Listener]: L:: The name of the method: LoginPage_jsondata
+20-09-2020 00:09:04 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+20-09-2020 00:09:04 INFO [Listener]: L:: onTestSuccess : LoginPage_jsondata
+20-09-2020 00:09:04 INFO [Runner_One]: Screenshot taken on Success. 
+20-09-2020 00:09:05 INFO [Listener]: L:: The name of the method: AB_Add_user_in_Jenkin_by_admin_jsondata2
+20-09-2020 00:09:07 INFO [Listener]: L:: onTestFailure : AB_Add_user_in_Jenkin_by_admin_jsondata2
+20-09-2020 00:09:08 INFO [Runner_One]: Screenshot taken on failure. 
+20-09-2020 00:09:09 INFO [Listener]: L:: onFinish : All_scenarios
+20-09-2020 00:10:46 INFO [Listener]: L:: The name of the testcase from testng xml: All_scenarios
+20-09-2020 00:10:47 INFO [PO_LoginPage]: Page object login page is called. 
+20-09-2020 00:10:47 INFO [Runner_One]: Objects of the imported class created. 
+20-09-2020 00:10:47 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin_jsondata
+20-09-2020 00:10:51 INFO [BrowserAndDataFactory]: browserFactory>initiateBrowser> rchrome is opened. 
+20-09-2020 00:10:51 INFO [TestCases_for_Jenkins]: openBrowser done.
+20-09-2020 00:10:52 INFO [Listener]: L:: onTestSuccess : OpenBrowserForJenkin_jsondata
+20-09-2020 00:10:53 INFO [Runner_One]: Screenshot taken on Success. 
+20-09-2020 00:10:53 INFO [Listener]: L:: The name of the method: LoginPage_jsondata
+20-09-2020 00:10:57 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+20-09-2020 00:10:57 INFO [Listener]: L:: onTestSuccess : LoginPage_jsondata
+20-09-2020 00:10:57 INFO [Runner_One]: Screenshot taken on Success. 
+20-09-2020 00:10:57 INFO [Listener]: L:: The name of the method: AB_Add_user_in_Jenkin_by_admin_jsondata2
+20-09-2020 00:11:00 INFO [Listener]: L:: onTestFailure : AB_Add_user_in_Jenkin_by_admin_jsondata2
+20-09-2020 00:11:00 INFO [Runner_One]: Screenshot taken on failure. 
+20-09-2020 00:11:01 INFO [Listener]: L:: onFinish : All_scenarios
+20-09-2020 16:17:22 INFO [Listener]: L:: The name of the testcase from testng xml: All_scenarios
+20-09-2020 16:17:23 INFO [PO_LoginPage]: Page object login page is called. 
+20-09-2020 16:17:23 INFO [Runner_One]: Objects of the imported class created. 
+20-09-2020 16:17:23 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin_jsondata
+20-09-2020 16:17:26 INFO [Listener]: L:: onTestFailure : OpenBrowserForJenkin_jsondata
+20-09-2020 16:17:26 INFO [Listener]: L:: The name of the method: LoginPage_jsondata
+20-09-2020 16:17:26 INFO [Listener]: L:: onTestSkipped : LoginPage_jsondata
+20-09-2020 16:17:26 INFO [Listener]: L:: The name of the method: AA_Delete_existing_Jenkin_user
+20-09-2020 16:17:26 INFO [Listener]: L:: onTestSkipped : AA_Delete_existing_Jenkin_user
+20-09-2020 16:17:26 INFO [Listener]: L:: The name of the method: AB_Add_user_in_Jenkin_by_admin_jsondata2
+20-09-2020 16:17:26 INFO [Listener]: L:: onTestSkipped : AB_Add_user_in_Jenkin_by_admin_jsondata2
+20-09-2020 16:17:27 INFO [Listener]: L:: onFinish : All_scenarios
+20-09-2020 16:17:58 INFO [Listener]: L:: The name of the testcase from testng xml: All_scenarios
+20-09-2020 16:17:59 INFO [PO_LoginPage]: Page object login page is called. 
+20-09-2020 16:17:59 INFO [Runner_One]: Objects of the imported class created. 
+20-09-2020 16:17:59 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin_jsondata
+20-09-2020 16:18:04 INFO [BrowserAndDataFactory]: Chrome browser is launched successfully. 
+20-09-2020 16:18:15 INFO [TestCases_for_Jenkins]: openBrowser done.
+20-09-2020 16:18:16 INFO [Listener]: L:: onTestSuccess : OpenBrowserForJenkin_jsondata
+20-09-2020 16:18:17 INFO [Runner_One]: Screenshot taken on Success. 
+20-09-2020 16:18:17 INFO [Listener]: L:: The name of the method: LoginPage_jsondata
+20-09-2020 16:18:31 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+20-09-2020 16:18:31 INFO [Listener]: L:: onTestSuccess : LoginPage_jsondata
+20-09-2020 16:18:32 INFO [Runner_One]: Screenshot taken on Success. 
+20-09-2020 16:18:32 INFO [Listener]: L:: The name of the method: AA_Delete_existing_Jenkin_user
+20-09-2020 16:18:36 INFO [TestCases_for_Jenkins]: The user is able to see the explicit wait for an element :[[ChromeDriver: chrome on WINDOWS (91191613c42615c3bd91a8e147df15e2)] -> xpath: //button[text()='Yes']]
+20-09-2020 16:18:39 INFO [Listener]: L:: onTestSuccess : AA_Delete_existing_Jenkin_user
+20-09-2020 16:18:39 INFO [Runner_One]: Screenshot taken on Success. 
+20-09-2020 16:18:39 INFO [Listener]: L:: The name of the method: AB_Add_user_in_Jenkin_by_admin_jsondata2
+20-09-2020 16:18:45 INFO [TestCases_for_Jenkins]: The user is able to see the explicit wait for an element :[[ChromeDriver: chrome on WINDOWS (91191613c42615c3bd91a8e147df15e2)] -> xpath: //input[@id='username' and @name='username']]
+20-09-2020 16:18:48 INFO [Listener]: L:: onTestSuccess : AB_Add_user_in_Jenkin_by_admin_jsondata2
+20-09-2020 16:18:48 INFO [Runner_One]: Screenshot taken on Success. 
+20-09-2020 16:18:50 INFO [Listener]: L:: onFinish : All_scenarios
+20-09-2020 16:21:28 INFO [Listener]: L:: The name of the testcase from testng xml: All_scenarios
+20-09-2020 16:21:28 INFO [PO_LoginPage]: Page object login page is called. 
+20-09-2020 16:21:28 INFO [Runner_One]: Objects of the imported class created. 
+20-09-2020 16:21:28 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin_jsondata
+20-09-2020 16:21:33 INFO [BrowserAndDataFactory]: Chrome browser is launched successfully. 
+20-09-2020 16:21:33 INFO [TestCases_for_Jenkins]: openBrowser done.
+20-09-2020 16:21:35 INFO [Listener]: L:: onTestSuccess : OpenBrowserForJenkin_jsondata
+20-09-2020 16:21:35 INFO [Listener]: L:: The name of the method: LoginPage_jsondata
+20-09-2020 16:21:38 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+20-09-2020 16:21:38 INFO [Listener]: L:: onTestSuccess : LoginPage_jsondata
+20-09-2020 16:21:38 INFO [Listener]: L:: The name of the method: ClickOnNewItem
+20-09-2020 16:21:39 INFO [TestCases_for_Jenkins]: To check that the PROJECT to be created is existed or not. 
+20-09-2020 16:21:39 INFO [TestCases_for_Jenkins]: The PROJECT to be deleted if exist is : test_5 . 
+20-09-2020 16:21:41 INFO [TestCases_for_Jenkins]: the size of the project list is 24
+20-09-2020 16:21:41 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::
+20-09-2020 16:21:41 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  
+20-09-2020 16:21:41 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 16:21:41 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 16:21:41 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::FirstFramework
+20-09-2020 16:21:41 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  FirstFramework
+20-09-2020 16:21:41 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 16:21:41 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 16:21:41 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::FirstJob
+20-09-2020 16:21:41 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  FirstJob
+20-09-2020 16:21:41 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 16:21:41 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 16:21:41 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::JenkinsDemo
+20-09-2020 16:21:41 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  JenkinsDemo
+20-09-2020 16:21:41 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 16:21:41 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 16:21:41 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::JenkinsLiveProjects
+20-09-2020 16:21:41 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  JenkinsLiveProjects
+20-09-2020 16:21:41 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 16:21:41 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 16:21:41 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::JenkinsTest
+20-09-2020 16:21:41 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  JenkinsTest
+20-09-2020 16:21:41 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 16:21:41 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 16:21:42 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::null
+20-09-2020 16:21:42 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  null
+20-09-2020 16:21:42 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 16:21:42 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 16:21:42 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::RegressionTest
+20-09-2020 16:21:42 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  RegressionTest
+20-09-2020 16:21:42 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 16:21:42 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 16:21:42 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::RegressionTest2
+20-09-2020 16:21:42 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  RegressionTest2
+20-09-2020 16:21:42 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 16:21:42 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 16:21:42 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::Test
+20-09-2020 16:21:42 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  Test
+20-09-2020 16:21:42 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 16:21:42 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 16:21:42 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::TestSelenium
+20-09-2020 16:21:42 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  TestSelenium
+20-09-2020 16:21:42 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 16:21:42 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 16:21:42 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::VideoJenkinsDemo
+20-09-2020 16:21:42 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  VideoJenkinsDemo
+20-09-2020 16:21:42 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 16:21:42 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 16:21:42 INFO [Listener]: L:: onTestFailure : ClickOnNewItem
+20-09-2020 16:21:42 INFO [Listener]: L:: The name of the method: Enter_The_name_of_the_new_Project_in_theinput_Box_from_xlsx
+20-09-2020 16:21:42 INFO [Listener]: L:: onTestFailure : Enter_The_name_of_the_new_Project_in_theinput_Box_from_xlsx
+20-09-2020 16:21:42 INFO [Listener]: L:: The name of the method: Select_maven_project_byclick
+20-09-2020 16:21:42 INFO [Listener]: L:: onTestFailure : Select_maven_project_byclick
+20-09-2020 16:21:42 INFO [Listener]: L:: The name of the method: Click_OK_after_Select_maven_project_byclick
+20-09-2020 16:21:42 INFO [Listener]: L:: onTestFailure : Click_OK_after_Select_maven_project_byclick
+20-09-2020 16:21:42 INFO [Listener]: L:: The name of the method: get_the_url_of_the_current_page
+20-09-2020 16:21:43 INFO [Listener]: L:: onTestSuccess : get_the_url_of_the_current_page
+20-09-2020 16:21:43 INFO [Listener]: L:: The name of the method: Click_the_checkbox_This_project_is_parameterized
+20-09-2020 16:21:43 INFO [Listener]: L:: onTestFailure : Click_the_checkbox_This_project_is_parameterized
+20-09-2020 16:21:43 INFO [Listener]: L:: The name of the method: click_the_check_box_for_Discard_old_builds
+20-09-2020 16:21:43 INFO [Listener]: L:: onTestFailure : click_the_check_box_for_Discard_old_builds
+20-09-2020 16:21:43 INFO [Listener]: L:: The name of the method: Select_Choice_parameter_from_Add_Parameter_of_This_project_is_parameterized
+20-09-2020 16:21:43 INFO [Listener]: L:: onTestFailure : Select_Choice_parameter_from_Add_Parameter_of_This_project_is_parameterized
+20-09-2020 16:21:43 INFO [Listener]: L:: The name of the method: Type_Name_for_Choice_Parameter
+20-09-2020 16:21:45 INFO [Listener]: L:: onTestFailure : Type_Name_for_Choice_Parameter
+20-09-2020 16:21:45 INFO [Listener]: L:: The name of the method: Type_Choices_for_Choice_Parameter
+20-09-2020 16:21:45 INFO [Listener]: L:: onTestFailure : Type_Choices_for_Choice_Parameter
+20-09-2020 16:21:46 INFO [Listener]: L:: The name of the method: Type_Goals_and_Options_in_BUILD
+20-09-2020 16:21:46 INFO [Listener]: L:: onTestFailure : Type_Goals_and_Options_in_BUILD
+20-09-2020 16:21:46 INFO [Listener]: L:: The name of the method: Click_Advanced_Button_Of_BUILD
+20-09-2020 16:21:46 INFO [Listener]: L:: onTestFailure : Click_Advanced_Button_Of_BUILD
+20-09-2020 16:21:46 INFO [Listener]: L:: The name of the method: Click_Custom_workspace_Checkbox
+20-09-2020 16:21:48 INFO [Listener]: L:: onTestFailure : Click_Custom_workspace_Checkbox
+20-09-2020 16:21:48 INFO [Listener]: L:: The name of the method: Enter_text_to_Directory_Custom_workspace
+20-09-2020 16:21:48 INFO [Listener]: L:: onTestFailure : Enter_text_to_Directory_Custom_workspace
+20-09-2020 16:21:48 INFO [Listener]: L:: The name of the method: Click_the_floating_Apply_Button
+20-09-2020 16:21:50 INFO [Listener]: L:: onTestFailure : Click_the_floating_Apply_Button
+20-09-2020 16:21:50 INFO [Listener]: L:: The name of the method: Click_the_floating_SAVE_Button
+20-09-2020 16:21:50 INFO [Listener]: L:: onTestFailure : Click_the_floating_SAVE_Button
+20-09-2020 16:21:50 INFO [Listener]: L:: The name of the method: Verify_that_project_is_created_successfully
+20-09-2020 16:21:56 INFO [Listener]: L:: onTestFailure : Verify_that_project_is_created_successfully
+20-09-2020 16:21:56 INFO [Listener]: L:: The name of the method: Delete_Existing_Projects_with_DP
+20-09-2020 16:21:56 INFO [Runner_One]: delete project started. 
+20-09-2020 16:21:56 INFO [TestCases_for_Jenkins]: The PROJECT to be deleted if exist is : test_4 . 
+20-09-2020 16:21:57 INFO [TestCases_for_Jenkins]: the size of the project list is 24
+20-09-2020 16:21:57 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::
+20-09-2020 16:21:57 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  
+20-09-2020 16:21:57 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 16:21:57 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::FirstFramework
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  FirstFramework
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::FirstJob
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  FirstJob
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::JenkinsDemo
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  JenkinsDemo
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::JenkinsLiveProjects
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  JenkinsLiveProjects
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::JenkinsTest
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  JenkinsTest
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::null
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  null
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::RegressionTest
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  RegressionTest
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::RegressionTest2
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  RegressionTest2
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::Test
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  Test
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::TestSelenium
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  TestSelenium
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::VideoJenkinsDemo
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  VideoJenkinsDemo
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 16:21:58 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 16:21:58 INFO [Listener]: L:: onTestFailure : Delete_Existing_Projects_with_DP
+20-09-2020 16:21:58 INFO [Listener]: L:: The name of the method: SelframeBuildWith_jsondata
+20-09-2020 16:21:58 INFO [Runner_One]: The name of the project to be build - build_test
+20-09-2020 16:22:04 INFO [Listener]: L:: onTestFailure : SelframeBuildWith_jsondata
+20-09-2020 16:22:04 INFO [Listener]: L:: The name of the method: GoTheRunningBuildConsole
+20-09-2020 16:22:10 INFO [Listener]: L:: onTestFailure : GoTheRunningBuildConsole
+20-09-2020 16:22:10 INFO [Listener]: L:: The name of the method: ToVerifyThatBuildIsFinishedFromConsoleAndFindStatus
+20-09-2020 16:32:11 INFO [Listener]: L:: onTestFailure : ToVerifyThatBuildIsFinishedFromConsoleAndFindStatus
+20-09-2020 16:32:12 INFO [Listener]: L:: onFinish : All_scenarios
+20-09-2020 17:08:53 INFO [Listener]: L:: The name of the testcase from testng xml: All_scenarios
+20-09-2020 17:08:54 INFO [PO_LoginPage]: Page object login page is called. 
+20-09-2020 17:08:54 INFO [Runner_One]: Objects of the imported class created. 
+20-09-2020 17:08:54 INFO [Listener]: L:: The name of the method: OpenBrowserForJenkin_jsondata
+20-09-2020 17:08:58 INFO [BrowserAndDataFactory]: Chrome browser is launched successfully. 
+20-09-2020 17:08:59 INFO [TestCases_for_Jenkins]: openBrowser done.
+20-09-2020 17:09:00 INFO [Listener]: L:: onTestSuccess : OpenBrowserForJenkin_jsondata
+20-09-2020 17:09:00 INFO [Listener]: L:: The name of the method: LoginPage_jsondata
+20-09-2020 17:09:04 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+20-09-2020 17:09:04 INFO [Listener]: L:: onTestSuccess : LoginPage_jsondata
+20-09-2020 17:09:04 INFO [Listener]: L:: The name of the method: ClickOnNewItem
+20-09-2020 17:09:05 INFO [TestCases_for_Jenkins]: To check that the PROJECT to be created is existed or not. 
+20-09-2020 17:09:05 INFO [TestCases_for_Jenkins]: The PROJECT to be deleted if exist is : test_5 . 
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: the size of the project list is 24
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::FirstFramework
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  FirstFramework
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::FirstJob
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  FirstJob
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::JenkinsDemo
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  JenkinsDemo
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::JenkinsLiveProjects
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  JenkinsLiveProjects
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::JenkinsTest
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  JenkinsTest
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::null
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  null
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::RegressionTest
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  RegressionTest
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 17:09:07 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 17:09:08 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::RegressionTest2
+20-09-2020 17:09:08 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  RegressionTest2
+20-09-2020 17:09:08 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 17:09:08 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 17:09:08 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::Test
+20-09-2020 17:09:08 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  Test
+20-09-2020 17:09:08 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 17:09:08 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 17:09:08 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::TestSelenium
+20-09-2020 17:09:08 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  TestSelenium
+20-09-2020 17:09:08 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 17:09:08 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 17:09:08 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::VideoJenkinsDemo
+20-09-2020 17:09:08 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  VideoJenkinsDemo
+20-09-2020 17:09:08 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 17:09:08 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 17:09:08 INFO [Listener]: L:: onTestFailure : ClickOnNewItem
+20-09-2020 17:09:08 INFO [Listener]: L:: The name of the method: Enter_The_name_of_the_new_Project_in_theinput_Box_from_xlsx
+20-09-2020 17:09:08 INFO [Listener]: L:: onTestFailure : Enter_The_name_of_the_new_Project_in_theinput_Box_from_xlsx
+20-09-2020 17:09:08 INFO [Listener]: L:: The name of the method: Select_maven_project_byclick
+20-09-2020 17:09:08 INFO [Listener]: L:: onTestFailure : Select_maven_project_byclick
+20-09-2020 17:09:08 INFO [Listener]: L:: The name of the method: Click_OK_after_Select_maven_project_byclick
+20-09-2020 17:09:08 INFO [Listener]: L:: onTestFailure : Click_OK_after_Select_maven_project_byclick
+20-09-2020 17:09:08 INFO [Listener]: L:: The name of the method: get_the_url_of_the_current_page
+20-09-2020 17:09:09 INFO [Listener]: L:: onTestSuccess : get_the_url_of_the_current_page
+20-09-2020 17:09:09 INFO [Listener]: L:: The name of the method: Click_the_checkbox_This_project_is_parameterized
+20-09-2020 17:09:09 INFO [Listener]: L:: onTestFailure : Click_the_checkbox_This_project_is_parameterized
+20-09-2020 17:09:09 INFO [Listener]: L:: The name of the method: click_the_check_box_for_Discard_old_builds
+20-09-2020 17:09:09 INFO [Listener]: L:: onTestFailure : click_the_check_box_for_Discard_old_builds
+20-09-2020 17:09:09 INFO [Listener]: L:: The name of the method: Select_Choice_parameter_from_Add_Parameter_of_This_project_is_parameterized
+20-09-2020 17:09:09 INFO [Listener]: L:: onTestFailure : Select_Choice_parameter_from_Add_Parameter_of_This_project_is_parameterized
+20-09-2020 17:09:09 INFO [Listener]: L:: The name of the method: Type_Name_for_Choice_Parameter
+20-09-2020 17:09:11 INFO [Listener]: L:: onTestFailure : Type_Name_for_Choice_Parameter
+20-09-2020 17:09:11 INFO [Listener]: L:: The name of the method: Type_Choices_for_Choice_Parameter
+20-09-2020 17:09:11 INFO [Listener]: L:: onTestFailure : Type_Choices_for_Choice_Parameter
+20-09-2020 17:09:11 INFO [Listener]: L:: The name of the method: Type_Goals_and_Options_in_BUILD
+20-09-2020 17:09:11 INFO [Listener]: L:: onTestFailure : Type_Goals_and_Options_in_BUILD
+20-09-2020 17:09:12 INFO [Listener]: L:: The name of the method: Click_Advanced_Button_Of_BUILD
+20-09-2020 17:09:12 INFO [Listener]: L:: onTestFailure : Click_Advanced_Button_Of_BUILD
+20-09-2020 17:09:12 INFO [Listener]: L:: The name of the method: Click_Custom_workspace_Checkbox
+20-09-2020 17:09:14 INFO [Listener]: L:: onTestFailure : Click_Custom_workspace_Checkbox
+20-09-2020 17:09:14 INFO [Listener]: L:: The name of the method: Enter_text_to_Directory_Custom_workspace
+20-09-2020 17:09:14 INFO [Listener]: L:: onTestFailure : Enter_text_to_Directory_Custom_workspace
+20-09-2020 17:09:14 INFO [Listener]: L:: The name of the method: Click_the_floating_Apply_Button
+20-09-2020 17:09:16 INFO [Listener]: L:: onTestFailure : Click_the_floating_Apply_Button
+20-09-2020 17:09:16 INFO [Listener]: L:: The name of the method: Click_the_floating_SAVE_Button
+20-09-2020 17:09:16 INFO [Listener]: L:: onTestFailure : Click_the_floating_SAVE_Button
+20-09-2020 17:09:16 INFO [Listener]: L:: The name of the method: Verify_that_project_is_created_successfully
+20-09-2020 17:09:21 INFO [Listener]: L:: onTestFailure : Verify_that_project_is_created_successfully
+20-09-2020 17:09:21 INFO [Listener]: L:: The name of the method: Delete_Existing_Projects_with_DP
+20-09-2020 17:09:21 INFO [Runner_One]: delete project started. 
+20-09-2020 17:09:21 INFO [TestCases_for_Jenkins]: The PROJECT to be deleted if exist is : test_4 . 
+20-09-2020 17:09:23 INFO [TestCases_for_Jenkins]: the size of the project list is 24
+20-09-2020 17:09:23 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::
+20-09-2020 17:09:23 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  
+20-09-2020 17:09:23 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 17:09:23 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::FirstFramework
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  FirstFramework
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::FirstJob
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  FirstJob
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::JenkinsDemo
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  JenkinsDemo
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::JenkinsLiveProjects
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  JenkinsLiveProjects
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::JenkinsTest
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  JenkinsTest
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::null
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  null
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::RegressionTest
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  RegressionTest
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::RegressionTest2
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  RegressionTest2
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::Test
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  Test
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::TestSelenium
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  TestSelenium
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::VideoJenkinsDemo
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  VideoJenkinsDemo
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 17:09:24 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 17:09:24 INFO [Listener]: L:: onTestFailure : Delete_Existing_Projects_with_DP
+20-09-2020 17:09:24 INFO [Listener]: L:: The name of the method: SelframeBuildWith_jsondata
+20-09-2020 17:09:24 INFO [Runner_One]: The name of the project to be build - build_test
+20-09-2020 17:09:30 INFO [Listener]: L:: onTestFailure : SelframeBuildWith_jsondata
+20-09-2020 17:09:30 INFO [Listener]: L:: The name of the method: GoTheRunningBuildConsole
+20-09-2020 17:09:35 INFO [Listener]: L:: onTestFailure : GoTheRunningBuildConsole
+20-09-2020 17:09:35 INFO [Listener]: L:: The name of the method: ToVerifyThatBuildIsFinishedFromConsoleAndFindStatus
+20-09-2020 17:19:40 INFO [Listener]: L:: onTestFailure : ToVerifyThatBuildIsFinishedFromConsoleAndFindStatus
+20-09-2020 17:19:42 INFO [Listener]: L:: onFinish : All_scenarios
+20-09-2020 20:23:22 INFO [PO_LoginPage]: Page object login page is called. 
+20-09-2020 20:23:22 INFO [Runner_One]: Objects of the imported class created. 
+20-09-2020 20:23:28 INFO [BrowserAndDataFactory]: Chrome browser is launched successfully. 
+20-09-2020 20:23:28 INFO [TestCases_for_Jenkins]: openBrowser done.
+20-09-2020 20:23:30 INFO [Runner_One]: Screenshot taken on Success. 
+20-09-2020 20:23:34 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+20-09-2020 20:23:34 INFO [Runner_One]: Screenshot taken on Success. 
+20-09-2020 20:23:37 INFO [TestCases_for_Jenkins]: The user is able to see the explicit wait for an element :org.openqa.selenium.support.ui.WebDriverWait@3add81c4
+20-09-2020 20:23:42 INFO [TestCases_for_Jenkins]: The user is able to see the explicit wait for an element :org.openqa.selenium.support.ui.WebDriverWait@497570fb
+20-09-2020 20:23:45 INFO [Runner_One]: Screenshot taken on Success. 
+20-09-2020 20:35:41 INFO [PO_LoginPage]: Page object login page is called. 
+20-09-2020 20:35:41 INFO [Runner_One]: Objects of the imported class created. 
+20-09-2020 20:35:46 INFO [BrowserAndDataFactory]: Chrome browser is launched successfully. 
+20-09-2020 20:35:47 INFO [TestCases_for_Jenkins]: openBrowser done.
+20-09-2020 20:35:48 INFO [Runner_One]: Screenshot taken on Success. 
+20-09-2020 20:35:49 INFO [Runner_One]: Screenshot taken on Success. 
+20-09-2020 20:35:53 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+20-09-2020 20:35:53 INFO [Runner_One]: Screenshot taken on Success. 
+20-09-2020 20:35:58 INFO [TestCases_for_Jenkins]: The user is able to see the explicit wait for an element :org.openqa.selenium.support.ui.WebDriverWait@64d7b720
+20-09-2020 20:36:02 INFO [TestCases_for_Jenkins]: The user is able to see the explicit wait for an element :org.openqa.selenium.support.ui.WebDriverWait@73eb8672
+20-09-2020 20:36:06 INFO [Runner_One]: Screenshot taken on Success. 
+20-09-2020 20:36:06 INFO [Runner_One]: delete project started. 
+20-09-2020 20:36:06 INFO [TestCases_for_Jenkins]: The PROJECT to be deleted if exist is : test_4 . 
+20-09-2020 20:36:08 INFO [TestCases_for_Jenkins]: the size of the project list is 24
+20-09-2020 20:36:08 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::
+20-09-2020 20:36:08 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  
+20-09-2020 20:36:08 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 20:36:08 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 20:36:08 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::FirstFramework
+20-09-2020 20:36:08 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  FirstFramework
+20-09-2020 20:36:08 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 20:36:08 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 20:36:08 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::FirstJob
+20-09-2020 20:36:08 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  FirstJob
+20-09-2020 20:36:08 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 20:36:08 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 20:36:08 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::JenkinsDemo
+20-09-2020 20:36:08 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  JenkinsDemo
+20-09-2020 20:36:08 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 20:36:08 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 20:36:08 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::JenkinsLiveProjects
+20-09-2020 20:36:08 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  JenkinsLiveProjects
+20-09-2020 20:36:08 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 20:36:08 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 20:36:08 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::JenkinsTest
+20-09-2020 20:36:08 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  JenkinsTest
+20-09-2020 20:36:08 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 20:36:08 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 20:36:09 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::null
+20-09-2020 20:36:09 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  null
+20-09-2020 20:36:09 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 20:36:09 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 20:36:09 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::RegressionTest
+20-09-2020 20:36:09 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  RegressionTest
+20-09-2020 20:36:09 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 20:36:09 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 20:36:09 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::RegressionTest2
+20-09-2020 20:36:09 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  RegressionTest2
+20-09-2020 20:36:09 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 20:36:09 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 20:36:09 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::Test
+20-09-2020 20:36:09 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  Test
+20-09-2020 20:36:09 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 20:36:09 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 20:36:09 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::TestSelenium
+20-09-2020 20:36:09 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  TestSelenium
+20-09-2020 20:36:09 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 20:36:09 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 20:36:09 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::VideoJenkinsDemo
+20-09-2020 20:36:09 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  VideoJenkinsDemo
+20-09-2020 20:36:09 INFO [TestCases_for_Jenkins]: 555 false
+20-09-2020 20:36:09 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+20-09-2020 20:36:09 INFO [Runner_One]: Screenshot taken on failure. 
+20-09-2020 20:36:10 INFO [Runner_One]: Screenshot taken on failure. 
+21-09-2020 16:09:06 INFO [PO_LoginPage]: Page object login page is called. 
+21-09-2020 16:09:06 INFO [Runner_One]: Objects of the imported class created. 
+21-09-2020 16:09:13 INFO [BrowserAndDataFactory]: Chrome browser is launched successfully. 
+21-09-2020 16:09:14 INFO [TestCases_for_Jenkins]: openBrowser done.
+21-09-2020 16:09:16 INFO [Runner_One]: Screenshot taken on Success. 
+21-09-2020 16:09:16 INFO [Runner_One]: Screenshot taken on Success. 
+21-09-2020 16:09:21 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+21-09-2020 16:09:21 INFO [Runner_One]: Screenshot taken on Success. 
+21-09-2020 16:09:25 INFO [TestCases_for_Jenkins]: The user is able to see the explicit wait for an element :org.openqa.selenium.support.ui.WebDriverWait@64d7b720
+21-09-2020 16:09:30 INFO [TestCases_for_Jenkins]: The user is able to see the explicit wait for an element :org.openqa.selenium.support.ui.WebDriverWait@73eb8672
+21-09-2020 16:09:34 INFO [Runner_One]: Screenshot taken on Success. 
+21-09-2020 16:09:34 INFO [Runner_One]: delete project started. 
+21-09-2020 16:09:34 INFO [TestCases_for_Jenkins]: The PROJECT to be deleted if exist is : test_4 . 
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: the size of the project list is 24
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: 555 false
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::FirstFramework
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  FirstFramework
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: 555 false
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::FirstJob
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  FirstJob
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: 555 false
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::JenkinsDemo
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  JenkinsDemo
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: 555 false
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::JenkinsLiveProjects
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  JenkinsLiveProjects
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: 555 false
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::JenkinsTest
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  JenkinsTest
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: 555 false
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::null
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  null
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: 555 false
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::RegressionTest
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  RegressionTest
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: 555 false
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::RegressionTest2
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  RegressionTest2
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: 555 false
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::Test
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  Test
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: 555 false
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::TestSelenium
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  TestSelenium
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: 555 false
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::VideoJenkinsDemo
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  VideoJenkinsDemo
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: 555 false
+21-09-2020 16:09:36 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+21-09-2020 16:09:37 INFO [Runner_One]: Screenshot taken on failure. 
+21-09-2020 16:09:37 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 19:49:39 INFO [PO_LoginPage]: Page object login page is called. 
+22-09-2020 19:49:39 INFO [Runner_One]: Objects of the imported class created. 
+22-09-2020 19:49:48 INFO [BrowserAndDataFactory]: Chrome browser is launched successfully. 
+22-09-2020 19:49:50 INFO [TestCases_for_Jenkins]: openBrowser done.
+22-09-2020 19:49:51 INFO [Runner_One]: Screenshot taken on Success. 
+22-09-2020 19:49:52 INFO [Runner_One]: Screenshot taken on Success. 
+22-09-2020 19:50:08 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+22-09-2020 19:50:09 INFO [Runner_One]: Screenshot taken on Success. 
+22-09-2020 19:50:12 INFO [TestCases_for_Jenkins]: The user is able to see the explicit wait for an element :org.openqa.selenium.support.ui.WebDriverWait@30272916
+22-09-2020 19:50:17 INFO [TestCases_for_Jenkins]: The user is able to see the explicit wait for an element :org.openqa.selenium.support.ui.WebDriverWait@5942ee04
+22-09-2020 19:50:21 INFO [Runner_One]: Screenshot taken on Success. 
+22-09-2020 19:50:21 INFO [Runner_One]: delete project started. 
+22-09-2020 19:50:21 INFO [TestCases_for_Jenkins]: The PROJECT to be deleted if exist is : test_4 . 
+22-09-2020 19:50:24 INFO [TestCases_for_Jenkins]: the size of the project list is 24
+22-09-2020 19:50:24 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::
+22-09-2020 19:50:24 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  
+22-09-2020 19:50:24 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 19:50:24 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 19:50:24 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::FirstFramework
+22-09-2020 19:50:24 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  FirstFramework
+22-09-2020 19:50:24 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 19:50:24 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 19:50:24 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::FirstJob
+22-09-2020 19:50:24 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  FirstJob
+22-09-2020 19:50:24 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 19:50:24 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 19:50:24 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::JenkinsDemo
+22-09-2020 19:50:24 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  JenkinsDemo
+22-09-2020 19:50:24 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 19:50:24 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 19:50:24 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::JenkinsLiveProjects
+22-09-2020 19:50:24 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  JenkinsLiveProjects
+22-09-2020 19:50:24 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 19:50:24 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 19:50:25 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::JenkinsTest
+22-09-2020 19:50:25 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  JenkinsTest
+22-09-2020 19:50:25 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 19:50:25 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 19:50:25 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::null
+22-09-2020 19:50:25 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  null
+22-09-2020 19:50:25 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 19:50:25 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 19:50:25 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::RegressionTest
+22-09-2020 19:50:25 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  RegressionTest
+22-09-2020 19:50:25 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 19:50:25 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 19:50:25 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::RegressionTest2
+22-09-2020 19:50:25 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  RegressionTest2
+22-09-2020 19:50:25 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 19:50:25 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 19:50:25 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::Test
+22-09-2020 19:50:25 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  Test
+22-09-2020 19:50:25 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 19:50:25 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 19:50:25 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::TestSelenium
+22-09-2020 19:50:25 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  TestSelenium
+22-09-2020 19:50:25 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 19:50:25 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 19:50:25 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::VideoJenkinsDemo
+22-09-2020 19:50:25 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  VideoJenkinsDemo
+22-09-2020 19:50:25 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 19:50:25 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 19:50:26 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 19:50:26 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 20:52:38 INFO [PO_LoginPage]: Page object login page is called. 
+22-09-2020 20:52:39 INFO [Runner_One]: Objects of the imported class created. 
+22-09-2020 20:52:50 INFO [BrowserAndDataFactory]: Chrome browser is launched successfully. 
+22-09-2020 20:52:51 INFO [TestCases_for_Jenkins]: openBrowser done.
+22-09-2020 20:52:52 INFO [Runner_One]: Screenshot taken on Success. 
+22-09-2020 20:52:53 INFO [Runner_One]: Screenshot taken on Success. 
+22-09-2020 20:52:58 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+22-09-2020 20:52:58 INFO [Runner_One]: Screenshot taken on Success. 
+22-09-2020 20:53:01 INFO [TestCases_for_Jenkins]: The user is able to see the explicit wait for an element :org.openqa.selenium.support.ui.WebDriverWait@64d7b720
+22-09-2020 20:53:07 INFO [TestCases_for_Jenkins]: The user is able to see the explicit wait for an element :org.openqa.selenium.support.ui.WebDriverWait@73eb8672
+22-09-2020 20:53:11 INFO [Runner_One]: Screenshot taken on Success. 
+22-09-2020 20:53:12 INFO [TestCases_for_Jenkins]: To check that the PROJECT to be created is existed or not. 
+22-09-2020 20:53:12 INFO [TestCases_for_Jenkins]: The PROJECT to be deleted if exist is : test_5 . 
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: the size of the project list is 24
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::FirstFramework
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  FirstFramework
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::FirstJob
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  FirstJob
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::JenkinsDemo
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  JenkinsDemo
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::JenkinsLiveProjects
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  JenkinsLiveProjects
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::JenkinsTest
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  JenkinsTest
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::null
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  null
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::RegressionTest
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  RegressionTest
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::RegressionTest2
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  RegressionTest2
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::Test
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  Test
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 20:53:13 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 20:53:14 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::TestSelenium
+22-09-2020 20:53:14 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  TestSelenium
+22-09-2020 20:53:14 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 20:53:14 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 20:53:14 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::VideoJenkinsDemo
+22-09-2020 20:53:14 INFO [TestCases_for_Jenkins]: Expected test_5.  actual-  VideoJenkinsDemo
+22-09-2020 20:53:14 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 20:53:14 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 20:53:14 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 20:53:15 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 20:53:15 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 20:53:16 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 20:53:17 INFO [Runner_One]: Screenshot taken on Success. 
+22-09-2020 20:53:18 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 20:53:18 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 20:53:19 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 20:53:22 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 20:53:22 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 20:53:23 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 20:53:24 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 20:53:26 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 20:53:27 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 20:53:29 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 20:53:30 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 20:53:36 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 20:53:36 INFO [Runner_One]: delete project started. 
+22-09-2020 20:53:36 INFO [TestCases_for_Jenkins]: The PROJECT to be deleted if exist is : test_4 . 
+22-09-2020 20:53:38 INFO [TestCases_for_Jenkins]: the size of the project list is 24
+22-09-2020 20:53:38 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::
+22-09-2020 20:53:38 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  
+22-09-2020 20:53:38 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 20:53:38 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 20:53:38 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::FirstFramework
+22-09-2020 20:53:38 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  FirstFramework
+22-09-2020 20:53:38 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 20:53:38 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 20:53:38 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::FirstJob
+22-09-2020 20:53:38 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  FirstJob
+22-09-2020 20:53:38 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 20:53:38 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 20:53:38 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::JenkinsDemo
+22-09-2020 20:53:38 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  JenkinsDemo
+22-09-2020 20:53:38 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 20:53:38 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 20:53:38 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::JenkinsLiveProjects
+22-09-2020 20:53:38 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  JenkinsLiveProjects
+22-09-2020 20:53:38 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 20:53:38 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 20:53:38 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::JenkinsTest
+22-09-2020 20:53:38 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  JenkinsTest
+22-09-2020 20:53:38 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 20:53:38 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 20:53:38 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::null
+22-09-2020 20:53:38 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  null
+22-09-2020 20:53:38 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 20:53:38 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 20:53:39 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::RegressionTest
+22-09-2020 20:53:39 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  RegressionTest
+22-09-2020 20:53:39 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 20:53:39 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 20:53:39 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::RegressionTest2
+22-09-2020 20:53:39 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  RegressionTest2
+22-09-2020 20:53:39 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 20:53:39 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 20:53:39 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::Test
+22-09-2020 20:53:39 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  Test
+22-09-2020 20:53:39 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 20:53:39 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 20:53:39 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::TestSelenium
+22-09-2020 20:53:39 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  TestSelenium
+22-09-2020 20:53:39 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 20:53:39 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 20:53:39 INFO [TestCases_for_Jenkins]: The name of the project found inside for loop ::VideoJenkinsDemo
+22-09-2020 20:53:39 INFO [TestCases_for_Jenkins]: Expected test_4.  actual-  VideoJenkinsDemo
+22-09-2020 20:53:39 INFO [TestCases_for_Jenkins]: 555 false
+22-09-2020 20:53:39 INFO [TestCases_for_Jenkins]: The project to be deleted is not present the table. 
+22-09-2020 20:53:39 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 20:53:40 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 21:07:48 INFO [PO_LoginPage]: Page object login page is called. 
+22-09-2020 21:07:48 INFO [Runner_One]: Objects of the imported class created. 
+22-09-2020 21:07:55 INFO [BrowserAndDataFactory]: Chrome browser is launched successfully. 
+22-09-2020 21:07:56 INFO [TestCases_for_Jenkins]: openBrowser done.
+22-09-2020 21:07:57 INFO [Runner_One]: Screenshot taken on Success. 
+22-09-2020 21:07:58 INFO [Runner_One]: Screenshot taken on Success. 
+22-09-2020 21:08:12 INFO [TestCases_for_Jenkins]: The login page is opened successfully. 
+22-09-2020 21:08:12 INFO [Runner_One]: Screenshot taken on Success. 
+22-09-2020 21:08:15 INFO [TestCases_for_Jenkins]: Waited for MILLI_Seconds:: 44
+22-09-2020 21:08:19 INFO [TestCases_for_Jenkins]: Waited for MILLI_Seconds:: 28
+22-09-2020 21:08:23 INFO [Runner_One]: Screenshot taken on Success. 
+22-09-2020 21:08:23 INFO [TestCases_for_Jenkins]: To check that the PROJECT to be created is existed or not. 
+22-09-2020 21:08:23 INFO [TestCases_for_Jenkins]: The PROJECT to be deleted if exist is : test_5 . 
+22-09-2020 21:08:25 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 21:08:26 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 21:08:27 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 21:08:27 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 21:08:29 INFO [Runner_One]: Screenshot taken on Success. 
+22-09-2020 21:08:29 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 21:08:30 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 21:08:37 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 21:08:44 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 21:08:51 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 21:08:57 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 21:09:04 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 21:09:12 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 21:09:19 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 21:09:25 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 21:09:31 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 21:09:37 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 21:09:37 INFO [Runner_One]: delete project started. 
+22-09-2020 21:09:37 INFO [TestCases_for_Jenkins]: The PROJECT to be deleted if exist is : test_4 . 
+22-09-2020 21:09:41 INFO [Runner_One]: Screenshot taken on failure. 
+22-09-2020 21:09:42 INFO [Runner_One]: Screenshot taken on failure. 

@@ -3,38 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.FWL1.runner.Runner_One">
+      <class name="demo2b.DemoTestNG.AutoIT">
         <methods>
-          <include name="AA_Delete_existing_Jenkin_user" invocation-numbers="0"/>
-          <include name="Click_Custom_workspace_Checkbox"/>
-          <include name="Select_maven_project_byclick"/>
-          <include name="click_the_check_box_for_Discard_old_builds"/>
-          <include name="takeScreen_Shot_On_Failure_or_Success"/>
-          <include name="Delete_Existing_Projects_with_DP" invocation-numbers="0"/>
-          <include name="Click_the_floating_Apply_Button"/>
-          <include name="Click_the_checkbox_This_project_is_parameterized"/>
-          <include name="OpenBrowserForJenkin_jsondata"/>
-          <include name="LogoutJenkinPage"/>
-          <include name="Verify_that_project_is_created_successfully"/>
-          <include name="Click_the_floating_SAVE_Button"/>
-          <include name="get_the_url_of_the_current_page"/>
-          <include name="Type_Goals_and_Options_in_BUILD"/>
-          <include name="OpenBrowserForJenkin"/>
-          <include name="AB_Add_user_in_Jenkin_by_admin_jsondata" invocation-numbers="0"/>
-          <include name="LoginPage"/>
-          <include name="ClickOnNewItem"/>
-          <include name="Type_Choices_for_Choice_Parameter"/>
-          <include name="Type_Name_for_Choice_Parameter"/>
-          <include name="Click_OK_after_Select_maven_project_byclick"/>
-          <include name="Enter_The_name_of_the_new_Project_in_theinput_Box_from_xlsx"/>
-          <include name="Enter_text_to_Directory_Custom_workspace"/>
-          <include name="AB_Add_user_in_Jenkin_by_admin_jsondata2" invocation-numbers="0"/>
-          <include name="To_create_objects_of_the_imported_class"/>
-          <include name="LoginPage_jsondata"/>
-          <include name="Click_Advanced_Button_Of_BUILD"/>
-          <include name="Select_Choice_parameter_from_Add_Parameter_of_This_project_is_parameterized"/>
+          <include name="testFileUpload"/>
         </methods>
-      </class> <!-- com.FWL1.runner.Runner_One -->
+      </class> <!-- demo2b.DemoTestNG.AutoIT -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

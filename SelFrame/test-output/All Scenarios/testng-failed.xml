@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Scenarios]">
+  <listeners>
+    <listener class-name="com.FWL1.lib.CustomReporter"/>
+  </listeners>
+  <test name="All_scenarios(failed)">
+    <groups>
+      <run>
+        <include name="Group_22_BB"/>
+        <include name="Create_new_project"/>
+        <include name="test"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.FWL1.runner.Runner_One">
+        <methods>
+          <include name="Click_Custom_workspace_Checkbox"/>
+          <include name="CloseBrowser2"/>
+          <include name="Select_maven_project_byclick"/>
+          <include name="click_the_check_box_for_Discard_old_builds"/>
+          <include name="Delete_Existing_Projects_with_DP" invocation-numbers="0"/>
+          <include name="Click_the_floating_Apply_Button"/>
+          <include name="TestListen_3c2"/>
+          <include name="takeScreen_Shot_On_Failure_or_Success2"/>
+          <include name="ClickOnNewItem" invocation-numbers="0"/>
+          <include name="Click_the_checkbox_This_project_is_parameterized"/>
+          <include name="TestListen_3c1"/>
+          <include name="Type_Choices_for_Choice_Parameter" invocation-numbers="0"/>
+          <include name="Type_Name_for_Choice_Parameter" invocation-numbers="0"/>
+          <include name="Click_OK_after_Select_maven_project_byclick"/>
+          <include name="Enter_The_name_of_the_new_Project_in_theinput_Box_from_xlsx" invocation-numbers="0"/>
+          <include name="Enter_text_to_Directory_Custom_workspace" invocation-numbers="0"/>
+          <include name="TestListen_3c"/>
+          <include name="Verify_that_project_is_created_successfully"/>
+          <include name="Click_the_floating_SAVE_Button"/>
+          <include name="To_create_objects_of_the_imported_class"/>
+          <include name="Type_Goals_and_Options_in_BUILD" invocation-numbers="0"/>
+          <include name="Click_Advanced_Button_Of_BUILD"/>
+          <include name="Select_Choice_parameter_from_Add_Parameter_of_This_project_is_parameterized"/>
+        </methods>
+      </class> <!-- com.FWL1.runner.Runner_One -->
+    </classes>
+  </test> <!-- All_scenarios(failed) -->
+</suite> <!-- Failed suite [All Scenarios] -->

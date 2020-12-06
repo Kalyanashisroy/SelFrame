@@ -11,5 +11,11 @@
 		"fullname": "By.xpath(\"//input[@type='text' and @name='fullname']\")",
 		"email": "By.xpath(\"//input[@type='text' and @name='email']\")",
 		"button": "By.xpath(\"//button[text()='Create User']\")"
+	},
+	"userList": {
+		"tableName": "By.xpath(\"//table[@id='people']//tr[\"+count+\"] \")"
+	},
+	"testNode": {
+		"name": "By.cssSelector(\"input[name='first_name']\")"
 	}
 }
